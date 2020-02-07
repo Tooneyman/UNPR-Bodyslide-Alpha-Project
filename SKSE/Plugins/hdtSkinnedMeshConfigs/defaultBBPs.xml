@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<default-bbps>
+	
+	<map shape="UNP" file="SKSE\Plugins\hdtSkinnedMeshConfigs\UNP.xml"/>
+    <map shape="UNP" file="SKSE\Plugins\hdtSkinnedMeshConfigs\UNP-TBBP.xml"/>
+	<map shape="UNP" file="SKSE\Plugins\hdtSkinnedMeshConfigs\UNP-HDT.xml"/>
+	<map shape="UNP" file="SKSE\Plugins\hdtSkinnedMeshConfigs\UNPFull.xml"/>
+	<map shape="UNP" file="SKSE\Plugins\hdtSkinnedMeshConfigs\UNPMax.xml"/>
+	<map shape="Hands" file="SKSE\Plugins\hdtSkinnedMeshConfigs\UNP-Hands.xml"/>
+	<map shape="Feet" file="SKSE\Plugins\hdtSkinnedMeshConfigs\Feet.xml"/>
+	<map shape="MaleFeet" file="SKSE\Plugins\hdtSkinnedMeshConfigs\MaleFeet.xml"/>
+	<map shape="MaleHands" file="SKSE\Plugins\hdtSkinnedMeshConfigs\MaleHands.xml"/>
+	<map shape="MaleBody" file="SKSE\Plugins\hdtSkinnedMeshConfigs\MaleBody.xml"/>
+	<map shape="FemaleHead" file="SKSE\Plugins\hdtSkinnedMeshConfigs\FemaleHead.xml"/>
+	<map shape="MaleGenitals" file="SKSE\Plugins\hdtSkinnedMeshConfigs\MaleGenitals.xml"/>
+</default-bbps>

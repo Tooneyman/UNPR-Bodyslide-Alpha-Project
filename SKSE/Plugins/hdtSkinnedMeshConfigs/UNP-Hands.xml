@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<system>
+	<bone-default>
+		<mass>0.000000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone-default>
+	
+	<bone name="NPC L Forearm [LLar]"/>
+	<bone name="NPC R Forearm [RLar]"/>
+	<bone name="NPC L ForearmTwist1 [LLt1]"/>
+	<bone name="NPC R ForearmTwist1 [RLt1]"/>
+	<bone name="NPC L ForearmTwist2 [LLt2]"/>
+	<bone name="NPC R ForearmTwist2 [RLt2]"/>
+	
+	<per-vertex-shape name="HandCollision">
+		<shared>public</shared>
+		<margin>0.5</margin>
+		<tag>hands</tag>
+		<no-collide-with-tag>hair</no-collide-with-tag>
+		<no-collide-with-tag>head</no-collide-with-tag>
+		<no-collide-with-tag>hands</no-collide-with-tag>
+		<no-collide-with-tag>tail</no-collide-with-tag>
+		<no-collide-with-tag>schlong</no-collide-with-tag>
+		<no-collide-with-tag>feet</no-collide-with-tag>
+		<no-collide-with-tag>ground</no-collide-with-tag>
+		<no-collide-with-tag>cloth</no-collide-with-tag>
+		<no-collide-with-tag>body</no-collide-with-tag>
+		<no-collide-with-bone>NPC L Forearm [LLar]</no-collide-with-bone>
+		<no-collide-with-bone>NPC R Forearm [RLar]</no-collide-with-bone>
+		<no-collide-with-bone>NPC L ForearmTwist1 [LLt1]</no-collide-with-bone>
+		<no-collide-with-bone>NPC R ForearmTwist1 [RLt1]</no-collide-with-bone>
+		<no-collide-with-bone>NPC L ForearmTwist2 [LLt2]</no-collide-with-bone>
+		<no-collide-with-bone>NPC R ForearmTwist2 [RLt2]</no-collide-with-bone>
+	</per-vertex-shape>
+</system>

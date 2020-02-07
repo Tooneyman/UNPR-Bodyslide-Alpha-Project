@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="utf-8"?>
+<system>
+<bone name="NPC L PreBreast">
+		<mass>0.000000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<bone name="NPC R PreBreast">
+		<mass>0.000000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<bone name="NPC L Breast">
+		<mass>0.5</mass>
+		<inertia x="5" y="5" z="5"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="2" z="0"/>
+		</centerOfMassTransform>
+		<friction>0</friction>
+		<rollingFriction>0.5</rollingFriction>
+		<linearDamping>0.99</linearDamping>
+		<angularDamping>0.99</angularDamping>
+		<restitution>1</restitution>
+	</bone>
+
+	<bone name="NPC R Breast">
+		<mass>0.5</mass>
+		<inertia x="5" y="5" z="5"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="2" z="0"/>
+		</centerOfMassTransform>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<linearDamping>0.99</linearDamping>
+		<angularDamping>0.99</angularDamping>
+		<restitution>1</restitution>
+	</bone>
+	
+	<bone name="NPC L Breast01">
+		<mass>1</mass>
+		<inertia x="5" y="5" z="5"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="2" z="0"/>
+		</centerOfMassTransform>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<linearDamping>0.99</linearDamping>
+		<angularDamping>0.99</angularDamping>
+		<restitution>1</restitution>
+	</bone>
+
+	<bone name="NPC R Breast01">
+		<mass>1</mass>
+		<inertia x="5" y="5" z="5"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="2" z="0"/>
+		</centerOfMassTransform>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<linearDamping>0.99</linearDamping>
+		<angularDamping>0.99</angularDamping>
+		<restitution>1</restitution>
+	</bone>
+
+	<generic-constraint bodyA="NPC L Breast" bodyB="NPC L PreBreast">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-5" y="-5" z="-3"/>
+		<linearUpperLimit x="2" y="0" z="12"/>
+		<angularLowerLimit x="-0.1" y="-0.1" z="-0.1"/>
+		<angularUpperLimit x="0.1" y="0.1" z="0.1"/>
+			<linearStiffness x="200" y="200" z="200"/>
+			<angularStiffness x="200" y="200" z="200"/>
+		<linearDamping x="0.9" y="0.9" z="0.9"/>
+		<angularDamping x="0.9" y="0.9" z="0.9"/>
+		<linearEquilibrium x="1" y="-1" z="-3"/>
+		<angularEquilibrium x="-1" y="-1" z="0"/>
+		<linearBounce x="1.2" y="1.2" z="1.2"/>
+		<angularBounce x="1.2" y="1.2" z="1.2"/>
+	</generic-constraint>
+  
+	<generic-constraint bodyA="NPC R Breast" bodyB="NPC R PreBreast">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+	<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-2" y="-5" z="-3" />
+		<linearUpperLimit x="5" y="0" z="12" />
+		<angularLowerLimit x="-0.1" y="-0.1" z="-0.1"/>
+		<angularUpperLimit x="0.1" y="0.1" z="0.1"/>
+			<linearStiffness x="200" y="200" z="200"/>
+			<angularStiffness x="200" y="200" z="200"/>
+		<linearDamping x="0.9" y="0.9" z="0.9"/>
+		<angularDamping x="0.9" y="0.9" z="0.9"/>
+		<linearEquilibrium x="1" y="-1" z="-3"/>
+		<angularEquilibrium x="-1" y="-1" z="0"/>
+		<linearBounce x="1.2" y="1.2" z="1.2"/>
+		<angularBounce x="1.2" y="1.2" z="1.2"/>
+	</generic-constraint>
+  
+	<generic-constraint bodyA="NPC L Breast01" bodyB="NPC L PreBreast">
+		<frameInB>
+			 <basis x="0" y="0" z="0" w="1" />
+			 <origin x="0" y="0" z="0" />
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-5" y="-5" z="-3"/>
+		<linearUpperLimit x="2" y="0" z="12"/>
+		<angularLowerLimit x="-0.1" y="-0.1" z="-0.1"/>
+		<angularUpperLimit x="0.1" y="0.1" z="0.1"/>
+			<linearStiffness x="200" y="200" z="200"/>
+			<angularStiffness x="200" y="200" z="200"/>
+		<linearDamping x="0.9" y="0.9" z="0.9"/>
+		<angularDamping x="0.9" y="0.9" z="0.9"/>
+		<linearEquilibrium x="-1" y="-1" z="-3"/>
+		<angularEquilibrium x="-1" y="-1" z="0"/>
+		<linearBounce x="1.2" y="1.2" z="1.2"/>
+		<angularBounce x="1.2" y="1.2" z="1.2"/>
+	</generic-constraint>
+  
+	<generic-constraint bodyA="NPC R Breast01" bodyB="NPC R PreBreast">
+		<frameInB>
+			 <basis x="0" y="0" z="0" w="1" />
+			 <origin x="0" y="0" z="0" />
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-2" y="-5" z="-3" />
+		<linearUpperLimit x="5" y="0" z="12" />
+		<angularLowerLimit x="-0.1" y="-0.1" z="-0.1"/>
+		<angularUpperLimit x="0.1" y="0.1" z="0.1"/>
+			<linearStiffness x="200" y="200" z="200"/>
+			<angularStiffness x="200" y="200" z="200"/>
+		<linearDamping x="0.9" y="0.9" z="0.9"/>
+		<angularDamping x="0.9" y="0.9" z="0.9"/>
+		<linearEquilibrium x="-1" y="-1" z="-3"/>
+		<angularEquilibrium x="-1" y="-1" z="0"/>
+		<linearBounce x="1.2" y="1.2" z="1.2"/>
+		<angularBounce x="1.2" y="1.2" z="1.2"/>
+	</generic-constraint>
+			
+	<bone name="NPC L PreButt">
+		<mass>0.000000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<bone name="NPC R PreButt">
+		<mass>0.000000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+	
+	<bone name="NPC L Butt">
+		<mass>0.700000</mass>
+		<inertia x="10" y="10" z="10"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="-1" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0.99</linearDamping>
+		<angularDamping>0.99</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+	
+	<bone name="NPC R Butt">
+		<mass>0.700000</mass>
+		<inertia x="10" y="10" z="10"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="-1" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0.99</linearDamping>
+		<angularDamping>0.99</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<generic-constraint bodyA="NPC L Butt" bodyB="NPC L PreButt">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-5" y="-5" z="-5"/>
+		<linearUpperLimit x="5" y="5" z="5"/>
+		<angularLowerLimit x="-0.3" y="0" z="-0.3"/>
+		<angularUpperLimit x="0.3" y="0" z="0.3"/>
+		<linearStiffness x="2000" y="2000" z="2000"/>
+		<angularStiffness x="2000" y="2000" z="2000"/>
+		<linearDamping x="0.99" y="0.99" z="0.99"/>
+		<angularDamping x="0.99" y="0.99" z="0.99"/>
+		<linearEquilibrium x="0" y="0" z="-1"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+		<linearBounce x="0.7" y="0.7" z="0.7"/>
+		<angularBounce x="0.7" y="0.7" z="0.7"/>
+	</generic-constraint>
+
+	<generic-constraint bodyA="NPC R Butt" bodyB="NPC R PreButt">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-5" y="-3" z="-4"/>
+		<linearUpperLimit x="3" y="3" z="4"/>
+		<angularLowerLimit x="-0.1" y="-0.2" z="-0.2"/>
+		<angularUpperLimit x="0.1" y="0.2" z="0.2"/>
+		<linearStiffness x="-300" y="-300" z="-300"/>
+		<angularStiffness x="1000" y="1000" z="1000"/>
+		<linearDamping x="4" y="1" z="4"/>
+		<angularDamping x="0.2" y="1" z="1"/>
+		<linearEquilibrium x="0" y="0" z="-2"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+		<linearBounce x="0.2" y="0.2" z="0.2"/>
+        <angularBounce x="0" y="0" z="0"/>
+	</generic-constraint>
+	
+	<bone name="NPC Belly">
+		<mass>0.83</mass>
+		<inertia x="1" y="1" z="1"/>
+		<centerOfMassTransform>
+			<basis x="0" y="2.1" z="-6" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+	
+	<bone name="Belly">
+		<mass>0</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+	
+	<generic-constraint bodyA="NPC Belly" bodyB="Belly">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-1" y="-1" z="-1"/>
+		<linearUpperLimit x="2" y="2" z="2"/>
+		<angularLowerLimit x="0" y="0" z="0"/>
+		<angularUpperLimit x="0" y="0" z="0"/>
+		<linearStiffness x="-20" y="-30" z="-20"/>
+		<angularStiffness x="100" y="100" z="100"/>
+		<linearDamping x="0" y="10" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint>
+	
+	
+	<bone name="Clitoral1">
+		<mass>0.02</mass>
+		<inertia x="0.5" y="0.5" z="0.5"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>1</angularDamping>
+		<friction>0.8</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0.5</restitution>
+		<margin-multiplier>0.2</margin-multiplier>
+	</bone>
+
+	<bone name="Clitoral">
+		<mass>0.00000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<generic-constraint bodyA="Clitoral1" bodyB="Clitoral">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-0" y="-7" z="-0"/>
+		<linearUpperLimit x="0" y="-3" z="0"/>
+		<angularLowerLimit x="0" y="0" z="0"/>
+		<angularUpperLimit x="0" y="0" z="0"/>
+		<linearStiffness x="500" y="200" z="200"/>			
+		<angularStiffness x="0" y="0" z="0"/>		
+		<linearDamping x="999" y="999" z="999"/>
+		<angularDamping x="999" y="999" z="999"/>
+		<linearEquilibrium x="0" y="2" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint>
+	
+	
+	<bone name="VaginaB1">
+		<mass>0.02</mass>
+		<inertia x="0.5" y="0.5" z="0.5"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>1</angularDamping>
+		<friction>0.6</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0.5</restitution>
+		<margin-multiplier>0.2</margin-multiplier>
+	</bone>
+
+	<bone name="VaginaB">
+		<mass>0.00000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<generic-constraint bodyA="VaginaB1" bodyB="VaginaB">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-0" y="2.6" z="0"/>
+		<linearUpperLimit x="0" y="6" z="0"/>
+		<angularLowerLimit x="0" y="0" z="0"/>
+		<angularUpperLimit x="0" y="0" z="0"/>
+		<linearStiffness x="500" y="200" z="200"/>			
+		<angularStiffness x="0" y="0" z="0"/>		
+		<linearDamping x="999" y="999" z="999"/>
+		<angularDamping x="999" y="999" z="999"/>
+		<linearEquilibrium x="-0" y="-0.2" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint>
+	
+	<bone name="NPC L Pussy02">
+		<mass>0.10000</mass>
+		<inertia x="10" y="10" z="10"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+	<bone name="NPC L Pussy01">
+		<mass>0.00000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+	<bone name="NPC R Pussy02">
+		<mass>0.10000</mass>
+		<inertia x="10" y="10" z="10"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+	<bone name="NPC R Pussy01">
+		<mass>0.00000</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+	
+	<generic-constraint bodyA="NPC L Pussy02" bodyB="NPC L Pussy01">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0" y="0" z="0"/>
+		<linearUpperLimit x="10" y="0" z="0"/>
+		<angularLowerLimit x="0" y="0" z="0"/>
+		<angularUpperLimit x="0" y="0" z="0"/>
+		<linearStiffness x="20" y="20" z="20"/>			
+		<angularStiffness x="20" y="20" z="20"/>		
+		<linearDamping x="0" y="0" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="-2" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint>
+	<generic-constraint bodyA="NPC R Pussy02" bodyB="NPC R Pussy01">
+		<frameInB>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-10" y="0" z="0"/>
+		<linearUpperLimit x="0" y="0" z="0"/>
+		<angularLowerLimit x="0" y="0" z="0"/>
+		<angularUpperLimit x="0" y="0" z="0"/>
+		<linearStiffness x="20" y="20" z="20"/>			
+		<angularStiffness x="20" y="20" z="20"/>	
+		<linearDamping x="0" y="0" z="0"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="2" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+	</generic-constraint>
+	
+		<bone name="NPC L Thigh [LThg]">
+		<mass>0</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+		
+	<bone name="NPC R Thigh [RThg]">
+		<mass>0</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<bone name="NPC L FrontThigh">
+		<mass>0.9</mass>
+		<inertia x="5" y="5" z="5"/>
+		<centerOfMassTransform>
+			<basis x="2" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="1"/>
+		</centerOfMassTransform>
+		<linearDamping>0.9</linearDamping>
+		<angularDamping>0.9</angularDamping>
+		<friction>0.8</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>1</restitution>
+	</bone>
+
+	<bone name="NPC R FrontThigh">
+		<mass>0.9</mass>
+		<inertia x="5" y="5" z="5"/>
+		<centerOfMassTransform>
+			<basis x="2" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="1"/>
+		</centerOfMassTransform>
+		<linearDamping>0.9</linearDamping>
+		<angularDamping>0.9</angularDamping>
+		<friction>0.8</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>1</restitution>
+	</bone>
+
+	<generic-constraint bodyA="NPC L FrontThigh" bodyB="NPC L Thigh [LThg]">
+		<frameInB>
+		<basis x="0" y="0" z="0" w="1"/>
+		<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-3" y="0" z="-1"/>
+		<linearUpperLimit x="3" y="0" z="1"/>
+		<angularLowerLimit x="-0" y="-0" z="-0.0"/>
+		<angularUpperLimit x="0" y="0" z="0.0"/>
+		<linearStiffness x="400" y="400" z="400"/>
+		<angularStiffness x="1000" y="100" z="1000"/>
+		<linearDamping x="4" y="0" z="0.3"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="-1" z="-1"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+		<linearBounce x="1" y="0" z="0"/>
+        <angularBounce x="0" y="0" z="0"/>
+	</generic-constraint>
+
+	<generic-constraint bodyA="NPC R FrontThigh" bodyB="NPC R Thigh [RThg]">
+		<frameInB>
+		<basis x="0" y="0" z="0" w="1"/>
+		<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-3" y="0" z="-1"/>
+		<linearUpperLimit x="3" y="0" z="1"/>
+		<angularLowerLimit x="-0" y="-0" z="-0.0"/>
+		<angularUpperLimit x="0" y="0" z="0.0"/>
+		<linearStiffness x="400" y="400" z="400"/>
+		<angularStiffness x="1000" y="100" z="1000"/>
+		<linearDamping x="4" y="0" z="0.3"/>
+		<angularDamping x="0" y="0" z="0"/>
+		<linearEquilibrium x="0" y="-1" z="-1"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+		<linearBounce x="1" y="0" z="0"/>
+        <angularBounce x="0" y="0" z="0"/>
+	</generic-constraint>
+	
+	<bone name="NPC L RearThigh">
+		<mass>0.9</mass>
+		<inertia x="6" y="6" z="6"/>
+		<centerOfMassTransform>
+			<basis x="2" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="1"/>
+		</centerOfMassTransform>
+		<linearDamping>0.9</linearDamping>
+		<angularDamping>1</angularDamping>
+		<friction>0.8</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+		
+	<bone name="NPC R RearThigh">
+		<mass>0.9</mass>
+		<inertia x="6" y="6" z="6"/>
+		<centerOfMassTransform>
+			<basis x="2" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="1"/>
+		</centerOfMassTransform>
+		<linearDamping>0.9</linearDamping>
+		<angularDamping>1</angularDamping>
+		<friction>0.8</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<generic-constraint bodyA="NPC L RearThigh" bodyB="NPC L Thigh [LThg]">
+		<frameInB>
+		<basis x="0" y="0" z="0" w="1"/>
+		<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-2" y="0" z="-0.5"/>
+		<linearUpperLimit x="2" y="0" z="0.5"/>
+		<angularLowerLimit x="-0" y="-0" z="-0.0"/>
+		<angularUpperLimit x="0" y="0" z="0"/>
+		<angularUpperLimit x="0" y="0" z="0"/>
+		<linearStiffness x="400" y="3000" z="300"/>
+		<linearDamping x="4" y="4" z="4"/>
+		<angularDamping x="4" y="7" z="4"/>
+		<linearEquilibrium x="0.1" y="0.1" z="0.1"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+		<linearBounce x="1" y="1" z="1"/>
+        <angularBounce x="0" y="0" z="0"/>
+	</generic-constraint>
+
+	<generic-constraint bodyA="NPC R RearThigh" bodyB="NPC R Thigh [RThg]">
+		<frameInB>
+		<basis x="0" y="0" z="0" w="1"/>
+		<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-2" y="0" z="-0.5"/>
+		<linearUpperLimit x="2" y="0" z="0.5"/>
+		<angularLowerLimit x="-0" y="-0" z="-0.0"/>
+		<angularUpperLimit x="0" y="0" z="0.0"/>
+		<angularUpperLimit x="0" y="0" z="0"/>
+		<linearStiffness x="400" y="3000" z="300"/>
+		<linearDamping x="4" y="4" z="4"/>
+		<angularDamping x="4" y="7" z="4"/>
+		<linearEquilibrium x="0.1" y="0.1" z="0.1"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+		<linearBounce x="1" y="1" z="1"/>
+        <angularBounce x="0" y="0" z="0"/>
+	</generic-constraint>
+	
+	<bone name="NPC L Calf [LClf]">
+		<mass>0</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+		<basis x="0" y="0" z="0" w="1"/>
+		<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<bone name="NPC L RearCalf [LrClf]">
+		<mass>0.8</mass>
+		<inertia x="7" y="7" z="7"/>
+		<centerOfMassTransform>
+			<basis x="2" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="1"/>
+		</centerOfMassTransform>
+		<linearDamping>0.5</linearDamping>
+		<angularDamping>0.8</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<bone name="NPC R Calf [RClf]">
+		<mass>0</mass>
+		<inertia x="0" y="0" z="0"/>
+		<centerOfMassTransform>
+		<basis x="0" y="0" z="0" w="1"/>
+		<origin x="0" y="0" z="0"/>
+		</centerOfMassTransform>
+		<linearDamping>0</linearDamping>
+		<angularDamping>0</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<bone name="NPC R RearCalf [RrClf]">
+		<mass>0.8</mass>
+		<inertia x="7" y="7" z="7"/>
+		<centerOfMassTransform>
+			<basis x="2" y="0" z="0" w="1"/>
+			<origin x="0" y="0" z="1"/>
+		</centerOfMassTransform>
+		<linearDamping>0.5</linearDamping>
+		<angularDamping>0.8</angularDamping>
+		<friction>0</friction>
+		<rollingFriction>0</rollingFriction>
+		<restitution>0</restitution>
+	</bone>
+
+	<generic-constraint bodyA="NPC L RearCalf [LrClf]" bodyB="NPC L Calf [LClf]">
+		<frameInB>
+		<basis x="0" y="0" z="0" w="1"/>
+		<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-1" y="0" z="-0.1"/>
+		<linearUpperLimit x="1" y="0" z="0.1"/>
+		<angularLowerLimit x="-0" y="-0" z="-0.0"/>
+		<angularUpperLimit x="0" y="0" z="0.0"/>
+		<linearStiffness x="400" y="400" z="400"/>
+		<angularStiffness x="1000" y="100" z="1000"/>
+		<linearDamping x="4" y="1" z="2"/>
+		<angularDamping x="1" y="1" z="1"/>
+		<linearEquilibrium x="0" y="0" z="0"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+		<linearBounce x="1.2" y="1.2" z="1.2"/>
+        <angularBounce x="0" y="0" z="0"/>
+	</generic-constraint>
+
+	<generic-constraint bodyA="NPC R RearCalf [RrClf]" bodyB="NPC R Calf [RClf]">
+		<frameInB>
+		<basis x="0" y="0" z="0" w="1"/>
+		<origin x="0" y="0" z="0"/>
+		</frameInB>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="-1" y="0" z="-0.1"/>
+		<linearUpperLimit x="1" y="0" z="0.1"/>
+		<angularLowerLimit x="-0" y="-0" z="-0.0"/>
+		<angularUpperLimit x="0" y="0" z="0.0"/>
+		<linearStiffness x="400" y="400" z="400"/>
+		<angularStiffness x="1000" y="100" z="1000"/>
+		<linearDamping x="4" y="1" z="2"/>
+		<angularDamping x="1" y="1" z="1"/>
+		<linearEquilibrium x="0" y="0" z="1"/>
+		<angularEquilibrium x="0" y="0" z="0"/>
+		<linearBounce x="1.2" y="1.2" z="1.2"/>
+        <angularBounce x="0" y="0" z="0"/>
+	</generic-constraint>
+	
+<per-triangle-shape name="UNP">
+		<margin>0.1</margin>					
+		<penetration>0.1</penetration>
+		<shared>public</shared>
+		<tag>body</tag>		
+        <no-collide-with-tag>arms</no-collide-with-tag>
+		<no-collide-with-tag>legs</no-collide-with-tag>
+		<no-collide-with-tag>body</no-collide-with-tag>
+		<no-collide-with-tag>body1</no-collide-with-tag>
+		<no-collide-with-tag>belly</no-collide-with-tag>		
+		<no-collide-with-tag>butt</no-collide-with-tag>
+		<no-collide-with-tag>pussy</no-collide-with-tag>
+		<no-collide-with-tag>MaleBody</no-collide-with-tag>
+		<no-collide-with-tag>MaleHands</no-collide-with-tag>
+		<no-collide-with-tag>MaleFeet</no-collide-with-tag>
+	    <weight-threshold bone="NPC L Clavicle [LClv]">1</weight-threshold>
+		<weight-threshold bone="NPC R Clavicle [RClv]">1</weight-threshold>
+		<weight-threshold bone="NPC L Forearm [LLar]">1</weight-threshold>
+		<weight-threshold bone="NPC R Forearm [RLar]">1</weight-threshold>
+		<weight-threshold bone="NPC L ForearmTwist1 [LLt1]">1</weight-threshold>
+		<weight-threshold bone="NPC R ForearmTwist1 [RLt1]">1</weight-threshold>
+		<weight-threshold bone="NPC L ForearmTwist2 [LLt2]">1</weight-threshold>
+		<weight-threshold bone="NPC R ForearmTwist2 [RLt2]">1</weight-threshold>
+		<weight-threshold bone="NPC L Hand [LHnd]">1</weight-threshold>
+		<weight-threshold bone="NPC R Hand [RHnd]">1</weight-threshold>
+		<weight-threshold bone="NPC L Foot [Lft ]">1</weight-threshold>
+		<weight-threshold bone="NPC R Foot [Rft ]">1</weight-threshold>
+		<weight-threshold bone="NPC L UpperArm [LUar]">1</weight-threshold>
+		<weight-threshold bone="NPC R UpperArm [RUar]">1</weight-threshold>
+		<weight-threshold bone="NPC L UpperarmTwist1 [LUt1]">1</weight-threshold>
+		<weight-threshold bone="NPC R UpperarmTwist1 [RUt1]">1</weight-threshold>
+		<weight-threshold bone="NPC L UpperarmTwist2 [LUt2]">1</weight-threshold>
+		<weight-threshold bone="NPC R UpperarmTwist2 [RUt2]">1</weight-threshold>
+		<weight-threshold bone="NPC L Breast">0.1</weight-threshold>
+		<weight-threshold bone="NPC R Breast">0.1</weight-threshold>
+		<weight-threshold bone="NPC L Breast01">0.1</weight-threshold>
+		<weight-threshold bone="NPC R Breast01">0.1</weight-threshold>
+		<weight-threshold bone="NPC Spine [Spn0]">0.05</weight-threshold>
+		<weight-threshold bone="NPC Spine2 [Spn2]">1</weight-threshold>
+		<weight-threshold bone="NPC Spine1 [Spn1]">1</weight-threshold>
+		<weight-threshold bone="NPC Belly">0.3</weight-threshold>
+		<weight-threshold bone="NPC Pelvis [Pelv]">0.1</weight-threshold>
+		<weight-threshold bone="NPC R Butt">0.04</weight-threshold>
+		<weight-threshold bone="NPC R Butt">0.04</weight-threshold>
+		<weight-threshold bone="NPC L Pussy02">0.16</weight-threshold>
+		<weight-threshold bone="NPC R Pussy02">0.16</weight-threshold>
+		<weight-threshold bone="VaginaB1">0.16</weight-threshold>
+        <weight-threshold bone="VaginaDeep1">0.1</weight-threshold>		
+		<weight-threshold bone="NPC RB Anus2">0.18</weight-threshold>
+		<weight-threshold bone="NPC LB Anus2">0.18</weight-threshold>
+        <weight-threshold bone="NPC RT Anus2">0.18</weight-threshold>
+        <weight-threshold bone="NPC LT Anus2">0.18</weight-threshold>
+        <weight-threshold bone="NPC Anus Deep2">0.1</weight-threshold>	
+		<weight-threshold bone="NPC R FrontThigh">1</weight-threshold>
+		<weight-threshold bone="NPC L FrontThigh">1</weight-threshold>
+		<weight-threshold bone="NPC R RearThigh">1</weight-threshold>
+		<weight-threshold bone="NPC L RearThigh">1</weight-threshold>
+		<weight-threshold bone="NPC L Thigh [LThg]">1</weight-threshold>
+		<weight-threshold bone="NPC R Thigh [RThg]">1</weight-threshold>
+		<weight-threshold bone="NPC L RearCalf [LrClf]">1</weight-threshold>
+		<weight-threshold bone="NPC R RearCalf [RrClf]">1</weight-threshold>
+		<weight-threshold bone="NPC L Calf [LClf]">1</weight-threshold>
+		<weight-threshold bone="NPC R Calf [RClf]">1</weight-threshold>	
+		</per-triangle-shape>	
+</system>
