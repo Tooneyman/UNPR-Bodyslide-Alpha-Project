@@ -494,10 +494,6 @@
             <Data name="UNPUNPRConvertToCBBESlim" target="UNP" local="true">UNP Max.osd\UNPUNPRConvertToCBBESlim</Data>
             <Data name="VaginaUNPRConvertToCBBESlim" target="Vagina" local="true">UNP Max.osd\VaginaUNPRConvertToCBBESlim</Data>
         </Slider>
-        <Slider name="UNPRConvertToCBBE2" invert="false" small="0" big="0">
-            <Data name="UNPUNPRConvertToCBBE2" target="UNP" local="true">UNP Max.osd\UNPUNPRConvertToCBBE2</Data>
-            <Data name="VaginaUNPRConvertToCBBE2" target="Vagina" local="true">UNP Max.osd\VaginaUNPRConvertToCBBE2</Data>
-        </Slider>
         <Slider name="UNPRConvertToUUNP" invert="false" small="0" big="0">
             <Data name="UNPUNPRConvertToUUNP" target="UNP" local="true">UNP Max.osd\UNPUNPRConvertToUUNP</Data>
             <Data name="VaginaUNPRConvertToUUNP" target="Vagina" local="true">UNP Max.osd\VaginaUNPRConvertToUUNP</Data>
@@ -782,7 +778,6 @@
         <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Bikini.osd\UNPNeckSeam</Data>
             <Data name="BraNeckSeam" target="Bra" local="true">UNP Bikini.osd\BraNeckSeam</Data>
-            <Data name="PantyNeckSeam" target="Panty" local="true">UNP Bikini.osd\PantyNeckSeam</Data>
         </Slider>
         <Slider name="AnkleSeam" invert="false" small="0" big="0">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Bikini.osd\UNPAnkleSeam</Data>
@@ -1085,7 +1080,6 @@
         <Slider name="Back Up" invert="false" small="0" big="0">
             <Data name="UNPBack Up" target="UNP" local="true">UNP Bikini.osd\UNPBack Up</Data>
             <Data name="BraBack Up" target="Bra" local="true">UNP Bikini.osd\BraBack Up</Data>
-            <Data name="PantyBack Up" target="Panty" local="true">UNP Bikini.osd\PantyBack Up</Data>
         </Slider>
         <Slider name="Back Down" invert="false" small="0" big="0">
             <Data name="UNPBack Down" target="UNP" local="true">UNP Bikini.osd\UNPBack Down</Data>
@@ -1109,11 +1103,10 @@
         <OutputFile GenWeights="true">femalebody</OutputFile>
         <Shape target="Bra">Bra</Shape>
         <Shape target="Panty">Panty</Shape>
-        <Shape target="UNP" DataFolder="UNPR">UNP</Shape>
+        <Shape target="UNP" DataFolder="UNPR Nude">UNP</Shape>
         <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Bikini HDT.osd\UNPNeckSeam</Data>
             <Data name="BraNeckSeam" target="Bra" local="true">UNP Bikini HDT.osd\BraNeckSeam</Data>
-            <Data name="PantyNeckSeam" target="Panty" local="true">UNP Bikini HDT.osd\PantyNeckSeam</Data>
         </Slider>
         <Slider name="AnkleSeam" invert="false" small="0" big="0">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Bikini HDT.osd\UNPAnkleSeam</Data>
@@ -1416,7 +1409,6 @@
         <Slider name="Back Up" invert="false" small="0" big="0">
             <Data name="UNPBack Up" target="UNP" local="true">UNP Bikini HDT.osd\UNPBack Up</Data>
             <Data name="BraBack Up" target="Bra" local="true">UNP Bikini HDT.osd\BraBack Up</Data>
-            <Data name="PantyBack Up" target="Panty" local="true">UNP Bikini HDT.osd\PantyBack Up</Data>
         </Slider>
         <Slider name="Back Down" invert="false" small="0" big="0">
             <Data name="UNPBack Down" target="UNP" local="true">UNP Bikini HDT.osd\UNPBack Down</Data>
@@ -1444,7 +1436,6 @@
         <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Lingerie.osd\UNPNeckSeam</Data>
             <Data name="Laced BraNeckSeam" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraNeckSeam</Data>
-            <Data name="PantyNeckSeam" target="Panty" local="true">UNP Lingerie.osd\PantyNeckSeam</Data>
         </Slider>
         <Slider name="AnkleSeam" invert="false" small="0" big="0">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Lingerie.osd\UNPAnkleSeam</Data>
@@ -1772,11 +1763,10 @@
         <OutputFile GenWeights="true">femalebody</OutputFile>
         <Shape target="Laced Bra">Laced Bra</Shape>
         <Shape target="Panty">Panty</Shape>
-        <Shape target="UNP" DataFolder="UNPR">UNP</Shape>
+        <Shape target="UNP" DataFolder="UNPR Nude">UNP</Shape>
         <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Lingerie HDT.osd\UNPNeckSeam</Data>
             <Data name="Laced BraNeckSeam" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraNeckSeam</Data>
-            <Data name="PantyNeckSeam" target="Panty" local="true">UNP Lingerie HDT.osd\PantyNeckSeam</Data>
         </Slider>
         <Slider name="AnkleSeam" invert="false" small="0" big="0">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Lingerie HDT.osd\UNPAnkleSeam</Data>
@@ -2108,7 +2098,6 @@
         <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Vanilla.osd\UNPNeckSeam</Data>
             <Data name="BraNeckSeam" target="Bra" local="true">UNP Vanilla.osd\BraNeckSeam</Data>
-            <Data name="PantyNeckSeam" target="Panty" local="true">UNP Vanilla.osd\PantyNeckSeam</Data>
         </Slider>
         <Slider name="AnkleSeam" invert="false" small="0" big="0">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Vanilla.osd\UNPAnkleSeam</Data>
@@ -2441,7 +2430,6 @@
         <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Vanilla HDT.osd\UNPNeckSeam</Data>
             <Data name="BraNeckSeam" target="Bra" local="true">UNP Vanilla HDT.osd\BraNeckSeam</Data>
-            <Data name="PantyNeckSeam" target="Panty" local="true">UNP Vanilla HDT.osd\PantyNeckSeam</Data>
         </Slider>
         <Slider name="AnkleSeam" invert="false" small="0" big="0">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Vanilla HDT.osd\UNPAnkleSeam</Data>
