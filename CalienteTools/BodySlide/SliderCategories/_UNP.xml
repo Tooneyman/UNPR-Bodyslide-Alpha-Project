@@ -1,9 +1,9 @@
 <SliderCategories>
 	<Category name="UNP" defaultHidden="false">
 		<Slider name="AnkleSeam" displayname="Foot Size" />
-        	<Slider name="WristSeam" displayname="Hand Size" />
-       		<Slider name="UNPR High" />
-        	<Slider name="UNPR to CBBE2" />
+		<Slider name="WristSeam" displayname="Hand Size" />
+		<Slider name="UNPR High" />
+		<Slider name="UNPR to CBBE2" />
 		<Slider name="UNPR to 7base" />
 		<Slider name="UNPR to UNPK" />
 		<Slider name="UNPR to VanillaLow" />

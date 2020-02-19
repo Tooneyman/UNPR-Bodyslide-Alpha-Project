@@ -1,4 +1,4 @@
-SliderCategories>
+<SliderCategories>
 	<Category name="UNP Chest" defaultHidden="false">
 		<Slider name="Breasts Lift" />
 		<Slider name="Breast Apart" />
@@ -14,7 +14,7 @@ SliderCategories>
 		<Slider name="Nipple Down" />
 		<Slider name="Nipple Pointy" />		
 	</Category>
-	
+
 	<Category name="UNP Butt" defaultHidden="false">
 		<Slider name="Apple Cheeks" />
 		<Slider name="Cutie Booty" />
@@ -25,12 +25,12 @@ SliderCategories>
 		<Slider name="Butt Down" />
 		<Slider name="Tight Cheeks" />
 	</Category>
-		
-	</Category name="UNP Neck" defaultHidden="false">
+
+	<Category name="UNP Neck" defaultHidden="false">
 		<Slider name="Neck Rise" />
 		<Slider name="Collar Bone" />
 	</Category>
-	
+
 	<Category name="UNP Belly" defaultHidden="false">
 		<Slider name="Belly Pup" />
 		<Slider name="Flat Belly" />
@@ -40,7 +40,7 @@ SliderCategories>
 		<Slider name="Belly Pregnancy" />
 		<Slider name="Tummy Tuck" />
 	</Category>
-	
+
 	<Category name="UNP Arms" defaultHidden="false">
 		<Slider name="Arms Growth" />
 		<Slider name="Arms Skinny" />
@@ -52,32 +52,32 @@ SliderCategories>
 		<Slider name="Tricep Slim" />
 		<Slider name="Tricep Thick" />
 	</Category>
-	
+
 	<Category name="UNP Shoulders" defaultHidden="false">
 		<Slider name="Shoulder Blades" />
 		<Slider name="Shoulder Minimize" />
 		<Slider name="Shoulder Stretch" />
 	</Category>
-	
+
 	<Category name="UNP Torso" defaultHidden="false">
 		<Slider name="Ribs Slim" />
 		<Slider name="Ribs Thick" />
 		<Slider name="Thick Torso" />
 		<Slider name="Slim Torso" />
 	</Category>
-	
+
 	<Category name="UNP Hips" defaultHidden="false">
 		<Slider name="Love Handles" />
 		<Slider name="Hips Curvy" />
 		<Slider name="Skinny Waist" />
 	</Category>
-		
+
 	<Category name="UNP Back" defaultHidden="false">
 		<Slider name="Back Tight" />
 		<Slider name="Back Up" />
 		<Slider name="Back Down" />
 	</Category>
-	
+
 	<Category name="UNP Legs" defaultHidden="false">
 		<Slider name="Big Legs" />
 		<Slider name="Legs Thick" />
@@ -88,19 +88,19 @@ SliderCategories>
 		<Slider name="Thick Knees" />
 		<Slider name="Knee Height" />
 	</Category>
-	
+
 	<Category name="UNP Genitals" defaultHidden="false">
-	<Slider name="Lower Bump" />
-	<Slider name="Puffy Lower Lips" />
-	<Slider name="Pussy Bump" />
-	<Slider name="Pussy Thick Labia" />
-	<Slider name="Pussy Thin Labia" />
-	<Slider name="Pussy Hanging Labia" />
-	<Slider name="Pussy Slant" />
-	<Slider name="Pussy Lift" />
-	<Slider name="Pussy Front Labia" />
-	<Slider name="Pussy Back Labia" />
-	<Slider name="Pussy left Labia" />
-	<Slider name="Pussy Right Labia" />
+		<Slider name="Lower Bump" />
+		<Slider name="Puffy Lower Lips" />
+		<Slider name="Pussy Bump" />
+		<Slider name="Pussy Thick Labia" />
+		<Slider name="Pussy Thin Labia" />
+		<Slider name="Pussy Hanging Labia" />
+		<Slider name="Pussy Slant" />
+		<Slider name="Pussy Lift" />
+		<Slider name="Pussy Front Labia" />
+		<Slider name="Pussy Back Labia" />
+		<Slider name="Pussy left Labia" />
+		<Slider name="Pussy Right Labia" />
 	</Category>
 </SliderCategories>
