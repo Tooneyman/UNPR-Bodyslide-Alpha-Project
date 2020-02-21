@@ -9,10 +9,10 @@
         <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Nude.osd\UNPNeckSeam</Data>
         </Slider>
-        <Slider name="AnkleSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Nude.osd\UNPAnkleSeam</Data>
         </Slider>
-        <Slider name="WristSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Nude.osd\UNPWristSeam</Data>
         </Slider>
         <Slider name="UNPR High" invert="false" small="0" big="0">
@@ -232,10 +232,10 @@
         <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Nude HDT.osd\UNPNeckSeam</Data>
         </Slider>
-        <Slider name="AnkleSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Nude HDT.osd\UNPAnkleSeam</Data>
         </Slider>
-        <Slider name="WristSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Nude HDT.osd\UNPWristSeam</Data>
         </Slider>
         <Slider name="UNPR High" invert="false" small="0" big="0">
@@ -486,10 +486,10 @@
         <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Max.osd\UNPNeckSeam</Data>
         </Slider>
-        <Slider name="AnkleSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Max.osd\UNPAnkleSeam</Data>
         </Slider>
-        <Slider name="WristSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Max.osd\UNPWristSeam</Data>
         </Slider>
         <Slider name="UNPR High" invert="false" small="0" big="0">
@@ -793,10 +793,10 @@
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Bikini.osd\UNPNeckSeam</Data>
             <Data name="BraNeckSeam" target="Bra" local="true">UNP Bikini.osd\BraNeckSeam</Data>
         </Slider>
-        <Slider name="AnkleSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Bikini.osd\UNPAnkleSeam</Data>
         </Slider>
-        <Slider name="WristSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Bikini.osd\UNPWristSeam</Data>
         </Slider>
         <Slider name="UNPR High" invert="false" small="0" big="0">
@@ -1124,10 +1124,10 @@
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Bikini HDT.osd\UNPNeckSeam</Data>
             <Data name="BraNeckSeam" target="Bra" local="true">UNP Bikini HDT.osd\BraNeckSeam</Data>
         </Slider>
-        <Slider name="AnkleSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Bikini HDT.osd\UNPAnkleSeam</Data>
         </Slider>
-        <Slider name="WristSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Bikini HDT.osd\UNPWristSeam</Data>
         </Slider>
         <Slider name="UNPR High" invert="false" small="0" big="0">
@@ -1455,10 +1455,10 @@
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Lingerie.osd\UNPNeckSeam</Data>
             <Data name="Laced BraNeckSeam" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraNeckSeam</Data>
         </Slider>
-        <Slider name="AnkleSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Lingerie.osd\UNPAnkleSeam</Data>
         </Slider>
-        <Slider name="WristSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Lingerie.osd\UNPWristSeam</Data>
         </Slider>
         <Slider name="UNPR High" invert="false" small="0" big="0">
@@ -1789,10 +1789,10 @@
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Lingerie HDT.osd\UNPNeckSeam</Data>
             <Data name="Laced BraNeckSeam" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraNeckSeam</Data>
         </Slider>
-        <Slider name="AnkleSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Lingerie HDT.osd\UNPAnkleSeam</Data>
         </Slider>
-        <Slider name="WristSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Lingerie HDT.osd\UNPWristSeam</Data>
         </Slider>
         <Slider name="UNPR High" invert="false" small="0" big="0">
@@ -2123,10 +2123,10 @@
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Vanilla.osd\UNPNeckSeam</Data>
             <Data name="BraNeckSeam" target="Bra" local="true">UNP Vanilla.osd\BraNeckSeam</Data>
         </Slider>
-        <Slider name="AnkleSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Vanilla.osd\UNPAnkleSeam</Data>
         </Slider>
-        <Slider name="WristSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Vanilla.osd\UNPWristSeam</Data>
         </Slider>
         <Slider name="UNPR High" invert="false" small="0" big="0">
@@ -2457,10 +2457,10 @@
             <Data name="UNPNeckSeam" target="UNP" local="true">UNP Vanilla HDT.osd\UNPNeckSeam</Data>
             <Data name="BraNeckSeam" target="Bra" local="true">UNP Vanilla HDT.osd\BraNeckSeam</Data>
         </Slider>
-        <Slider name="AnkleSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Vanilla HDT.osd\UNPAnkleSeam</Data>
         </Slider>
-        <Slider name="WristSeam" invert="false" small="0" big="100" hidden="true">
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Vanilla HDT.osd\UNPWristSeam</Data>
         </Slider>
         <Slider name="UNPR High" invert="false" small="0" big="0">
