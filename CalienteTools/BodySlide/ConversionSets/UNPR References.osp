@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CBBE to UNPR">
+        <DataFolder>References</DataFolder>
+        <SourceFile>CBBE to UNPR.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">CBBE to UNPR</OutputFile>
+        <Shape target="UNP" DataFolder="UNPR Nude">UNP</Shape>
+        <Slider name="Convert: CBBE to UNPR" invert="false" small="0" big="0">
+            <Data name="UNPConvert: CBBE to UNPR" target="UNP" local="true">CBBE to UNPR.osd\UNPConvert: CBBE to UNPR</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="UUNP to UNPR">
+        <DataFolder>References</DataFolder>
+        <SourceFile>UUNP to UNPR.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">UUNP to UNPR</OutputFile>
+        <Shape target="UNP" DataFolder="UNPR Nude">UNP</Shape>
+        <Slider name="Convert: UUNP to UNPR" invert="false" small="0" big="0">
+            <Data name="UNPConvert: UUNP to UNPR" target="UNP" local="true">UUNP to UNPR.osd\UNPConvert: UUNP to UNPR</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="7base to UNPR">
+        <DataFolder>References</DataFolder>
+        <SourceFile>7Base to UNPR.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">7Base to UNPR</OutputFile>
+        <Shape target="UNP" DataFolder="UNPR Nude">UNP</Shape>
+        <Slider name="Convert: 7base to UNPR" invert="false" small="0" big="0">
+            <Data name="UNPConvert: 7base to UNPR" target="UNP" local="true">7Base to UNPR.osd\UNPConvert: 7base to UNPR</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Vanilla Low to UNPR">
+        <DataFolder>References</DataFolder>
+        <SourceFile>Vanilla Low to UNPR.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">Vanilla Low to UNPR</OutputFile>
+        <Shape target="UNP" DataFolder="UNPR Nude">UNP</Shape>
+        <Slider name="Convert: Vanilla Low to UNPR" invert="false" small="0" big="0">
+            <Data name="UNPConvert: Vanilla Low to UNPR" target="UNP" local="true">Vanilla Low to UNPR.osd\UNPConvert: Vanilla Low to UNPR</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Vanilla High to UNPR">
+        <DataFolder>References</DataFolder>
+        <SourceFile>Vanilla High to UNPR.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">Vanilla High to UNPR</OutputFile>
+        <Shape target="UNP" DataFolder="UNPR Nude">UNP</Shape>
+        <Slider name="Convert: Vanilla High to UNPR" invert="false" small="0" big="0">
+            <Data name="UNPConvert: Vanilla High to UNPR" target="UNP" local="true">Vanilla High to UNPR.osd\UNPConvert: Vanilla High to UNPR</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Touched by Dibella to UNPR">
+        <DataFolder>References</DataFolder>
+        <SourceFile>Touched by Dibella to UNPR.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets</OutputPath>
+        <OutputFile GenWeights="true">Touched by Dibella to UNPR</OutputFile>
+        <Shape target="UNP" DataFolder="UNPR Nude">UNP</Shape>
+        <Slider name="Convert: Touched by Dibella to UNPR" invert="false" small="0" big="0">
+            <Data name="UNPConvert: Touched by Dibella to UNPR" target="UNP" local="true">Touched by Dibella to UNPR.osd\UNPConvert: Touched by Dibella to UNPR</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
