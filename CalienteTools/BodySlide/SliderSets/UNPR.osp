@@ -87,8 +87,8 @@
         <Slider name="Breasts Perky" invert="false" small="0" big="0">
             <Data name="UNPBreasts Perky" target="UNP" local="true">UNP Nude.osd\UNPBreasts Perky</Data>
         </Slider>
-        <Slider name="Brasts Pointy" invert="false" small="0" big="0">
-            <Data name="UNPBrasts Pointy" target="UNP" local="true">UNP Nude.osd\UNPBrasts Pointy</Data>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Pointy" target="UNP" local="true">UNP Nude.osd\UNPBreasts Pointy</Data>
         </Slider>
         <Slider name="Breast Thick" invert="false" small="0" big="0">
             <Data name="UNPBreast Thick" target="UNP" local="true">UNP Nude.osd\UNPBreast Thick</Data>
@@ -310,8 +310,8 @@
         <Slider name="Breasts Perky" invert="false" small="0" big="0">
             <Data name="UNPBreasts Perky" target="UNP" local="true">UNP Nude HDT.osd\UNPBreasts Perky</Data>
         </Slider>
-        <Slider name="Brasts Pointy" invert="false" small="0" big="0">
-            <Data name="UNPBrasts Pointy" target="UNP" local="true">UNP Nude HDT.osd\UNPBrasts Pointy</Data>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Pointy" target="UNP" local="true">UNP Nude HDT.osd\UNPBreasts Pointy</Data>
         </Slider>
         <Slider name="Breast Thick" invert="false" small="0" big="0">
             <Data name="UNPBreast Thick" target="UNP" local="true">UNP Nude HDT.osd\UNPBreast Thick</Data>
@@ -581,8 +581,8 @@
         <Slider name="Breasts Perky" invert="false" small="0" big="0">
             <Data name="UNPBreasts Perky" target="UNP" local="true">UNP Max.osd\UNPBreasts Perky</Data>
         </Slider>
-        <Slider name="Brasts Pointy" invert="false" small="0" big="0">
-            <Data name="UNPBrasts Pointy" target="UNP" local="true">UNP Max.osd\UNPBrasts Pointy</Data>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Pointy" target="UNP" local="true">UNP Max.osd\UNPBreasts Pointy</Data>
         </Slider>
         <Slider name="Breast Thick" invert="false" small="0" big="0">
             <Data name="UNPBreast Thick" target="UNP" local="true">UNP Max.osd\UNPBreast Thick</Data>
@@ -911,9 +911,9 @@
             <Data name="UNPBreasts Perky" target="UNP" local="true">UNP Bikini.osd\UNPBreasts Perky</Data>
             <Data name="BraBreasts Perky" target="Bra" local="true">UNP Bikini.osd\BraBreasts Perky</Data>
         </Slider>
-        <Slider name="Brasts Pointy" invert="false" small="0" big="0">
-            <Data name="UNPBrasts Pointy" target="UNP" local="true">UNP Bikini.osd\UNPBrasts Pointy</Data>
-            <Data name="BraBrasts Pointy" target="Bra" local="true">UNP Bikini.osd\BraBrasts Pointy</Data>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Pointy" target="UNP" local="true">UNP Bikini.osd\UNPBreasts Pointy</Data>
+            <Data name="BraBreasts Pointy" target="Bra" local="true">UNP Bikini.osd\BraBreasts Pointy</Data>
         </Slider>
         <Slider name="Breast Thick" invert="false" small="0" big="0">
             <Data name="UNPBreast Thick" target="UNP" local="true">UNP Bikini.osd\UNPBreast Thick</Data>
@@ -976,22 +976,6 @@
         <Slider name="Neck Rise" invert="false" small="0" big="0">
             <Data name="UNPNeck Rise" target="UNP" local="true">UNP Bikini.osd\UNPNeck Rise</Data>
             <Data name="BraNeck Rise" target="Bra" local="true">UNP Bikini.osd\BraNeck Rise</Data>
-        </Slider>
-        <Slider name="Nipple Distance" invert="false" small="0" big="0">
-            <Data name="UNPNipple Distance" target="UNP" local="true">UNP Bikini.osd\UNPNipple Distance</Data>
-            <Data name="BraNipple Distance" target="Bra" local="true">UNP Bikini.osd\BraNipple Distance</Data>
-        </Slider>
-        <Slider name="Nipple Up" invert="false" small="0" big="0">
-            <Data name="UNPNipple Up" target="UNP" local="true">UNP Bikini.osd\UNPNipple Up</Data>
-            <Data name="BraNipple Up" target="Bra" local="true">UNP Bikini.osd\BraNipple Up</Data>
-        </Slider>
-        <Slider name="Nipple Down" invert="false" small="0" big="0">
-            <Data name="UNPNipple Down" target="UNP" local="true">UNP Bikini.osd\UNPNipple Down</Data>
-            <Data name="BraNipple Down" target="Bra" local="true">UNP Bikini.osd\BraNipple Down</Data>
-        </Slider>
-        <Slider name="Nipple Pointy" invert="false" small="0" big="0">
-            <Data name="UNPNipple Pointy" target="UNP" local="true">UNP Bikini.osd\UNPNipple Pointy</Data>
-            <Data name="BraNipple Pointy" target="Bra" local="true">UNP Bikini.osd\BraNipple Pointy</Data>
         </Slider>
         <Slider name="Puffy Lower Lips" invert="false" small="0" big="0">
             <Data name="UNPPuffy Lower Lips" target="UNP" local="true">UNP Bikini.osd\UNPPuffy Lower Lips</Data>
@@ -1242,9 +1226,9 @@
             <Data name="UNPBreasts Perky" target="UNP" local="true">UNP Bikini HDT.osd\UNPBreasts Perky</Data>
             <Data name="BraBreasts Perky" target="Bra" local="true">UNP Bikini HDT.osd\BraBreasts Perky</Data>
         </Slider>
-        <Slider name="Brasts Pointy" invert="false" small="0" big="0">
-            <Data name="UNPBrasts Pointy" target="UNP" local="true">UNP Bikini HDT.osd\UNPBrasts Pointy</Data>
-            <Data name="BraBrasts Pointy" target="Bra" local="true">UNP Bikini HDT.osd\BraBrasts Pointy</Data>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Pointy" target="UNP" local="true">UNP Bikini HDT.osd\UNPBreasts Pointy</Data>
+            <Data name="BraBreasts Pointy" target="Bra" local="true">UNP Bikini HDT.osd\BraBreasts Pointy</Data>
         </Slider>
         <Slider name="Breast Thick" invert="false" small="0" big="0">
             <Data name="UNPBreast Thick" target="UNP" local="true">UNP Bikini HDT.osd\UNPBreast Thick</Data>
@@ -1307,22 +1291,6 @@
         <Slider name="Neck Rise" invert="false" small="0" big="0">
             <Data name="UNPNeck Rise" target="UNP" local="true">UNP Bikini HDT.osd\UNPNeck Rise</Data>
             <Data name="BraNeck Rise" target="Bra" local="true">UNP Bikini HDT.osd\BraNeck Rise</Data>
-        </Slider>
-        <Slider name="Nipple Distance" invert="false" small="0" big="0">
-            <Data name="UNPNipple Distance" target="UNP" local="true">UNP Bikini HDT.osd\UNPNipple Distance</Data>
-            <Data name="BraNipple Distance" target="Bra" local="true">UNP Bikini HDT.osd\BraNipple Distance</Data>
-        </Slider>
-        <Slider name="Nipple Up" invert="false" small="0" big="0">
-            <Data name="UNPNipple Up" target="UNP" local="true">UNP Bikini HDT.osd\UNPNipple Up</Data>
-            <Data name="BraNipple Up" target="Bra" local="true">UNP Bikini HDT.osd\BraNipple Up</Data>
-        </Slider>
-        <Slider name="Nipple Down" invert="false" small="0" big="0">
-            <Data name="UNPNipple Down" target="UNP" local="true">UNP Bikini HDT.osd\UNPNipple Down</Data>
-            <Data name="BraNipple Down" target="Bra" local="true">UNP Bikini HDT.osd\BraNipple Down</Data>
-        </Slider>
-        <Slider name="Nipple Pointy" invert="false" small="0" big="0">
-            <Data name="UNPNipple Pointy" target="UNP" local="true">UNP Bikini HDT.osd\UNPNipple Pointy</Data>
-            <Data name="BraNipple Pointy" target="Bra" local="true">UNP Bikini HDT.osd\BraNipple Pointy</Data>
         </Slider>
         <Slider name="Puffy Lower Lips" invert="false" small="0" big="0">
             <Data name="UNPPuffy Lower Lips" target="UNP" local="true">UNP Bikini HDT.osd\UNPPuffy Lower Lips</Data>
@@ -1573,9 +1541,9 @@
             <Data name="UNPBreasts Perky" target="UNP" local="true">UNP Lingerie.osd\UNPBreasts Perky</Data>
             <Data name="Laced BraBreasts Perky" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraBreasts Perky</Data>
         </Slider>
-        <Slider name="Brasts Pointy" invert="false" small="0" big="0">
-            <Data name="UNPBrasts Pointy" target="UNP" local="true">UNP Lingerie.osd\UNPBrasts Pointy</Data>
-            <Data name="Laced BraBrasts Pointy" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraBrasts Pointy</Data>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Pointy" target="UNP" local="true">UNP Lingerie.osd\UNPBreasts Pointy</Data>
+            <Data name="Laced BraBreasts Pointy" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraBreasts Pointy</Data>
         </Slider>
         <Slider name="Breast Thick" invert="false" small="0" big="0">
             <Data name="UNPBreast Thick" target="UNP" local="true">UNP Lingerie.osd\UNPBreast Thick</Data>
@@ -1638,22 +1606,6 @@
         <Slider name="Neck Rise" invert="false" small="0" big="0">
             <Data name="UNPNeck Rise" target="UNP" local="true">UNP Lingerie.osd\UNPNeck Rise</Data>
             <Data name="Laced BraNeck Rise" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraNeck Rise</Data>
-        </Slider>
-        <Slider name="Nipple Distance" invert="false" small="0" big="0">
-            <Data name="UNPNipple Distance" target="UNP" local="true">UNP Lingerie.osd\UNPNipple Distance</Data>
-            <Data name="Laced BraNipple Distance" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraNipple Distance</Data>
-        </Slider>
-        <Slider name="Nipple Up" invert="false" small="0" big="0">
-            <Data name="UNPNipple Up" target="UNP" local="true">UNP Lingerie.osd\UNPNipple Up</Data>
-            <Data name="Laced BraNipple Up" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraNipple Up</Data>
-        </Slider>
-        <Slider name="Nipple Down" invert="false" small="0" big="0">
-            <Data name="UNPNipple Down" target="UNP" local="true">UNP Lingerie.osd\UNPNipple Down</Data>
-            <Data name="Laced BraNipple Down" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraNipple Down</Data>
-        </Slider>
-        <Slider name="Nipple Pointy" invert="false" small="0" big="0">
-            <Data name="UNPNipple Pointy" target="UNP" local="true">UNP Lingerie.osd\UNPNipple Pointy</Data>
-            <Data name="Laced BraNipple Pointy" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraNipple Pointy</Data>
         </Slider>
         <Slider name="Puffy Lower Lips" invert="false" small="0" big="0">
             <Data name="UNPPuffy Lower Lips" target="UNP" local="true">UNP Lingerie.osd\UNPPuffy Lower Lips</Data>
@@ -1907,9 +1859,9 @@
             <Data name="UNPBreasts Perky" target="UNP" local="true">UNP Lingerie HDT.osd\UNPBreasts Perky</Data>
             <Data name="Laced BraBreasts Perky" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraBreasts Perky</Data>
         </Slider>
-        <Slider name="Brasts Pointy" invert="false" small="0" big="0">
-            <Data name="UNPBrasts Pointy" target="UNP" local="true">UNP Lingerie HDT.osd\UNPBrasts Pointy</Data>
-            <Data name="Laced BraBrasts Pointy" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraBrasts Pointy</Data>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Pointy" target="UNP" local="true">UNP Lingerie HDT.osd\UNPBreasts Pointy</Data>
+            <Data name="Laced BraBreasts Pointy" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraBreasts Pointy</Data>
         </Slider>
         <Slider name="Breast Thick" invert="false" small="0" big="0">
             <Data name="UNPBreast Thick" target="UNP" local="true">UNP Lingerie HDT.osd\UNPBreast Thick</Data>
@@ -1972,22 +1924,6 @@
         <Slider name="Neck Rise" invert="false" small="0" big="0">
             <Data name="UNPNeck Rise" target="UNP" local="true">UNP Lingerie HDT.osd\UNPNeck Rise</Data>
             <Data name="Laced BraNeck Rise" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraNeck Rise</Data>
-        </Slider>
-        <Slider name="Nipple Distance" invert="false" small="0" big="0">
-            <Data name="UNPNipple Distance" target="UNP" local="true">UNP Lingerie HDT.osd\UNPNipple Distance</Data>
-            <Data name="Laced BraNipple Distance" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraNipple Distance</Data>
-        </Slider>
-        <Slider name="Nipple Up" invert="false" small="0" big="0">
-            <Data name="UNPNipple Up" target="UNP" local="true">UNP Lingerie HDT.osd\UNPNipple Up</Data>
-            <Data name="Laced BraNipple Up" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraNipple Up</Data>
-        </Slider>
-        <Slider name="Nipple Down" invert="false" small="0" big="0">
-            <Data name="UNPNipple Down" target="UNP" local="true">UNP Lingerie HDT.osd\UNPNipple Down</Data>
-            <Data name="Laced BraNipple Down" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraNipple Down</Data>
-        </Slider>
-        <Slider name="Nipple Pointy" invert="false" small="0" big="0">
-            <Data name="UNPNipple Pointy" target="UNP" local="true">UNP Lingerie HDT.osd\UNPNipple Pointy</Data>
-            <Data name="Laced BraNipple Pointy" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraNipple Pointy</Data>
         </Slider>
         <Slider name="Puffy Lower Lips" invert="false" small="0" big="0">
             <Data name="UNPPuffy Lower Lips" target="UNP" local="true">UNP Lingerie HDT.osd\UNPPuffy Lower Lips</Data>
@@ -2241,9 +2177,9 @@
             <Data name="UNPBreasts Perky" target="UNP" local="true">UNP Vanilla.osd\UNPBreasts Perky</Data>
             <Data name="BraBreasts Perky" target="Bra" local="true">UNP Vanilla.osd\BraBreasts Perky</Data>
         </Slider>
-        <Slider name="Brasts Pointy" invert="false" small="0" big="0">
-            <Data name="UNPBrasts Pointy" target="UNP" local="true">UNP Vanilla.osd\UNPBrasts Pointy</Data>
-            <Data name="BraBrasts Pointy" target="Bra" local="true">UNP Vanilla.osd\BraBrasts Pointy</Data>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Pointy" target="UNP" local="true">UNP Vanilla.osd\UNPBreasts Pointy</Data>
+            <Data name="BraBreasts Pointy" target="Bra" local="true">UNP Vanilla.osd\BraBreasts Pointy</Data>
         </Slider>
         <Slider name="Breast Thick" invert="false" small="0" big="0">
             <Data name="UNPBreast Thick" target="UNP" local="true">UNP Vanilla.osd\UNPBreast Thick</Data>
@@ -2307,22 +2243,6 @@
         <Slider name="Neck Rise" invert="false" small="0" big="0">
             <Data name="UNPNeck Rise" target="UNP" local="true">UNP Vanilla.osd\UNPNeck Rise</Data>
             <Data name="BraNeck Rise" target="Bra" local="true">UNP Vanilla.osd\BraNeck Rise</Data>
-        </Slider>
-        <Slider name="Nipple Distance" invert="false" small="0" big="0">
-            <Data name="UNPNipple Distance" target="UNP" local="true">UNP Vanilla.osd\UNPNipple Distance</Data>
-            <Data name="BraNipple Distance" target="Bra" local="true">UNP Vanilla.osd\BraNipple Distance</Data>
-        </Slider>
-        <Slider name="Nipple Up" invert="false" small="0" big="0">
-            <Data name="UNPNipple Up" target="UNP" local="true">UNP Vanilla.osd\UNPNipple Up</Data>
-            <Data name="BraNipple Up" target="Bra" local="true">UNP Vanilla.osd\BraNipple Up</Data>
-        </Slider>
-        <Slider name="Nipple Down" invert="false" small="0" big="0">
-            <Data name="UNPNipple Down" target="UNP" local="true">UNP Vanilla.osd\UNPNipple Down</Data>
-            <Data name="BraNipple Down" target="Bra" local="true">UNP Vanilla.osd\BraNipple Down</Data>
-        </Slider>
-        <Slider name="Nipple Pointy" invert="false" small="0" big="0">
-            <Data name="UNPNipple Pointy" target="UNP" local="true">UNP Vanilla.osd\UNPNipple Pointy</Data>
-            <Data name="BraNipple Pointy" target="Bra" local="true">UNP Vanilla.osd\BraNipple Pointy</Data>
         </Slider>
         <Slider name="Puffy Lower Lips" invert="false" small="0" big="0">
             <Data name="UNPPuffy Lower Lips" target="UNP" local="true">UNP Vanilla.osd\UNPPuffy Lower Lips</Data>
@@ -2575,9 +2495,9 @@
             <Data name="UNPBreasts Perky" target="UNP" local="true">UNP Vanilla HDT.osd\UNPBreasts Perky</Data>
             <Data name="BraBreasts Perky" target="Bra" local="true">UNP Vanilla HDT.osd\BraBreasts Perky</Data>
         </Slider>
-        <Slider name="Brasts Pointy" invert="false" small="0" big="0">
-            <Data name="UNPBrasts Pointy" target="UNP" local="true">UNP Vanilla HDT.osd\UNPBrasts Pointy</Data>
-            <Data name="BraBrasts Pointy" target="Bra" local="true">UNP Vanilla HDT.osd\BraBrasts Pointy</Data>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Pointy" target="UNP" local="true">UNP Vanilla HDT.osd\UNPBreasts Pointy</Data>
+            <Data name="BraBreasts Pointy" target="Bra" local="true">UNP Vanilla HDT.osd\BraBreasts Pointy</Data>
         </Slider>
         <Slider name="Breast Thick" invert="false" small="0" big="0">
             <Data name="UNPBreast Thick" target="UNP" local="true">UNP Vanilla HDT.osd\UNPBreast Thick</Data>
@@ -2641,22 +2561,6 @@
         <Slider name="Neck Rise" invert="false" small="0" big="0">
             <Data name="UNPNeck Rise" target="UNP" local="true">UNP Vanilla HDT.osd\UNPNeck Rise</Data>
             <Data name="BraNeck Rise" target="Bra" local="true">UNP Vanilla HDT.osd\BraNeck Rise</Data>
-        </Slider>
-        <Slider name="Nipple Distance" invert="false" small="0" big="0">
-            <Data name="UNPNipple Distance" target="UNP" local="true">UNP Vanilla HDT.osd\UNPNipple Distance</Data>
-            <Data name="BraNipple Distance" target="Bra" local="true">UNP Vanilla HDT.osd\BraNipple Distance</Data>
-        </Slider>
-        <Slider name="Nipple Up" invert="false" small="0" big="0">
-            <Data name="UNPNipple Up" target="UNP" local="true">UNP Vanilla HDT.osd\UNPNipple Up</Data>
-            <Data name="BraNipple Up" target="Bra" local="true">UNP Vanilla HDT.osd\BraNipple Up</Data>
-        </Slider>
-        <Slider name="Nipple Down" invert="false" small="0" big="0">
-            <Data name="UNPNipple Down" target="UNP" local="true">UNP Vanilla HDT.osd\UNPNipple Down</Data>
-            <Data name="BraNipple Down" target="Bra" local="true">UNP Vanilla HDT.osd\BraNipple Down</Data>
-        </Slider>
-        <Slider name="Nipple Pointy" invert="false" small="0" big="0">
-            <Data name="UNPNipple Pointy" target="UNP" local="true">UNP Vanilla HDT.osd\UNPNipple Pointy</Data>
-            <Data name="BraNipple Pointy" target="Bra" local="true">UNP Vanilla HDT.osd\BraNipple Pointy</Data>
         </Slider>
         <Slider name="Puffy Lower Lips" invert="false" small="0" big="0">
             <Data name="UNPPuffy Lower Lips" target="UNP" local="true">UNP Vanilla HDT.osd\UNPPuffy Lower Lips</Data>
