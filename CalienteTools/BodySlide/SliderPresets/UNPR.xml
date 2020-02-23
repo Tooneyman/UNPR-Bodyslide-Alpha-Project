@@ -80,4 +80,115 @@
         <SetSlider name="UNPK" size="big" value="100"/>
         <SetSlider name="UNPK" size="small" value="100"/>
     </Preset>
+    <Preset name="DreamGirl" set="UNP Nude">
+        <Group name="UNPR"/>
+        <SetSlider name="Big Legs" size="big" value="35"/>
+        <SetSlider name="Big Legs" size="small" value="25"/>
+        <SetSlider name="Breast Apart" size="big" value="50"/>
+        <SetSlider name="Breast Apart" size="small" value="30"/>
+        <SetSlider name="Forearms Bulge" size="big" value="70"/>
+        <SetSlider name="Hips Curvy" size="big" value="50"/>
+        <SetSlider name="Hips Curvy" size="small" value="30"/>
+        <SetSlider name="Nipple Down" size="small" value="50"/>
+        <SetSlider name="Thick Calves" size="big" value="35"/>
+        <SetSlider name="Thick Calves" size="small" value="25"/>
+        <SetSlider name="UNPR High" size="big" value="65"/>
+    </Preset>
+    <Preset name="Seraphim" set="UNP Nude">
+        <Group name="UNPR"/>
+        <SetSlider name="Big Booty" size="big" value="80"/>
+        <SetSlider name="Big Legs" size="big" value="50"/>
+        <SetSlider name="Bigger Breasts" size="big" value="30"/>
+        <SetSlider name="Breast Apart" size="big" value="30"/>
+        <SetSlider name="Breasts Gravity" size="big" value="40"/>
+        <SetSlider name="Nipple Pointy" size="big" value="40"/>
+        <SetSlider name="Round Booty" size="big" value="30"/>
+        <SetSlider name="Skinny Waist" size="big" value="20"/>
+        <SetSlider name="Thick Calves" size="big" value="30"/>
+        <SetSlider name="UNPR High" size="big" value="100"/>
+    </Preset>
+    <Preset name="Shiva" set="UNP Nude">
+        <Group name="UNPR"/>
+        <SetSlider name="Breasts Gravity" size="big" value="40"/>
+        <SetSlider name="Breasts Gravity" size="small" value="30"/>
+        <SetSlider name="UUNP" size="big" value="100"/>
+        <SetSlider name="UUNP" size="small" value="50"/>
+    </Preset>
+    <Preset name="Shiva (Outfit)" set="UNP Nude">
+        <Group name="UNPR"/>
+        <SetSlider name="Breast Lift" size="big" value="75"/>
+        <SetSlider name="Breast Lift" size="small" value="60"/>
+        <SetSlider name="Breast Together" size="big" value="70"/>
+        <SetSlider name="Breast Together" size="small" value="70"/>
+        <SetSlider name="UUNP" size="big" value="100"/>
+        <SetSlider name="UUNP" size="small" value="50"/>
+    </Preset>
+    <Preset name="UNP (Outfit)" set="UNP Nude">
+        <Group name="UNPR"/>
+        <SetSlider name="Breast Lift" size="big" value="70"/>
+        <SetSlider name="Breast Lift" size="small" value="50"/>
+        <SetSlider name="Breast Together" size="big" value="100"/>
+        <SetSlider name="Breast Together" size="small" value="60"/>
+        <SetSlider name="UNPR High" size="big" value="100"/>
+    </Preset>
+    <Preset name="Nord Warrior" set="UNP Nude">
+        <Group name="UNPR"/>
+        <SetSlider name="Arm Growth" size="big" value="50"/>
+        <SetSlider name="Arm Growth" size="small" value="25"/>
+        <SetSlider name="Arms Apart" size="big" value="50"/>
+        <SetSlider name="Arms Apart" size="small" value="25"/>
+        <SetSlider name="Back Down" size="big" value="50"/>
+        <SetSlider name="Back Down" size="small" value="25"/>
+        <SetSlider name="Bicep Enlarged" size="big" value="40"/>
+        <SetSlider name="Bicep Enlarged" size="small" value="20"/>
+        <SetSlider name="Big Legs" size="big" value="25"/>
+        <SetSlider name="Breasts Perky" size="big" value="40"/>
+        <SetSlider name="Breasts Perky" size="small" value="70"/>
+        <SetSlider name="Collar Bone" size="big" value="60"/>
+        <SetSlider name="Collar Bone" size="small" value="30"/>
+        <SetSlider name="Flat Belly" size="small" value="100"/>
+        <SetSlider name="Forearms Bulge" size="big" value="60"/>
+        <SetSlider name="Forearms Bulge" size="small" value="30"/>
+        <SetSlider name="Legs Thick" size="big" value="50"/>
+        <SetSlider name="Legs Thick" size="small" value="25"/>
+        <SetSlider name="Neck Rise" size="big" value="40"/>
+        <SetSlider name="Neck Rise" size="small" value="20"/>
+        <SetSlider name="Ribs Thick" size="big" value="50"/>
+        <SetSlider name="Ribs Thick" size="small" value="25"/>
+        <SetSlider name="Shoulder Blades" size="big" value="40"/>
+        <SetSlider name="Shoulder Blades" size="small" value="20"/>
+        <SetSlider name="Shoulders Stretch" size="big" value="20"/>
+        <SetSlider name="Shoulders Stretch" size="small" value="10"/>
+        <SetSlider name="Thick Calves" size="big" value="35"/>
+        <SetSlider name="Thick Calves" size="small" value="20"/>
+        <SetSlider name="Tight Cheeks" size="big" value="40"/>
+        <SetSlider name="Tight Cheeks" size="small" value="20"/>
+        <SetSlider name="Tricep Thick" size="big" value="30"/>
+        <SetSlider name="Tricep Thick" size="small" value="15"/>
+    </Preset>
+    <Preset name="TMBE Enhanced" set="UNP Nude">
+        <Group name="UNPR"/>
+        <SetSlider name="7base" size="big" value="100"/>
+        <SetSlider name="7base" size="small" value="100"/>
+        <SetSlider name="Belly Pup" size="big" value="30"/>
+        <SetSlider name="Belly Pup" size="small" value="30"/>
+        <SetSlider name="Big Booty" size="big" value="25"/>
+        <SetSlider name="Big Booty" size="small" value="25"/>
+        <SetSlider name="Breasts Gravity" size="big" value="150"/>
+        <SetSlider name="Breasts Gravity" size="small" value="150"/>
+        <SetSlider name="Cutie Booty" size="big" value="10"/>
+        <SetSlider name="Cutie Booty" size="small" value="10"/>
+        <SetSlider name="Nipple Down" size="big" value="100"/>
+        <SetSlider name="Nipple Down" size="small" value="100"/>
+    </Preset>
+    <Preset name="UNPB (Outfit)" set="UNP Nude">
+        <Group name="UNPR"/>
+        <SetSlider name="Bigger Breasts" size="big" value="30"/>
+        <SetSlider name="Breast Lift" size="big" value="70"/>
+        <SetSlider name="Breast Lift" size="small" value="50"/>
+        <SetSlider name="Breast Together" size="big" value="100"/>
+        <SetSlider name="Breast Together" size="small" value="60"/>
+        <SetSlider name="Nipple Pointy" size="big" value="40"/>
+        <SetSlider name="UNPR High" size="big" value="100"/>
+    </Preset>
 </SliderPresets>

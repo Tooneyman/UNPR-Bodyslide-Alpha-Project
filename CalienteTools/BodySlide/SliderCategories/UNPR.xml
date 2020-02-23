@@ -1,10 +1,5 @@
 <SliderCategories>
-	<Category name="UNP Seams" defaultHidden="true">
-		<Slider name="AnkleSeam" displayname="Foot Size" />
-		<Slider name="WristSeam" displayname="Hand Size" />
-		<Slider name="NeckSeam" displayname="Neck Size" />
-	</Category>
-	<Category name="UNP Full Body Sliders" defaultHidden="false">
+	<Category name="UNP Body Sliders" defaultHidden="false">
 		<Slider name="UNPR High" />
 		<Slider name="UUNP" />
 		<Slider name="CBBE" />
@@ -39,10 +34,6 @@
 		<Slider name="Butt Down" />
 		<Slider name="Tight Cheeks" />
 	</Category>
-	<Category name="UNP Neck" defaultHidden="false">
-		<Slider name="Neck Rise" />
-		<Slider name="Collar Bone" />
-	</Category>
 	<Category name="UNP Belly" defaultHidden="false">
 		<Slider name="Belly Pup" />
 		<Slider name="Flat Belly" />
@@ -52,7 +43,16 @@
 		<Slider name="Belly Pregnancy" />
 		<Slider name="Tummy Tuck" />
 	</Category>
-	<Category name="UNP Arms" defaultHidden="false">
+	<Category name="UNP Torso and Arms" defaultHidden="false">
+		<Slider name="Ribs Slim" />
+		<Slider name="Ribs Thick" />
+		<Slider name="Thick Torso" />
+		<Slider name="Slim Torso" />
+		<Slider name="Neck Rise" />
+		<Slider name="Collar Bone" />
+		<Slider name="Shoulder Blades" />
+		<Slider name="Shoulder Minimize" />
+		<Slider name="Shoulders Stretch" />
 		<Slider name="Arm Growth" />
 		<Slider name="Arms Skinny" />
 		<Slider name="Arms Apart" />
@@ -62,29 +62,11 @@
 		<Slider name="Forearms Thin" />
 		<Slider name="Tricep Slim" />
 		<Slider name="Tricep Thick" />
-	</Category>
-	<Category name="UNP Shoulders" defaultHidden="false">
-		<Slider name="Shoulder Blades" />
-		<Slider name="Shoulder Minimize" />
-		<Slider name="Shoulders Stretch" />
-	</Category>
-	<Category name="UNP Torso" defaultHidden="false">
-		<Slider name="Ribs Slim" />
-		<Slider name="Ribs Thick" />
-		<Slider name="Thick Torso" />
-		<Slider name="Slim Torso" />
-	</Category>
-	<Category name="UNP Hips" defaultHidden="false">
-		<Slider name="Love Handles" />
-		<Slider name="Hips Curvy" />
-		<Slider name="Skinny Waist" />
-	</Category>
-	<Category name="UNP Back" defaultHidden="false">
 		<Slider name="Back Tight" />
 		<Slider name="Back Up" />
 		<Slider name="Back Down" />
 	</Category>
-	<Category name="UNP Legs" defaultHidden="false">
+	<Category name="UNP Hips and Legs" defaultHidden="false">
 		<Slider name="Big Legs" />
 		<Slider name="Legs Thick" />
 		<Slider name="Legs Thin" />
@@ -93,6 +75,9 @@
 		<Slider name="Thin Calves" />
 		<Slider name="Thick Knees" />
 		<Slider name="Knee Height" />
+		<Slider name="Love Handles" />
+		<Slider name="Hips Curvy" />
+		<Slider name="Skinny Waist" />
 	</Category>
 	<Category name="UNP Genitals" defaultHidden="false">
 		<Slider name="Lower Bump" />

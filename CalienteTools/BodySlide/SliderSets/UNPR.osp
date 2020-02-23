@@ -15,27 +15,6 @@
         <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Nude.osd\UNPWristSeam</Data>
         </Slider>
-        <Slider name="UNPR High" invert="false" small="0" big="0">
-            <Data name="UNPUNPR High" target="UNP" local="true">UNP Nude.osd\UNPUNPR High</Data>
-        </Slider>
-        <Slider name="UNPR To CBBE2" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To CBBE2" target="UNP" local="true">UNP Nude.osd\UNPUNPR To CBBE2</Data>
-        </Slider>
-        <Slider name="UNPR to UUNP" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UUNP" target="UNP" local="true">UNP Nude.osd\UNPUNPR to UUNP</Data>
-        </Slider>
-        <Slider name="UNPR To 7base" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To 7base" target="UNP" local="true">UNP Nude.osd\UNPUNPR To 7base</Data>
-        </Slider>
-        <Slider name="UNPR to UNPK" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UNPK" target="UNP" local="true">UNP Nude.osd\UNPUNPR to UNPK</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaLow" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaLow" target="UNP" local="true">UNP Nude.osd\UNPUNPR to VanillaLow</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaHigh" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaHigh" target="UNP" local="true">UNP Nude.osd\UNPUNPR to VanillaHigh</Data>
-        </Slider>
         <Slider name="Apple Cheeks" invert="false" small="0" big="0">
             <Data name="UNPApple Cheeks" target="UNP" local="true">UNP Nude.osd\UNPApple Cheeks</Data>
         </Slider>
@@ -60,6 +39,9 @@
         <Slider name="Belly Tight" invert="false" small="0" big="0">
             <Data name="UNPBelly Tight" target="UNP" local="true">UNP Nude.osd\UNPBelly Tight</Data>
         </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Nude.osd\UNPFlat Belly</Data>
+        </Slider>
         <Slider name="Bicep Enlarged" invert="false" small="0" big="0">
             <Data name="UNPBicep Enlarged" target="UNP" local="true">UNP Nude.osd\UNPBicep Enlarged</Data>
         </Slider>
@@ -74,6 +56,9 @@
         </Slider>
         <Slider name="Big Legs" invert="false" small="0" big="0">
             <Data name="UNPBig Legs" target="UNP" local="true">UNP Nude.osd\UNPBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Nude.osd\UNPBigger Breasts</Data>
         </Slider>
         <Slider name="Breast Lift" invert="false" small="0" big="0">
             <Data name="UNPBreast Lift" target="UNP" local="true">UNP Nude.osd\UNPBreast Lift</Data>
@@ -213,14 +198,29 @@
         <Slider name="Butt Down" invert="false" small="0" big="0">
             <Data name="UNPButt Down" target="UNP" local="true">UNP Nude.osd\UNPButt Down</Data>
         </Slider>
-        <Slider name="Flat Belly" invert="false" small="0" big="0">
-            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Nude.osd\UNPFlat Belly</Data>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="UNPUNPR High" target="UNP" local="true">UNP Nude.osd\UNPUNPR High</Data>
         </Slider>
-        <Slider name="UNPR to TBD" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to TBD" target="UNP" local="true">UNP Nude.osd\UNPUNPR to TBD</Data>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="UNPCBBE" target="UNP" local="true">UNP Nude.osd\UNPCBBE</Data>
         </Slider>
-        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
-            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Nude.osd\UNPBigger Breasts</Data>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="UNPUUNP" target="UNP" local="true">UNP Nude.osd\UNPUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="UNP7base" target="UNP" local="true">UNP Nude.osd\UNP7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="UNPUNPK" target="UNP" local="true">UNP Nude.osd\UNPUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="UNPVanilla Low" target="UNP" local="true">UNP Nude.osd\UNPVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="UNPVanilla High" target="UNP" local="true">UNP Nude.osd\UNPVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="UNPTouched by Dibella" target="UNP" local="true">UNP Nude.osd\UNPTouched by Dibella</Data>
         </Slider>
     </SliderSet>
     <SliderSet name="UNP Nude HDT">
@@ -237,27 +237,6 @@
         </Slider>
         <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Nude HDT.osd\UNPWristSeam</Data>
-        </Slider>
-        <Slider name="UNPR High" invert="false" small="0" big="0">
-            <Data name="UNPUNPR High" target="UNP" local="true">UNP Nude HDT.osd\UNPUNPR High</Data>
-        </Slider>
-        <Slider name="UNPR To CBBE2" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To CBBE2" target="UNP" local="true">UNP Nude HDT.osd\UNPUNPR To CBBE2</Data>
-        </Slider>
-        <Slider name="UNPR to UUNP" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UUNP" target="UNP" local="true">UNP Nude HDT.osd\UNPUNPR to UUNP</Data>
-        </Slider>
-        <Slider name="UNPR To 7base" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To 7base" target="UNP" local="true">UNP Nude HDT.osd\UNPUNPR To 7base</Data>
-        </Slider>
-        <Slider name="UNPR to UNPK" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UNPK" target="UNP" local="true">UNP Nude HDT.osd\UNPUNPR to UNPK</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaLow" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaLow" target="UNP" local="true">UNP Nude HDT.osd\UNPUNPR to VanillaLow</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaHigh" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaHigh" target="UNP" local="true">UNP Nude HDT.osd\UNPUNPR to VanillaHigh</Data>
         </Slider>
         <Slider name="Apple Cheeks" invert="false" small="0" big="0">
             <Data name="UNPApple Cheeks" target="UNP" local="true">UNP Nude HDT.osd\UNPApple Cheeks</Data>
@@ -283,6 +262,9 @@
         <Slider name="Belly Tight" invert="false" small="0" big="0">
             <Data name="UNPBelly Tight" target="UNP" local="true">UNP Nude HDT.osd\UNPBelly Tight</Data>
         </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Nude HDT.osd\UNPFlat Belly</Data>
+        </Slider>
         <Slider name="Bicep Enlarged" invert="false" small="0" big="0">
             <Data name="UNPBicep Enlarged" target="UNP" local="true">UNP Nude HDT.osd\UNPBicep Enlarged</Data>
         </Slider>
@@ -297,6 +279,9 @@
         </Slider>
         <Slider name="Big Legs" invert="false" small="0" big="0">
             <Data name="UNPBig Legs" target="UNP" local="true">UNP Nude HDT.osd\UNPBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Nude HDT.osd\UNPBigger Breasts</Data>
         </Slider>
         <Slider name="Breast Lift" invert="false" small="0" big="0">
             <Data name="UNPBreast Lift" target="UNP" local="true">UNP Nude HDT.osd\UNPBreast Lift</Data>
@@ -436,14 +421,29 @@
         <Slider name="Butt Down" invert="false" small="0" big="0">
             <Data name="UNPButt Down" target="UNP" local="true">UNP Nude HDT.osd\UNPButt Down</Data>
         </Slider>
-        <Slider name="Flat Belly" invert="false" small="0" big="0">
-            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Nude HDT.osd\UNPFlat Belly</Data>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="UNPUNPR High" target="UNP" local="true">UNP Nude HDT.osd\UNPUNPR High</Data>
         </Slider>
-        <Slider name="UNPR to TBD" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to TBD" target="UNP" local="true">UNP Nude HDT.osd\UNPUNPR to TBD</Data>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="UNPCBBE" target="UNP" local="true">UNP Nude HDT.osd\UNPCBBE</Data>
         </Slider>
-        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
-            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Nude HDT.osd\UNPBigger Breasts</Data>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="UNPUUNP" target="UNP" local="true">UNP Nude HDT.osd\UNPUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="UNP7base" target="UNP" local="true">UNP Nude HDT.osd\UNP7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="UNPUNPK" target="UNP" local="true">UNP Nude HDT.osd\UNPUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="UNPVanilla Low" target="UNP" local="true">UNP Nude HDT.osd\UNPVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="UNPVanilla High" target="UNP" local="true">UNP Nude HDT.osd\UNPVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="UNPTouched by Dibella" target="UNP" local="true">UNP Nude HDT.osd\UNPTouched by Dibella</Data>
         </Slider>
     </SliderSet>
     <SliderSet name="UNP Feet">
@@ -492,34 +492,6 @@
         <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Max.osd\UNPWristSeam</Data>
         </Slider>
-        <Slider name="UNPR High" invert="false" small="0" big="0">
-            <Data name="UNPUNPR High" target="UNP" local="true">UNP Max.osd\UNPUNPR High</Data>
-            <Data name="VaginaUNPR High" target="Vagina" local="true">UNP Max.osd\VaginaUNPR High</Data>
-        </Slider>
-        <Slider name="UNPR to CBBE2" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to CBBE2" target="UNP" local="true">UNP Max.osd\UNPUNPR to CBBE2</Data>
-            <Data name="VaginaUNPR to CBBE2" target="Vagina" local="true">UNP Max.osd\VaginaUNPR to CBBE2</Data>
-        </Slider>
-        <Slider name="UNPR to UUNP" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UUNP" target="UNP" local="true">UNP Max.osd\UNPUNPR to UUNP</Data>
-            <Data name="VaginaUNPR to UUNP" target="Vagina" local="true">UNP Max.osd\VaginaUNPR to UUNP</Data>
-        </Slider>
-        <Slider name="UNPR to 7base" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to 7base" target="UNP" local="true">UNP Max.osd\UNPUNPR to 7base</Data>
-            <Data name="VaginaUNPR to 7base" target="Vagina" local="true">UNP Max.osd\VaginaUNPR to 7base</Data>
-        </Slider>
-        <Slider name="UNPR to UNPK" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UNPK" target="UNP" local="true">UNP Max.osd\UNPUNPR to UNPK</Data>
-            <Data name="VaginaUNPR to UNPK" target="Vagina" local="true">UNP Max.osd\VaginaUNPR to UNPK</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaLow" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaLow" target="UNP" local="true">UNP Max.osd\UNPUNPR to VanillaLow</Data>
-            <Data name="VaginaUNPR to VanillaLow" target="Vagina" local="true">UNP Max.osd\VaginaUNPR to VanillaLow</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaHigh" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaHigh" target="UNP" local="true">UNP Max.osd\UNPUNPR to VanillaHigh</Data>
-            <Data name="VaginaUNPR to VanillaHigh" target="Vagina" local="true">UNP Max.osd\VaginaUNPR to VanillaHigh</Data>
-        </Slider>
         <Slider name="Apple Cheeks" invert="false" small="0" big="0">
             <Data name="UNPApple Cheeks" target="UNP" local="true">UNP Max.osd\UNPApple Cheeks</Data>
             <Data name="VaginaApple Cheeks" target="Vagina" local="true">UNP Max.osd\VaginaApple Cheeks</Data>
@@ -560,6 +532,10 @@
             <Data name="UNPBig Belly" target="UNP" local="true">UNP Max.osd\UNPBig Belly</Data>
             <Data name="VaginaBig Belly" target="Vagina" local="true">UNP Max.osd\VaginaBig Belly</Data>
         </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Max.osd\UNPFlat Belly</Data>
+            <Data name="VaginaFlat Belly" target="Vagina" local="true">UNP Max.osd\VaginaFlat Belly</Data>
+        </Slider>
         <Slider name="Big Booty" invert="false" small="0" big="0">
             <Data name="UNPBig Booty" target="UNP" local="true">UNP Max.osd\UNPBig Booty</Data>
             <Data name="VaginaBig Booty" target="Vagina" local="true">UNP Max.osd\VaginaBig Booty</Data>
@@ -567,6 +543,10 @@
         <Slider name="Big Legs" invert="false" small="0" big="0">
             <Data name="UNPBig Legs" target="UNP" local="true">UNP Max.osd\UNPBig Legs</Data>
             <Data name="VaginaBig Legs" target="Vagina" local="true">UNP Max.osd\VaginaBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Max.osd\UNPBigger Breasts</Data>
+            <Data name="VaginaBigger Breasts" target="Vagina" local="true">UNP Max.osd\VaginaBigger Breasts</Data>
         </Slider>
         <Slider name="Breast Lift" invert="false" small="0" big="0">
             <Data name="UNPBreast Lift" target="UNP" local="true">UNP Max.osd\UNPBreast Lift</Data>
@@ -768,17 +748,37 @@
             <Data name="UNPPussy Right Labia" target="UNP" local="true">UNP Max.osd\UNPPussy Right Labia</Data>
             <Data name="VaginaPussy Right Labia" target="Vagina" local="true">UNP Max.osd\VaginaPussy Right Labia</Data>
         </Slider>
-        <Slider name="UNPR to TBD" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to TBD" target="UNP" local="true">UNP Max.osd\UNPUNPR to TBD</Data>
-            <Data name="VaginaUNPR to TBD" target="Vagina" local="true">UNP Max.osd\VaginaUNPR to TBD</Data>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="UNPUNPR High" target="UNP" local="true">UNP Max.osd\UNPUNPR High</Data>
+            <Data name="VaginaUNPR High" target="Vagina" local="true">UNP Max.osd\VaginaUNPR High</Data>
         </Slider>
-        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
-            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Max.osd\UNPBigger Breasts</Data>
-            <Data name="VaginaBigger Breasts" target="Vagina" local="true">UNP Max.osd\VaginaBigger Breasts</Data>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="UNPCBBE" target="UNP" local="true">UNP Max.osd\UNPCBBE</Data>
+            <Data name="VaginaCBBE" target="Vagina" local="true">UNP Max.osd\VaginaCBBE</Data>
         </Slider>
-        <Slider name="Flat Belly" invert="false" small="0" big="0">
-            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Max.osd\UNPFlat Belly</Data>
-            <Data name="VaginaFlat Belly" target="Vagina" local="true">UNP Max.osd\VaginaFlat Belly</Data>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="UNPUUNP" target="UNP" local="true">UNP Max.osd\UNPUUNP</Data>
+            <Data name="VaginaUUNP" target="Vagina" local="true">UNP Max.osd\VaginaUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="UNP7base" target="UNP" local="true">UNP Max.osd\UNP7base</Data>
+            <Data name="Vagina7base" target="Vagina" local="true">UNP Max.osd\Vagina7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="UNPUNPK" target="UNP" local="true">UNP Max.osd\UNPUNPK</Data>
+            <Data name="VaginaUNPK" target="Vagina" local="true">UNP Max.osd\VaginaUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="UNPVanilla Low" target="UNP" local="true">UNP Max.osd\UNPVanilla Low</Data>
+            <Data name="VaginaVanilla Low" target="Vagina" local="true">UNP Max.osd\VaginaVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="UNPVanilla High" target="UNP" local="true">UNP Max.osd\UNPVanilla High</Data>
+            <Data name="VaginaVanilla High" target="Vagina" local="true">UNP Max.osd\VaginaVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="UNPTouched by Dibella" target="UNP" local="true">UNP Max.osd\UNPTouched by Dibella</Data>
+            <Data name="VaginaTouched by Dibella" target="Vagina" local="true">UNP Max.osd\VaginaTouched by Dibella</Data>
         </Slider>
     </SliderSet>
     <SliderSet name="UNP Bikini">
@@ -798,41 +798,6 @@
         </Slider>
         <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Bikini.osd\UNPWristSeam</Data>
-        </Slider>
-        <Slider name="UNPR High" invert="false" small="0" big="0">
-            <Data name="UNPUNPR High" target="UNP" local="true">UNP Bikini.osd\UNPUNPR High</Data>
-            <Data name="BraUNPR High" target="Bra" local="true">UNP Bikini.osd\BraUNPR High</Data>
-            <Data name="PantyUNPR High" target="Panty" local="true">UNP Bikini.osd\PantyUNPR High</Data>
-        </Slider>
-        <Slider name="UNPR To CBBE2" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To CBBE2" target="UNP" local="true">UNP Bikini.osd\UNPUNPR To CBBE2</Data>
-            <Data name="BraUNPR To CBBE2" target="Bra" local="true">UNP Bikini.osd\BraUNPR To CBBE2</Data>
-            <Data name="PantyUNPR To CBBE2" target="Panty" local="true">UNP Bikini.osd\PantyUNPR To CBBE2</Data>
-        </Slider>
-        <Slider name="UNPR to UUNP" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UUNP" target="UNP" local="true">UNP Bikini.osd\UNPUNPR to UUNP</Data>
-            <Data name="BraUNPR to UUNP" target="Bra" local="true">UNP Bikini.osd\BraUNPR to UUNP</Data>
-            <Data name="PantyUNPR to UUNP" target="Panty" local="true">UNP Bikini.osd\PantyUNPR to UUNP</Data>
-        </Slider>
-        <Slider name="UNPR To 7base" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To 7base" target="UNP" local="true">UNP Bikini.osd\UNPUNPR To 7base</Data>
-            <Data name="BraUNPR To 7base" target="Bra" local="true">UNP Bikini.osd\BraUNPR To 7base</Data>
-            <Data name="PantyUNPR To 7base" target="Panty" local="true">UNP Bikini.osd\PantyUNPR To 7base</Data>
-        </Slider>
-        <Slider name="UNPR to UNPK" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UNPK" target="UNP" local="true">UNP Bikini.osd\UNPUNPR to UNPK</Data>
-            <Data name="BraUNPR to UNPK" target="Bra" local="true">UNP Bikini.osd\BraUNPR to UNPK</Data>
-            <Data name="PantyUNPR to UNPK" target="Panty" local="true">UNP Bikini.osd\PantyUNPR to UNPK</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaLow" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaLow" target="UNP" local="true">UNP Bikini.osd\UNPUNPR to VanillaLow</Data>
-            <Data name="BraUNPR to VanillaLow" target="Bra" local="true">UNP Bikini.osd\BraUNPR to VanillaLow</Data>
-            <Data name="PantyUNPR to VanillaLow" target="Panty" local="true">UNP Bikini.osd\PantyUNPR to VanillaLow</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaHigh" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaHigh" target="UNP" local="true">UNP Bikini.osd\UNPUNPR to VanillaHigh</Data>
-            <Data name="BraUNPR to VanillaHigh" target="Bra" local="true">UNP Bikini.osd\BraUNPR to VanillaHigh</Data>
-            <Data name="PantyUNPR to VanillaHigh" target="Panty" local="true">UNP Bikini.osd\PantyUNPR to VanillaHigh</Data>
         </Slider>
         <Slider name="Apple Cheeks" invert="false" small="0" big="0">
             <Data name="UNPApple Cheeks" target="UNP" local="true">UNP Bikini.osd\UNPApple Cheeks</Data>
@@ -884,6 +849,10 @@
             <Data name="BraBig Belly" target="Bra" local="true">UNP Bikini.osd\BraBig Belly</Data>
             <Data name="PantyBig Belly" target="Panty" local="true">UNP Bikini.osd\PantyBig Belly</Data>
         </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Bikini.osd\UNPFlat Belly</Data>
+            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Bikini.osd\PantyFlat Belly</Data>
+        </Slider>
         <Slider name="Big Booty" invert="false" small="0" big="0">
             <Data name="UNPBig Booty" target="UNP" local="true">UNP Bikini.osd\UNPBig Booty</Data>
             <Data name="BraBig Booty" target="Bra" local="true">UNP Bikini.osd\BraBig Booty</Data>
@@ -893,6 +862,10 @@
             <Data name="UNPBig Legs" target="UNP" local="true">UNP Bikini.osd\UNPBig Legs</Data>
             <Data name="BraBig Legs" target="Bra" local="true">UNP Bikini.osd\BraBig Legs</Data>
             <Data name="PantyBig Legs" target="Panty" local="true">UNP Bikini.osd\PantyBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Bikini.osd\UNPBigger Breasts</Data>
+            <Data name="BraBigger Breasts" target="Bra" local="true">UNP Bikini.osd\BraBigger Breasts</Data>
         </Slider>
         <Slider name="Breast Lift" invert="false" small="0" big="0">
             <Data name="UNPBreast Lift" target="UNP" local="true">UNP Bikini.osd\UNPBreast Lift</Data>
@@ -925,7 +898,6 @@
         </Slider>
         <Slider name="Chest Cavity" invert="false" small="0" big="0">
             <Data name="UNPChest Cavity" target="UNP" local="true">UNP Bikini.osd\UNPChest Cavity</Data>
-            <Data name="BraChest Cavity" target="Bra" local="true">UNP Bikini.osd\BraChest Cavity</Data>
         </Slider>
         <Slider name="Collar Bone" invert="false" small="0" big="0">
             <Data name="UNPCollar Bone" target="UNP" local="true">UNP Bikini.osd\UNPCollar Bone</Data>
@@ -1082,18 +1054,51 @@
             <Data name="UNPButt Down" target="UNP" local="true">UNP Bikini.osd\UNPButt Down</Data>
             <Data name="PantyButt Down" target="Panty" local="true">UNP Bikini.osd\PantyButt Down</Data>
         </Slider>
-        <Slider name="Flat Belly" invert="false" small="0" big="0">
-            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Bikini.osd\UNPFlat Belly</Data>
-            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Bikini.osd\PantyFlat Belly</Data>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="UNPUNPR High" target="UNP" local="true">UNP Bikini.osd\UNPUNPR High</Data>
+            <Data name="BraUNPR High" target="Bra" local="true">UNP Bikini.osd\BraUNPR High</Data>
+            <Data name="PantyUNPR High" target="Panty" local="true">UNP Bikini.osd\PantyUNPR High</Data>
         </Slider>
-        <Slider name="UNPR to TBD" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to TBD" target="UNP" local="true">UNP Bikini.osd\UNPUNPR to TBD</Data>
-            <Data name="BraUNPR to TBD" target="Bra" local="true">UNP Bikini.osd\BraUNPR to TBD</Data>
-            <Data name="PantyUNPR to TBD" target="Panty" local="true">UNP Bikini.osd\PantyUNPR to TBD</Data>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="UNPCBBE" target="UNP" local="true">UNP Bikini.osd\UNPCBBE</Data>
+            <Data name="BraCBBE" target="Bra" local="true">UNP Bikini.osd\BraCBBE</Data>
+            <Data name="PantyCBBE" target="Panty" local="true">UNP Bikini.osd\PantyCBBE</Data>
         </Slider>
-        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
-            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Bikini.osd\UNPBigger Breasts</Data>
-            <Data name="BraBigger Breasts" target="Bra" local="true">UNP Bikini.osd\BraBigger Breasts</Data>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="UNPUUNP" target="UNP" local="true">UNP Bikini.osd\UNPUUNP</Data>
+            <Data name="BraUUNP" target="Bra" local="true">UNP Bikini.osd\BraUUNP</Data>
+            <Data name="PantyUUNP" target="Panty" local="true">UNP Bikini.osd\PantyUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="UNP7base" target="UNP" local="true">UNP Bikini.osd\UNP7base</Data>
+            <Data name="Bra7base" target="Bra" local="true">UNP Bikini.osd\Bra7base</Data>
+            <Data name="Panty7base" target="Panty" local="true">UNP Bikini.osd\Panty7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="UNPUNPK" target="UNP" local="true">UNP Bikini.osd\UNPUNPK</Data>
+            <Data name="BraUNPK" target="Bra" local="true">UNP Bikini.osd\BraUNPK</Data>
+            <Data name="PantyUNPK" target="Panty" local="true">UNP Bikini.osd\PantyUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="UNPVanilla Low" target="UNP" local="true">UNP Bikini.osd\UNPVanilla Low</Data>
+            <Data name="BraVanilla Low" target="Bra" local="true">UNP Bikini.osd\BraVanilla Low</Data>
+            <Data name="PantyVanilla Low" target="Panty" local="true">UNP Bikini.osd\PantyVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="UNPVanilla High" target="UNP" local="true">UNP Bikini.osd\UNPVanilla High</Data>
+            <Data name="BraVanilla High" target="Bra" local="true">UNP Bikini.osd\BraVanilla High</Data>
+            <Data name="PantyVanilla High" target="Panty" local="true">UNP Bikini.osd\PantyVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="UNPTouched by Dibella" target="UNP" local="true">UNP Bikini.osd\UNPTouched by Dibella</Data>
+            <Data name="BraTouched by Dibella" target="Bra" local="true">UNP Bikini.osd\BraTouched by Dibella</Data>
+            <Data name="PantyTouched by Dibella" target="Panty" local="true">UNP Bikini.osd\PantyTouched by Dibella</Data>
+        </Slider>
+        <Slider name="Remove Bra" invert="false" small="0" big="0" zap="true">
+            <Data name="BraRemove Bra" target="Bra" local="true">UNP Bikini.osd\BraRemove Bra</Data>
+        </Slider>
+        <Slider name="Remove Panty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyRemove Panty" target="Panty" local="true">UNP Bikini.osd\PantyRemove Panty</Data>
         </Slider>
     </SliderSet>
     <SliderSet name="UNP Bikini HDT">
@@ -1113,41 +1118,6 @@
         </Slider>
         <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Bikini HDT.osd\UNPWristSeam</Data>
-        </Slider>
-        <Slider name="UNPR High" invert="false" small="0" big="0">
-            <Data name="UNPUNPR High" target="UNP" local="true">UNP Bikini HDT.osd\UNPUNPR High</Data>
-            <Data name="BraUNPR High" target="Bra" local="true">UNP Bikini HDT.osd\BraUNPR High</Data>
-            <Data name="PantyUNPR High" target="Panty" local="true">UNP Bikini HDT.osd\PantyUNPR High</Data>
-        </Slider>
-        <Slider name="UNPR To CBBE2" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To CBBE2" target="UNP" local="true">UNP Bikini HDT.osd\UNPUNPR To CBBE2</Data>
-            <Data name="BraUNPR To CBBE2" target="Bra" local="true">UNP Bikini HDT.osd\BraUNPR To CBBE2</Data>
-            <Data name="PantyUNPR To CBBE2" target="Panty" local="true">UNP Bikini HDT.osd\PantyUNPR To CBBE2</Data>
-        </Slider>
-        <Slider name="UNPR to UUNP" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UUNP" target="UNP" local="true">UNP Bikini HDT.osd\UNPUNPR to UUNP</Data>
-            <Data name="BraUNPR to UUNP" target="Bra" local="true">UNP Bikini HDT.osd\BraUNPR to UUNP</Data>
-            <Data name="PantyUNPR to UUNP" target="Panty" local="true">UNP Bikini HDT.osd\PantyUNPR to UUNP</Data>
-        </Slider>
-        <Slider name="UNPR To 7base" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To 7base" target="UNP" local="true">UNP Bikini HDT.osd\UNPUNPR To 7base</Data>
-            <Data name="BraUNPR To 7base" target="Bra" local="true">UNP Bikini HDT.osd\BraUNPR To 7base</Data>
-            <Data name="PantyUNPR To 7base" target="Panty" local="true">UNP Bikini HDT.osd\PantyUNPR To 7base</Data>
-        </Slider>
-        <Slider name="UNPR to UNPK" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UNPK" target="UNP" local="true">UNP Bikini HDT.osd\UNPUNPR to UNPK</Data>
-            <Data name="BraUNPR to UNPK" target="Bra" local="true">UNP Bikini HDT.osd\BraUNPR to UNPK</Data>
-            <Data name="PantyUNPR to UNPK" target="Panty" local="true">UNP Bikini HDT.osd\PantyUNPR to UNPK</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaLow" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaLow" target="UNP" local="true">UNP Bikini HDT.osd\UNPUNPR to VanillaLow</Data>
-            <Data name="BraUNPR to VanillaLow" target="Bra" local="true">UNP Bikini HDT.osd\BraUNPR to VanillaLow</Data>
-            <Data name="PantyUNPR to VanillaLow" target="Panty" local="true">UNP Bikini HDT.osd\PantyUNPR to VanillaLow</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaHigh" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaHigh" target="UNP" local="true">UNP Bikini HDT.osd\UNPUNPR to VanillaHigh</Data>
-            <Data name="BraUNPR to VanillaHigh" target="Bra" local="true">UNP Bikini HDT.osd\BraUNPR to VanillaHigh</Data>
-            <Data name="PantyUNPR to VanillaHigh" target="Panty" local="true">UNP Bikini HDT.osd\PantyUNPR to VanillaHigh</Data>
         </Slider>
         <Slider name="Apple Cheeks" invert="false" small="0" big="0">
             <Data name="UNPApple Cheeks" target="UNP" local="true">UNP Bikini HDT.osd\UNPApple Cheeks</Data>
@@ -1199,6 +1169,10 @@
             <Data name="BraBig Belly" target="Bra" local="true">UNP Bikini HDT.osd\BraBig Belly</Data>
             <Data name="PantyBig Belly" target="Panty" local="true">UNP Bikini HDT.osd\PantyBig Belly</Data>
         </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Bikini HDT.osd\UNPFlat Belly</Data>
+            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Bikini HDT.osd\PantyFlat Belly</Data>
+        </Slider>
         <Slider name="Big Booty" invert="false" small="0" big="0">
             <Data name="UNPBig Booty" target="UNP" local="true">UNP Bikini HDT.osd\UNPBig Booty</Data>
             <Data name="BraBig Booty" target="Bra" local="true">UNP Bikini HDT.osd\BraBig Booty</Data>
@@ -1208,6 +1182,10 @@
             <Data name="UNPBig Legs" target="UNP" local="true">UNP Bikini HDT.osd\UNPBig Legs</Data>
             <Data name="BraBig Legs" target="Bra" local="true">UNP Bikini HDT.osd\BraBig Legs</Data>
             <Data name="PantyBig Legs" target="Panty" local="true">UNP Bikini HDT.osd\PantyBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Bikini HDT.osd\UNPBigger Breasts</Data>
+            <Data name="BraBigger Breasts" target="Bra" local="true">UNP Bikini HDT.osd\BraBigger Breasts</Data>
         </Slider>
         <Slider name="Breast Lift" invert="false" small="0" big="0">
             <Data name="UNPBreast Lift" target="UNP" local="true">UNP Bikini HDT.osd\UNPBreast Lift</Data>
@@ -1240,7 +1218,6 @@
         </Slider>
         <Slider name="Chest Cavity" invert="false" small="0" big="0">
             <Data name="UNPChest Cavity" target="UNP" local="true">UNP Bikini HDT.osd\UNPChest Cavity</Data>
-            <Data name="BraChest Cavity" target="Bra" local="true">UNP Bikini HDT.osd\BraChest Cavity</Data>
         </Slider>
         <Slider name="Collar Bone" invert="false" small="0" big="0">
             <Data name="UNPCollar Bone" target="UNP" local="true">UNP Bikini HDT.osd\UNPCollar Bone</Data>
@@ -1397,18 +1374,51 @@
             <Data name="UNPButt Down" target="UNP" local="true">UNP Bikini HDT.osd\UNPButt Down</Data>
             <Data name="PantyButt Down" target="Panty" local="true">UNP Bikini HDT.osd\PantyButt Down</Data>
         </Slider>
-        <Slider name="Flat Belly" invert="false" small="0" big="0">
-            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Bikini HDT.osd\UNPFlat Belly</Data>
-            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Bikini HDT.osd\PantyFlat Belly</Data>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="UNPUNPR High" target="UNP" local="true">UNP Bikini HDT.osd\UNPUNPR High</Data>
+            <Data name="BraUNPR High" target="Bra" local="true">UNP Bikini HDT.osd\BraUNPR High</Data>
+            <Data name="PantyUNPR High" target="Panty" local="true">UNP Bikini HDT.osd\PantyUNPR High</Data>
         </Slider>
-        <Slider name="UNPR to TBD" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to TBD" target="UNP" local="true">UNP Bikini HDT.osd\UNPUNPR to TBD</Data>
-            <Data name="BraUNPR to TBD" target="Bra" local="true">UNP Bikini HDT.osd\BraUNPR to TBD</Data>
-            <Data name="PantyUNPR to TBD" target="Panty" local="true">UNP Bikini HDT.osd\PantyUNPR to TBD</Data>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="UNPCBBE" target="UNP" local="true">UNP Bikini HDT.osd\UNPCBBE</Data>
+            <Data name="BraCBBE" target="Bra" local="true">UNP Bikini HDT.osd\BraCBBE</Data>
+            <Data name="PantyCBBE" target="Panty" local="true">UNP Bikini HDT.osd\PantyCBBE</Data>
         </Slider>
-        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
-            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Bikini HDT.osd\UNPBigger Breasts</Data>
-            <Data name="BraBigger Breasts" target="Bra" local="true">UNP Bikini HDT.osd\BraBigger Breasts</Data>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="UNPUUNP" target="UNP" local="true">UNP Bikini HDT.osd\UNPUUNP</Data>
+            <Data name="BraUUNP" target="Bra" local="true">UNP Bikini HDT.osd\BraUUNP</Data>
+            <Data name="PantyUUNP" target="Panty" local="true">UNP Bikini HDT.osd\PantyUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="UNP7base" target="UNP" local="true">UNP Bikini HDT.osd\UNP7base</Data>
+            <Data name="Bra7base" target="Bra" local="true">UNP Bikini HDT.osd\Bra7base</Data>
+            <Data name="Panty7base" target="Panty" local="true">UNP Bikini HDT.osd\Panty7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="UNPUNPK" target="UNP" local="true">UNP Bikini HDT.osd\UNPUNPK</Data>
+            <Data name="BraUNPK" target="Bra" local="true">UNP Bikini HDT.osd\BraUNPK</Data>
+            <Data name="PantyUNPK" target="Panty" local="true">UNP Bikini HDT.osd\PantyUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="UNPVanilla Low" target="UNP" local="true">UNP Bikini HDT.osd\UNPVanilla Low</Data>
+            <Data name="BraVanilla Low" target="Bra" local="true">UNP Bikini HDT.osd\BraVanilla Low</Data>
+            <Data name="PantyVanilla Low" target="Panty" local="true">UNP Bikini HDT.osd\PantyVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="UNPVanilla High" target="UNP" local="true">UNP Bikini HDT.osd\UNPVanilla High</Data>
+            <Data name="BraVanilla High" target="Bra" local="true">UNP Bikini HDT.osd\BraVanilla High</Data>
+            <Data name="PantyVanilla High" target="Panty" local="true">UNP Bikini HDT.osd\PantyVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="UNPTouched by Dibella" target="UNP" local="true">UNP Bikini HDT.osd\UNPTouched by Dibella</Data>
+            <Data name="BraTouched by Dibella" target="Bra" local="true">UNP Bikini HDT.osd\BraTouched by Dibella</Data>
+            <Data name="PantyTouched by Dibella" target="Panty" local="true">UNP Bikini HDT.osd\PantyTouched by Dibella</Data>
+        </Slider>
+        <Slider name="Remove Bra" invert="false" small="0" big="0" zap="true">
+            <Data name="BraRemove Bra" target="Bra" local="true">UNP Bikini HDT.osd\BraRemove Bra</Data>
+        </Slider>
+        <Slider name="Remove Panty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyRemove Panty" target="Panty" local="true">UNP Bikini HDT.osd\PantyRemove Panty</Data>
         </Slider>
     </SliderSet>
     <SliderSet name="UNP Lingerie">
@@ -1428,41 +1438,6 @@
         </Slider>
         <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Lingerie.osd\UNPWristSeam</Data>
-        </Slider>
-        <Slider name="UNPR High" invert="false" small="0" big="0">
-            <Data name="UNPUNPR High" target="UNP" local="true">UNP Lingerie.osd\UNPUNPR High</Data>
-            <Data name="Laced BraUNPR High" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUNPR High</Data>
-            <Data name="PantyUNPR High" target="Panty" local="true">UNP Lingerie.osd\PantyUNPR High</Data>
-        </Slider>
-        <Slider name="UNPR To CBBE2" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To CBBE2" target="UNP" local="true">UNP Lingerie.osd\UNPUNPR To CBBE2</Data>
-            <Data name="Laced BraUNPR To CBBE2" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUNPR To CBBE2</Data>
-            <Data name="PantyUNPR To CBBE2" target="Panty" local="true">UNP Lingerie.osd\PantyUNPR To CBBE2</Data>
-        </Slider>
-        <Slider name="UNPR to UUNP" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UUNP" target="UNP" local="true">UNP Lingerie.osd\UNPUNPR to UUNP</Data>
-            <Data name="Laced BraUNPR to UUNP" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUNPR to UUNP</Data>
-            <Data name="PantyUNPR to UUNP" target="Panty" local="true">UNP Lingerie.osd\PantyUNPR to UUNP</Data>
-        </Slider>
-        <Slider name="UNPR To 7base" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To 7base" target="UNP" local="true">UNP Lingerie.osd\UNPUNPR To 7base</Data>
-            <Data name="Laced BraUNPR To 7base" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUNPR To 7base</Data>
-            <Data name="PantyUNPR To 7base" target="Panty" local="true">UNP Lingerie.osd\PantyUNPR To 7base</Data>
-        </Slider>
-        <Slider name="UNPR to UNPK" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UNPK" target="UNP" local="true">UNP Lingerie.osd\UNPUNPR to UNPK</Data>
-            <Data name="Laced BraUNPR to UNPK" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUNPR to UNPK</Data>
-            <Data name="PantyUNPR to UNPK" target="Panty" local="true">UNP Lingerie.osd\PantyUNPR to UNPK</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaLow" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaLow" target="UNP" local="true">UNP Lingerie.osd\UNPUNPR to VanillaLow</Data>
-            <Data name="Laced BraUNPR to VanillaLow" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUNPR to VanillaLow</Data>
-            <Data name="PantyUNPR to VanillaLow" target="Panty" local="true">UNP Lingerie.osd\PantyUNPR to VanillaLow</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaHigh" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaHigh" target="UNP" local="true">UNP Lingerie.osd\UNPUNPR to VanillaHigh</Data>
-            <Data name="Laced BraUNPR to VanillaHigh" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUNPR to VanillaHigh</Data>
-            <Data name="PantyUNPR to VanillaHigh" target="Panty" local="true">UNP Lingerie.osd\PantyUNPR to VanillaHigh</Data>
         </Slider>
         <Slider name="Apple Cheeks" invert="false" small="0" big="0">
             <Data name="UNPApple Cheeks" target="UNP" local="true">UNP Lingerie.osd\UNPApple Cheeks</Data>
@@ -1514,6 +1489,11 @@
             <Data name="Laced BraBig Belly" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraBig Belly</Data>
             <Data name="PantyBig Belly" target="Panty" local="true">UNP Lingerie.osd\PantyBig Belly</Data>
         </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Lingerie.osd\UNPFlat Belly</Data>
+            <Data name="Laced BraFlat Belly" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraFlat Belly</Data>
+            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Lingerie.osd\PantyFlat Belly</Data>
+        </Slider>
         <Slider name="Big Booty" invert="false" small="0" big="0">
             <Data name="UNPBig Booty" target="UNP" local="true">UNP Lingerie.osd\UNPBig Booty</Data>
             <Data name="Laced BraBig Booty" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraBig Booty</Data>
@@ -1523,6 +1503,10 @@
             <Data name="UNPBig Legs" target="UNP" local="true">UNP Lingerie.osd\UNPBig Legs</Data>
             <Data name="Laced BraBig Legs" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraBig Legs</Data>
             <Data name="PantyBig Legs" target="Panty" local="true">UNP Lingerie.osd\PantyBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Lingerie.osd\UNPBigger Breasts</Data>
+            <Data name="Laced BraBigger Breasts" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraBigger Breasts</Data>
         </Slider>
         <Slider name="Breast Lift" invert="false" small="0" big="0">
             <Data name="UNPBreast Lift" target="UNP" local="true">UNP Lingerie.osd\UNPBreast Lift</Data>
@@ -1714,19 +1698,51 @@
             <Data name="UNPButt Down" target="UNP" local="true">UNP Lingerie.osd\UNPButt Down</Data>
             <Data name="PantyButt Down" target="Panty" local="true">UNP Lingerie.osd\PantyButt Down</Data>
         </Slider>
-        <Slider name="Flat Belly" invert="false" small="0" big="0">
-            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Lingerie.osd\UNPFlat Belly</Data>
-            <Data name="Laced BraFlat Belly" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraFlat Belly</Data>
-            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Lingerie.osd\PantyFlat Belly</Data>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="UNPUNPR High" target="UNP" local="true">UNP Lingerie.osd\UNPUNPR High</Data>
+            <Data name="Laced BraUNPR High" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUNPR High</Data>
+            <Data name="PantyUNPR High" target="Panty" local="true">UNP Lingerie.osd\PantyUNPR High</Data>
         </Slider>
-        <Slider name="UNPR to TBD" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to TBD" target="UNP" local="true">UNP Lingerie.osd\UNPUNPR to TBD</Data>
-            <Data name="Laced BraUNPR to TBD" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUNPR to TBD</Data>
-            <Data name="PantyUNPR to TBD" target="Panty" local="true">UNP Lingerie.osd\PantyUNPR to TBD</Data>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="UNPCBBE" target="UNP" local="true">UNP Lingerie.osd\UNPCBBE</Data>
+            <Data name="Laced BraCBBE" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraCBBE</Data>
+            <Data name="PantyCBBE" target="Panty" local="true">UNP Lingerie.osd\PantyCBBE</Data>
         </Slider>
-        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
-            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Lingerie.osd\UNPBigger Breasts</Data>
-            <Data name="Laced BraBigger Breasts" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraBigger Breasts</Data>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="UNPUUNP" target="UNP" local="true">UNP Lingerie.osd\UNPUUNP</Data>
+            <Data name="Laced BraUUNP" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUUNP</Data>
+            <Data name="PantyUUNP" target="Panty" local="true">UNP Lingerie.osd\PantyUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="UNP7base" target="UNP" local="true">UNP Lingerie.osd\UNP7base</Data>
+            <Data name="Laced Bra7base" target="Laced Bra" local="true">UNP Lingerie.osd\Laced Bra7base</Data>
+            <Data name="Panty7base" target="Panty" local="true">UNP Lingerie.osd\Panty7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="UNPUNPK" target="UNP" local="true">UNP Lingerie.osd\UNPUNPK</Data>
+            <Data name="Laced BraUNPK" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraUNPK</Data>
+            <Data name="PantyUNPK" target="Panty" local="true">UNP Lingerie.osd\PantyUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="UNPVanilla Low" target="UNP" local="true">UNP Lingerie.osd\UNPVanilla Low</Data>
+            <Data name="Laced BraVanilla Low" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraVanilla Low</Data>
+            <Data name="PantyVanilla Low" target="Panty" local="true">UNP Lingerie.osd\PantyVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="UNPVanilla High" target="UNP" local="true">UNP Lingerie.osd\UNPVanilla High</Data>
+            <Data name="Laced BraVanilla High" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraVanilla High</Data>
+            <Data name="PantyVanilla High" target="Panty" local="true">UNP Lingerie.osd\PantyVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="UNPTouched by Dibella" target="UNP" local="true">UNP Lingerie.osd\UNPTouched by Dibella</Data>
+            <Data name="Laced BraTouched by Dibella" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraTouched by Dibella</Data>
+            <Data name="PantyTouched by Dibella" target="Panty" local="true">UNP Lingerie.osd\PantyTouched by Dibella</Data>
+        </Slider>
+        <Slider name="Remove Bra" invert="false" small="0" big="0" zap="true">
+            <Data name="Laced BraRemove Bra" target="Laced Bra" local="true">UNP Lingerie.osd\Laced BraRemove Bra</Data>
+        </Slider>
+        <Slider name="Remove Panty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyRemove Panty" target="Panty" local="true">UNP Lingerie.osd\PantyRemove Panty</Data>
         </Slider>
     </SliderSet>
     <SliderSet name="UNP Lingerie HDT">
@@ -1746,41 +1762,6 @@
         </Slider>
         <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Lingerie HDT.osd\UNPWristSeam</Data>
-        </Slider>
-        <Slider name="UNPR High" invert="false" small="0" big="0">
-            <Data name="UNPUNPR High" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUNPR High</Data>
-            <Data name="Laced BraUNPR High" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUNPR High</Data>
-            <Data name="PantyUNPR High" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUNPR High</Data>
-        </Slider>
-        <Slider name="UNPR To CBBE2" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To CBBE2" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUNPR To CBBE2</Data>
-            <Data name="Laced BraUNPR To CBBE2" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUNPR To CBBE2</Data>
-            <Data name="PantyUNPR To CBBE2" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUNPR To CBBE2</Data>
-        </Slider>
-        <Slider name="UNPR to UUNP" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UUNP" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUNPR to UUNP</Data>
-            <Data name="Laced BraUNPR to UUNP" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUNPR to UUNP</Data>
-            <Data name="PantyUNPR to UUNP" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUNPR to UUNP</Data>
-        </Slider>
-        <Slider name="UNPR To 7base" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To 7base" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUNPR To 7base</Data>
-            <Data name="Laced BraUNPR To 7base" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUNPR To 7base</Data>
-            <Data name="PantyUNPR To 7base" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUNPR To 7base</Data>
-        </Slider>
-        <Slider name="UNPR to UNPK" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UNPK" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUNPR to UNPK</Data>
-            <Data name="Laced BraUNPR to UNPK" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUNPR to UNPK</Data>
-            <Data name="PantyUNPR to UNPK" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUNPR to UNPK</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaLow" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaLow" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUNPR to VanillaLow</Data>
-            <Data name="Laced BraUNPR to VanillaLow" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUNPR to VanillaLow</Data>
-            <Data name="PantyUNPR to VanillaLow" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUNPR to VanillaLow</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaHigh" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaHigh" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUNPR to VanillaHigh</Data>
-            <Data name="Laced BraUNPR to VanillaHigh" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUNPR to VanillaHigh</Data>
-            <Data name="PantyUNPR to VanillaHigh" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUNPR to VanillaHigh</Data>
         </Slider>
         <Slider name="Apple Cheeks" invert="false" small="0" big="0">
             <Data name="UNPApple Cheeks" target="UNP" local="true">UNP Lingerie HDT.osd\UNPApple Cheeks</Data>
@@ -1832,6 +1813,11 @@
             <Data name="Laced BraBig Belly" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraBig Belly</Data>
             <Data name="PantyBig Belly" target="Panty" local="true">UNP Lingerie HDT.osd\PantyBig Belly</Data>
         </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Lingerie HDT.osd\UNPFlat Belly</Data>
+            <Data name="Laced BraFlat Belly" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraFlat Belly</Data>
+            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Lingerie HDT.osd\PantyFlat Belly</Data>
+        </Slider>
         <Slider name="Big Booty" invert="false" small="0" big="0">
             <Data name="UNPBig Booty" target="UNP" local="true">UNP Lingerie HDT.osd\UNPBig Booty</Data>
             <Data name="Laced BraBig Booty" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraBig Booty</Data>
@@ -1841,6 +1827,10 @@
             <Data name="UNPBig Legs" target="UNP" local="true">UNP Lingerie HDT.osd\UNPBig Legs</Data>
             <Data name="Laced BraBig Legs" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraBig Legs</Data>
             <Data name="PantyBig Legs" target="Panty" local="true">UNP Lingerie HDT.osd\PantyBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Lingerie HDT.osd\UNPBigger Breasts</Data>
+            <Data name="Laced BraBigger Breasts" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraBigger Breasts</Data>
         </Slider>
         <Slider name="Breast Lift" invert="false" small="0" big="0">
             <Data name="UNPBreast Lift" target="UNP" local="true">UNP Lingerie HDT.osd\UNPBreast Lift</Data>
@@ -2032,19 +2022,51 @@
             <Data name="UNPButt Down" target="UNP" local="true">UNP Lingerie HDT.osd\UNPButt Down</Data>
             <Data name="PantyButt Down" target="Panty" local="true">UNP Lingerie HDT.osd\PantyButt Down</Data>
         </Slider>
-        <Slider name="Flat Belly" invert="false" small="0" big="0">
-            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Lingerie HDT.osd\UNPFlat Belly</Data>
-            <Data name="Laced BraFlat Belly" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraFlat Belly</Data>
-            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Lingerie HDT.osd\PantyFlat Belly</Data>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="UNPUNPR High" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUNPR High</Data>
+            <Data name="Laced BraUNPR High" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUNPR High</Data>
+            <Data name="PantyUNPR High" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUNPR High</Data>
         </Slider>
-        <Slider name="UNPR to TBD" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to TBD" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUNPR to TBD</Data>
-            <Data name="Laced BraUNPR to TBD" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUNPR to TBD</Data>
-            <Data name="PantyUNPR to TBD" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUNPR to TBD</Data>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="UNPCBBE" target="UNP" local="true">UNP Lingerie HDT.osd\UNPCBBE</Data>
+            <Data name="Laced BraCBBE" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraCBBE</Data>
+            <Data name="PantyCBBE" target="Panty" local="true">UNP Lingerie HDT.osd\PantyCBBE</Data>
         </Slider>
-        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
-            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Lingerie HDT.osd\UNPBigger Breasts</Data>
-            <Data name="Laced BraBigger Breasts" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraBigger Breasts</Data>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="UNPUUNP" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUUNP</Data>
+            <Data name="Laced BraUUNP" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUUNP</Data>
+            <Data name="PantyUUNP" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="UNP7base" target="UNP" local="true">UNP Lingerie HDT.osd\UNP7base</Data>
+            <Data name="Laced Bra7base" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced Bra7base</Data>
+            <Data name="Panty7base" target="Panty" local="true">UNP Lingerie HDT.osd\Panty7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="UNPUNPK" target="UNP" local="true">UNP Lingerie HDT.osd\UNPUNPK</Data>
+            <Data name="Laced BraUNPK" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraUNPK</Data>
+            <Data name="PantyUNPK" target="Panty" local="true">UNP Lingerie HDT.osd\PantyUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="UNPVanilla Low" target="UNP" local="true">UNP Lingerie HDT.osd\UNPVanilla Low</Data>
+            <Data name="Laced BraVanilla Low" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraVanilla Low</Data>
+            <Data name="PantyVanilla Low" target="Panty" local="true">UNP Lingerie HDT.osd\PantyVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="UNPVanilla High" target="UNP" local="true">UNP Lingerie HDT.osd\UNPVanilla High</Data>
+            <Data name="Laced BraVanilla High" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraVanilla High</Data>
+            <Data name="PantyVanilla High" target="Panty" local="true">UNP Lingerie HDT.osd\PantyVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="UNPTouched by Dibella" target="UNP" local="true">UNP Lingerie HDT.osd\UNPTouched by Dibella</Data>
+            <Data name="Laced BraTouched by Dibella" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraTouched by Dibella</Data>
+            <Data name="PantyTouched by Dibella" target="Panty" local="true">UNP Lingerie HDT.osd\PantyTouched by Dibella</Data>
+        </Slider>
+        <Slider name="Remove Bra" invert="false" small="0" big="0" zap="true">
+            <Data name="Laced BraRemove Bra" target="Laced Bra" local="true">UNP Lingerie HDT.osd\Laced BraRemove Bra</Data>
+        </Slider>
+        <Slider name="Remove Panty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyRemove Panty" target="Panty" local="true">UNP Lingerie HDT.osd\PantyRemove Panty</Data>
         </Slider>
     </SliderSet>
     <SliderSet name="UNP Vanilla">
@@ -2064,41 +2086,6 @@
         </Slider>
         <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Vanilla.osd\UNPWristSeam</Data>
-        </Slider>
-        <Slider name="UNPR High" invert="false" small="0" big="0">
-            <Data name="UNPUNPR High" target="UNP" local="true">UNP Vanilla.osd\UNPUNPR High</Data>
-            <Data name="BraUNPR High" target="Bra" local="true">UNP Vanilla.osd\BraUNPR High</Data>
-            <Data name="PantyUNPR High" target="Panty" local="true">UNP Vanilla.osd\PantyUNPR High</Data>
-        </Slider>
-        <Slider name="UNPR To CBBE2" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To CBBE2" target="UNP" local="true">UNP Vanilla.osd\UNPUNPR To CBBE2</Data>
-            <Data name="BraUNPR To CBBE2" target="Bra" local="true">UNP Vanilla.osd\BraUNPR To CBBE2</Data>
-            <Data name="PantyUNPR To CBBE2" target="Panty" local="true">UNP Vanilla.osd\PantyUNPR To CBBE2</Data>
-        </Slider>
-        <Slider name="UNPR to UUNP" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UUNP" target="UNP" local="true">UNP Vanilla.osd\UNPUNPR to UUNP</Data>
-            <Data name="BraUNPR to UUNP" target="Bra" local="true">UNP Vanilla.osd\BraUNPR to UUNP</Data>
-            <Data name="PantyUNPR to UUNP" target="Panty" local="true">UNP Vanilla.osd\PantyUNPR to UUNP</Data>
-        </Slider>
-        <Slider name="UNPR To 7base" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To 7base" target="UNP" local="true">UNP Vanilla.osd\UNPUNPR To 7base</Data>
-            <Data name="BraUNPR To 7base" target="Bra" local="true">UNP Vanilla.osd\BraUNPR To 7base</Data>
-            <Data name="PantyUNPR To 7base" target="Panty" local="true">UNP Vanilla.osd\PantyUNPR To 7base</Data>
-        </Slider>
-        <Slider name="UNPR to UNPK" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UNPK" target="UNP" local="true">UNP Vanilla.osd\UNPUNPR to UNPK</Data>
-            <Data name="BraUNPR to UNPK" target="Bra" local="true">UNP Vanilla.osd\BraUNPR to UNPK</Data>
-            <Data name="PantyUNPR to UNPK" target="Panty" local="true">UNP Vanilla.osd\PantyUNPR to UNPK</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaLow" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaLow" target="UNP" local="true">UNP Vanilla.osd\UNPUNPR to VanillaLow</Data>
-            <Data name="BraUNPR to VanillaLow" target="Bra" local="true">UNP Vanilla.osd\BraUNPR to VanillaLow</Data>
-            <Data name="PantyUNPR to VanillaLow" target="Panty" local="true">UNP Vanilla.osd\PantyUNPR to VanillaLow</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaHigh" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaHigh" target="UNP" local="true">UNP Vanilla.osd\UNPUNPR to VanillaHigh</Data>
-            <Data name="BraUNPR to VanillaHigh" target="Bra" local="true">UNP Vanilla.osd\BraUNPR to VanillaHigh</Data>
-            <Data name="PantyUNPR to VanillaHigh" target="Panty" local="true">UNP Vanilla.osd\PantyUNPR to VanillaHigh</Data>
         </Slider>
         <Slider name="Apple Cheeks" invert="false" small="0" big="0">
             <Data name="UNPApple Cheeks" target="UNP" local="true">UNP Vanilla.osd\UNPApple Cheeks</Data>
@@ -2150,6 +2137,10 @@
             <Data name="BraBig Belly" target="Bra" local="true">UNP Vanilla.osd\BraBig Belly</Data>
             <Data name="PantyBig Belly" target="Panty" local="true">UNP Vanilla.osd\PantyBig Belly</Data>
         </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Vanilla.osd\UNPFlat Belly</Data>
+            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Vanilla.osd\PantyFlat Belly</Data>
+        </Slider>
         <Slider name="Big Booty" invert="false" small="0" big="0">
             <Data name="UNPBig Booty" target="UNP" local="true">UNP Vanilla.osd\UNPBig Booty</Data>
             <Data name="BraBig Booty" target="Bra" local="true">UNP Vanilla.osd\BraBig Booty</Data>
@@ -2159,6 +2150,10 @@
             <Data name="UNPBig Legs" target="UNP" local="true">UNP Vanilla.osd\UNPBig Legs</Data>
             <Data name="BraBig Legs" target="Bra" local="true">UNP Vanilla.osd\BraBig Legs</Data>
             <Data name="PantyBig Legs" target="Panty" local="true">UNP Vanilla.osd\PantyBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Vanilla.osd\UNPBigger Breasts</Data>
+            <Data name="BraBigger Breasts" target="Bra" local="true">UNP Vanilla.osd\BraBigger Breasts</Data>
         </Slider>
         <Slider name="Breast Lift" invert="false" small="0" big="0">
             <Data name="UNPBreast Lift" target="UNP" local="true">UNP Vanilla.osd\UNPBreast Lift</Data>
@@ -2351,18 +2346,51 @@
             <Data name="UNPButt Down" target="UNP" local="true">UNP Vanilla.osd\UNPButt Down</Data>
             <Data name="PantyButt Down" target="Panty" local="true">UNP Vanilla.osd\PantyButt Down</Data>
         </Slider>
-        <Slider name="Flat Belly" invert="false" small="0" big="0">
-            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Vanilla.osd\UNPFlat Belly</Data>
-            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Vanilla.osd\PantyFlat Belly</Data>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="UNPUNPR High" target="UNP" local="true">UNP Vanilla.osd\UNPUNPR High</Data>
+            <Data name="BraUNPR High" target="Bra" local="true">UNP Vanilla.osd\BraUNPR High</Data>
+            <Data name="PantyUNPR High" target="Panty" local="true">UNP Vanilla.osd\PantyUNPR High</Data>
         </Slider>
-        <Slider name="UNPR to TBD" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to TBD" target="UNP" local="true">UNP Vanilla.osd\UNPUNPR to TBD</Data>
-            <Data name="BraUNPR to TBD" target="Bra" local="true">UNP Vanilla.osd\BraUNPR to TBD</Data>
-            <Data name="PantyUNPR to TBD" target="Panty" local="true">UNP Vanilla.osd\PantyUNPR to TBD</Data>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="UNPCBBE" target="UNP" local="true">UNP Vanilla.osd\UNPCBBE</Data>
+            <Data name="BraCBBE" target="Bra" local="true">UNP Vanilla.osd\BraCBBE</Data>
+            <Data name="PantyCBBE" target="Panty" local="true">UNP Vanilla.osd\PantyCBBE</Data>
         </Slider>
-        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
-            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Vanilla.osd\UNPBigger Breasts</Data>
-            <Data name="BraBigger Breasts" target="Bra" local="true">UNP Vanilla.osd\BraBigger Breasts</Data>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="UNPUUNP" target="UNP" local="true">UNP Vanilla.osd\UNPUUNP</Data>
+            <Data name="BraUUNP" target="Bra" local="true">UNP Vanilla.osd\BraUUNP</Data>
+            <Data name="PantyUUNP" target="Panty" local="true">UNP Vanilla.osd\PantyUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="UNP7base" target="UNP" local="true">UNP Vanilla.osd\UNP7base</Data>
+            <Data name="Bra7base" target="Bra" local="true">UNP Vanilla.osd\Bra7base</Data>
+            <Data name="Panty7base" target="Panty" local="true">UNP Vanilla.osd\Panty7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="UNPUNPK" target="UNP" local="true">UNP Vanilla.osd\UNPUNPK</Data>
+            <Data name="BraUNPK" target="Bra" local="true">UNP Vanilla.osd\BraUNPK</Data>
+            <Data name="PantyUNPK" target="Panty" local="true">UNP Vanilla.osd\PantyUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="UNPVanilla Low" target="UNP" local="true">UNP Vanilla.osd\UNPVanilla Low</Data>
+            <Data name="BraVanilla Low" target="Bra" local="true">UNP Vanilla.osd\BraVanilla Low</Data>
+            <Data name="PantyVanilla Low" target="Panty" local="true">UNP Vanilla.osd\PantyVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="UNPVanilla High" target="UNP" local="true">UNP Vanilla.osd\UNPVanilla High</Data>
+            <Data name="BraVanilla High" target="Bra" local="true">UNP Vanilla.osd\BraVanilla High</Data>
+            <Data name="PantyVanilla High" target="Panty" local="true">UNP Vanilla.osd\PantyVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="UNPTouched by Dibella" target="UNP" local="true">UNP Vanilla.osd\UNPTouched by Dibella</Data>
+            <Data name="BraTouched by Dibella" target="Bra" local="true">UNP Vanilla.osd\BraTouched by Dibella</Data>
+            <Data name="PantyTouched by Dibella" target="Panty" local="true">UNP Vanilla.osd\PantyTouched by Dibella</Data>
+        </Slider>
+        <Slider name="Remove Bra" invert="false" small="0" big="0" zap="true">
+            <Data name="BraRemove Bra" target="Bra" local="true">UNP Vanilla.osd\BraRemove Bra</Data>
+        </Slider>
+        <Slider name="Remove Panty" invert="false" small="0" big="0" zap="true">
+            <Data name="PantyRemove Panty" target="Panty" local="true">UNP Vanilla.osd\PantyRemove Panty</Data>
         </Slider>
     </SliderSet>
     <SliderSet name="UNP Vanilla HDT">
@@ -2382,41 +2410,6 @@
         </Slider>
         <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
             <Data name="UNPWristSeam" target="UNP" local="true">UNP Vanilla HDT.osd\UNPWristSeam</Data>
-        </Slider>
-        <Slider name="UNPR High" invert="false" small="0" big="0">
-            <Data name="UNPUNPR High" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUNPR High</Data>
-            <Data name="BraUNPR High" target="Bra" local="true">UNP Vanilla HDT.osd\BraUNPR High</Data>
-            <Data name="PantyUNPR High" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUNPR High</Data>
-        </Slider>
-        <Slider name="UNPR To CBBE2" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To CBBE2" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUNPR To CBBE2</Data>
-            <Data name="BraUNPR To CBBE2" target="Bra" local="true">UNP Vanilla HDT.osd\BraUNPR To CBBE2</Data>
-            <Data name="PantyUNPR To CBBE2" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUNPR To CBBE2</Data>
-        </Slider>
-        <Slider name="UNPR to UUNP" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UUNP" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUNPR to UUNP</Data>
-            <Data name="BraUNPR to UUNP" target="Bra" local="true">UNP Vanilla HDT.osd\BraUNPR to UUNP</Data>
-            <Data name="PantyUNPR to UUNP" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUNPR to UUNP</Data>
-        </Slider>
-        <Slider name="UNPR To 7base" invert="false" small="0" big="0">
-            <Data name="UNPUNPR To 7base" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUNPR To 7base</Data>
-            <Data name="BraUNPR To 7base" target="Bra" local="true">UNP Vanilla HDT.osd\BraUNPR To 7base</Data>
-            <Data name="PantyUNPR To 7base" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUNPR To 7base</Data>
-        </Slider>
-        <Slider name="UNPR to UNPK" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to UNPK" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUNPR to UNPK</Data>
-            <Data name="BraUNPR to UNPK" target="Bra" local="true">UNP Vanilla HDT.osd\BraUNPR to UNPK</Data>
-            <Data name="PantyUNPR to UNPK" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUNPR to UNPK</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaLow" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaLow" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUNPR to VanillaLow</Data>
-            <Data name="BraUNPR to VanillaLow" target="Bra" local="true">UNP Vanilla HDT.osd\BraUNPR to VanillaLow</Data>
-            <Data name="PantyUNPR to VanillaLow" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUNPR to VanillaLow</Data>
-        </Slider>
-        <Slider name="UNPR to VanillaHigh" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to VanillaHigh" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUNPR to VanillaHigh</Data>
-            <Data name="BraUNPR to VanillaHigh" target="Bra" local="true">UNP Vanilla HDT.osd\BraUNPR to VanillaHigh</Data>
-            <Data name="PantyUNPR to VanillaHigh" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUNPR to VanillaHigh</Data>
         </Slider>
         <Slider name="Apple Cheeks" invert="false" small="0" big="0">
             <Data name="UNPApple Cheeks" target="UNP" local="true">UNP Vanilla HDT.osd\UNPApple Cheeks</Data>
@@ -2468,6 +2461,10 @@
             <Data name="BraBig Belly" target="Bra" local="true">UNP Vanilla HDT.osd\BraBig Belly</Data>
             <Data name="PantyBig Belly" target="Panty" local="true">UNP Vanilla HDT.osd\PantyBig Belly</Data>
         </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Vanilla HDT.osd\UNPFlat Belly</Data>
+            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Vanilla HDT.osd\PantyFlat Belly</Data>
+        </Slider>
         <Slider name="Big Booty" invert="false" small="0" big="0">
             <Data name="UNPBig Booty" target="UNP" local="true">UNP Vanilla HDT.osd\UNPBig Booty</Data>
             <Data name="BraBig Booty" target="Bra" local="true">UNP Vanilla HDT.osd\BraBig Booty</Data>
@@ -2477,6 +2474,10 @@
             <Data name="UNPBig Legs" target="UNP" local="true">UNP Vanilla HDT.osd\UNPBig Legs</Data>
             <Data name="BraBig Legs" target="Bra" local="true">UNP Vanilla HDT.osd\BraBig Legs</Data>
             <Data name="PantyBig Legs" target="Panty" local="true">UNP Vanilla HDT.osd\PantyBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Vanilla HDT.osd\UNPBigger Breasts</Data>
+            <Data name="BraBigger Breasts" target="Bra" local="true">UNP Vanilla HDT.osd\BraBigger Breasts</Data>
         </Slider>
         <Slider name="Breast Lift" invert="false" small="0" big="0">
             <Data name="UNPBreast Lift" target="UNP" local="true">UNP Vanilla HDT.osd\UNPBreast Lift</Data>
@@ -2669,18 +2670,45 @@
             <Data name="UNPButt Down" target="UNP" local="true">UNP Vanilla HDT.osd\UNPButt Down</Data>
             <Data name="PantyButt Down" target="Panty" local="true">UNP Vanilla HDT.osd\PantyButt Down</Data>
         </Slider>
-        <Slider name="Flat Belly" invert="false" small="0" big="0">
-            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Vanilla HDT.osd\UNPFlat Belly</Data>
-            <Data name="PantyFlat Belly" target="Panty" local="true">UNP Vanilla HDT.osd\PantyFlat Belly</Data>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="UNPUNPR High" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUNPR High</Data>
+            <Data name="BraUNPR High" target="Bra" local="true">UNP Vanilla HDT.osd\BraUNPR High</Data>
+            <Data name="PantyUNPR High" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUNPR High</Data>
         </Slider>
-        <Slider name="UNPR to TBD" invert="false" small="0" big="0">
-            <Data name="UNPUNPR to TBD" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUNPR to TBD</Data>
-            <Data name="BraUNPR to TBD" target="Bra" local="true">UNP Vanilla HDT.osd\BraUNPR to TBD</Data>
-            <Data name="PantyUNPR to TBD" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUNPR to TBD</Data>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="UNPCBBE" target="UNP" local="true">UNP Vanilla HDT.osd\UNPCBBE</Data>
+            <Data name="BraCBBE" target="Bra" local="true">UNP Vanilla HDT.osd\BraCBBE</Data>
+            <Data name="PantyCBBE" target="Panty" local="true">UNP Vanilla HDT.osd\PantyCBBE</Data>
         </Slider>
-        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
-            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Vanilla HDT.osd\UNPBigger Breasts</Data>
-            <Data name="BraBigger Breasts" target="Bra" local="true">UNP Vanilla HDT.osd\BraBigger Breasts</Data>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="UNPUUNP" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUUNP</Data>
+            <Data name="BraUUNP" target="Bra" local="true">UNP Vanilla HDT.osd\BraUUNP</Data>
+            <Data name="PantyUUNP" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="UNP7base" target="UNP" local="true">UNP Vanilla HDT.osd\UNP7base</Data>
+            <Data name="Bra7base" target="Bra" local="true">UNP Vanilla HDT.osd\Bra7base</Data>
+            <Data name="Panty7base" target="Panty" local="true">UNP Vanilla HDT.osd\Panty7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="UNPUNPK" target="UNP" local="true">UNP Vanilla HDT.osd\UNPUNPK</Data>
+            <Data name="BraUNPK" target="Bra" local="true">UNP Vanilla HDT.osd\BraUNPK</Data>
+            <Data name="PantyUNPK" target="Panty" local="true">UNP Vanilla HDT.osd\PantyUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="UNPVanilla Low" target="UNP" local="true">UNP Vanilla HDT.osd\UNPVanilla Low</Data>
+            <Data name="BraVanilla Low" target="Bra" local="true">UNP Vanilla HDT.osd\BraVanilla Low</Data>
+            <Data name="PantyVanilla Low" target="Panty" local="true">UNP Vanilla HDT.osd\PantyVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="UNPVanilla High" target="UNP" local="true">UNP Vanilla HDT.osd\UNPVanilla High</Data>
+            <Data name="BraVanilla High" target="Bra" local="true">UNP Vanilla HDT.osd\BraVanilla High</Data>
+            <Data name="PantyVanilla High" target="Panty" local="true">UNP Vanilla HDT.osd\PantyVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="UNPTouched by Dibella" target="UNP" local="true">UNP Vanilla HDT.osd\UNPTouched by Dibella</Data>
+            <Data name="BraTouched by Dibella" target="Bra" local="true">UNP Vanilla HDT.osd\BraTouched by Dibella</Data>
+            <Data name="PantyTouched by Dibella" target="Panty" local="true">UNP Vanilla HDT.osd\PantyTouched by Dibella</Data>
         </Slider>
     </SliderSet>
 </SliderSetInfo>
