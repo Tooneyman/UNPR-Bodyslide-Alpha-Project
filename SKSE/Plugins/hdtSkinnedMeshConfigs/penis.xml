@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<system>			
+	<per-triangle-shape name="penis">
+    <margin>0.1</margin>
+	<penetration>0.1</penetration>
+	<shared>public</shared>
+      <tag>jb</tag>
+      <no-collide-with-tag>jb</no-collide-with-tag> 
+	  <no-collide-with-tag>Genitals</no-collide-with-tag>	
+	  <no-collide-with-tag>Lbreast</no-collide-with-tag>
+	  <no-collide-with-tag>Rbreast</no-collide-with-tag>
+	  <no-collide-with-tag>armscoll</no-collide-with-tag>
+	  <no-collide-with-tag>hands</no-collide-with-tag>
+	  <no-collide-with-tag>MaleHands</no-collide-with-tag>
+	  <no-collide-with-tag>MaleBody</no-collide-with-tag>
+	  <no-collide-with-tag>collisionThigh</no-collide-with-tag>		
+	 </per-triangle-shape>
+</system>

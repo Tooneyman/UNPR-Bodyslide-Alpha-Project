@@ -1,0 +1,267 @@
+# This is Collision Config file for CBPC
+#
+# Designed to work with CBBE Curvy
+#
+##############################################################################
+# Extra Options
+##############################################################################
+[ExtraOptions]
+BellyBulge=0.3    #This is the multiplier for the new special belly bulge for vagina penetration. Higher values would cause a bigger lump on the belly. 0 would disable this special setting.
+BellyBulgePosition=0  #This is the multiplier for the new special belly bulge for vagina penetration position. Negative values cause a lower position lump.
+BellyBulgeMax=6.0        #This is the max value for clamping bellybulge amount
+BellyBulgePosLowest=-12.0     #This is the lowest value for clamping belly bulge vertical position
+BellyBulgeNodes=Genitals01,CDPeniscol 2,COcol 3,DDcol 2,FDcol 2,GDcol 2,RDcol Base,SCDcol 2,SkeeverDcol 02,TDcol 3,WWDcol 4,GScol 3,HScol 3,NPcol 10,NPcol 11,NPcol 12,NPcol 13,NPcol 14,NPBcol 10,NPBcol 11,NPBcol 12,NPBcol 13,NPBcol 14
+#These are the node names to match for belly bulge collision with pelvis node. You can add more than one separated with ","
+##############################################################################
+# Node Lists
+##############################################################################
+
+[PlayerNodes] #These are predefined, so adding wouldn't have any effect. But if you remove them, you won't get collision for that node.
+LeftWandNode
+RightWandNode
+
+[AffectedNodes] #Define nodes here first, then set the collision spheres down
+NPC L Breast
+NPC R Breast
+NPC L Butt
+NPC R Butt
+HDT Belly
+NPC Pelvis [Pelv]
+L Breast01
+L Breast02
+L Breast03
+R Breast01
+R Breast02
+R Breast03
+
+
+[ColliderNodes] #Define nodes here first, then set the collision spheres down
+CME L UpperArm [LUar]
+CME R UpperArm [RUar]
+CME L Forearm [LLar]
+CME R Forearm [RLar]
+CME L Hand [LHnd]
+CME R Hand [RHnd]
+
+CME L Finger00 [LF00]
+CME L Finger01 [LF01]
+NPC L Finger02 [LF02]
+CME L Finger10 [LF10]
+CME L Finger11 [LF11]
+NPC L Finger12 [LF12]
+CME L Finger20 [LF20]
+CME L Finger21 [LF21]
+NPC L Finger22 [LF22]
+CME L Finger30 [LF30]
+CME L Finger31 [LF31]
+NPC L Finger32 [LF32]
+CME L Finger40 [LF40]
+CME L Finger41 [LF41]
+NPC L Finger42 [LF42]
+
+CME R Finger00 [RF00]
+CME R Finger01 [RF01]
+NPC R Finger02 [RF02]
+CME R Finger10 [RF10]
+CME R Finger11 [RF11]
+NPC R Finger12 [RF12]
+CME R Finger20 [RF20]
+CME R Finger21 [RF21]
+NPC R Finger22 [RF22]
+CME R Finger30 [RF30]
+CME R Finger31 [RF31]
+NPC R Finger32 [RF32]
+CME R Finger40 [RF40]
+CME R Finger41 [RF41]
+NPC R Finger42 [RF42]
+
+CME Genitals01 [Gen01]
+CME Genitals02 [Gen02]
+CME Genitals03 [Gen03]
+CME Genitals04 [Gen04]
+CME Genitals05 [Gen05]
+NPC Genitals06 [Gen06]
+
+
+##############################################################################
+# Collision spheres
+#
+# Multiple lines are supported.
+# You can include 0 and 100 weight settings for npcs separating them with |
+# Format is: x0,y0,z0,radius0 | x100,y100,z100,radius100
+#
+##############################################################################
+# Affected Nodes
+
+[NPC L Breast]
+0.0,4.0,-4.0,3.4 | 0.0,5.0,-4.5,4.0
+
+[NPC R Breast]
+0.0,4.0,-4.0,3.4 | 0.0,5.0,-4.5,4.0
+
+[NPC L Butt]
+-2.5,3.8,-3.0,7 | -2.5,3.8,-3.0,7
+[NPC R Butt]
+2.5,3.8,-3.0,7 | 2.5,3.8,-3.0,7
+
+[HDT Belly]
+0,2.0,0,2.8 | 0,2.0,0,2.8
+
+[NPC Pelvis [Pelv]] #For Female Genitals
+0.0,0.0,-1.0,3 | 0.0,0.0,-1.0,3
+
+[L Breast01]
+-1.0,4.0,-1.5,4.0 | -1.0,4.0,-1.5,4.5
+[L Breast02]
+0.5,0,-1.0,4.0 | 0.5,0,-1.0,4.5
+[L Breast03]
+1.5,-3.0,-2.0,4.0 | 1.5,-3.0,-2.0,4.5
+[R Breast01]
+1.0,4.0,-1.5,4.0 | 1.0,4.0,-1.5,4.5
+[R Breast02]
+-0.5,0,-1.0,4.0 | -0.5,0,-1.0,4.5
+[R Breast03]
+-1.5,-3.0,-2.0,4.0 | -1.5,-3.0,-2.0,4.5
+
+##############################################################################
+# Collider Nodes
+
+[LeftWandNode]
+0,-6.0,-2.0,3.0
+
+[RightWandNode]
+0,-6.0,-2.0,3.0
+
+[CME L UpperArm [LUar]]
+#-1.5,0.5,8,3 | -1.5,0.5,8,3
+-1,0.5,12,3 | -1,0.5,12,3
+-0.5,0.5,16,2.5 | -0.5,0.5,16,2.5
+[CME R UpperArm [RUar]]
+#1.5,0.5,8,3 | 1.5,0.5,8,3
+1,0.5,12,3 | 1,0.5,12,3
+0.5,0.5,16,2.5 | 0.5,0.5,16,2.5
+[CME L Forearm [LLar]]
+0.5,1.5,0,2.5 | 0.5,1.5,0,2.5
+0.5,1,4,2.5 | 0.5,1,4,2.5
+0.5,1,8,2.5 | 0.5,1,8,2.5
+-0.5,1,12,1.5 | -0.5,1,12,1.5
+-0.5,1,16,2 | -0.5,1,16,2
+[CME R Forearm [RLar]]
+-0.5,1.5,0,2.5 | -0.5,1.5,0,2.5
+-0.5,1,4,2.5 | -0.5,1,4,2.5
+-0.5,1,8,2.5 | -0.5,1,8,2.5
+0.5,1,12,1.5 | 0.5,1,12,1.5
+0.5,1,16,2 | 0.5,1,16,2
+[CME L Hand [LHnd]]
+-3,-1.5,5,2 | -3,-1.5,5,2
+-1.5,0,6,1 | -1.5,0,6,1
+1.5,-1,5,1 | 1.5,-1,5,1
+[CME R Hand [RHnd]]
+3,-1.5,5,2 | 3,-1.5,5,2
+1.5,0,6,1 | 1.5,0,6,1
+-1.5,-1,5,1 | -1.5,-1,5,1
+
+[CME L Finger00 [LF00]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,1.37,0.5 | 0,0,1.37,0.5
+[CME L Finger01 [LF01]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,1.2,0.5 | 0,0,1.2,0.5
+[NPC L Finger02 [LF02]]
+0,0,2.41,0.5 | 0,0,2.41,0.5
+0,0,3.41,0.5 | 0,0,3.41,0.5
+[CME L Finger10 [LF10]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,1.05,0.5 | 0,0,1.05,0.5
+[CME L Finger11 [LF11]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,0.8,0.5 | 0,0,0.8,0.5
+[NPC L Finger12 [LF12]]
+0,0,1.61,0.5 | 0,0,1.61,0.5
+0,0,2.61,0.5 | 0,0,2.61,0.5
+[CME L Finger20 [LF20]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,1.3,0.5 | 0,0,1.3,0.5
+[CME L Finger21 [LF21]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,0.85,0.5 | 0,0,0.85,0.5
+[NPC L Finger22 [LF22]]
+0,0,1.69,0.5 | 0,0,1.69,0.5
+0,0,2.69,0.5 | 0,0,2.69,0.5
+[CME L Finger30 [LF30]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,1.13,0.5 | 0,0,1.13,0.5
+[CME L Finger31 [LF31]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,0.85,0.5 | 0,0,0.85,0.5
+[NPC L Finger32 [LF32]]
+0,0,1.71,0.5 | 0,0,1.71,0.5
+0,0,2.71,0.5 | 0,0,2.71,0.5
+[CME L Finger40 [LF40]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,0.75,0.5 | 0,0,0.75,0.5
+[CME L Finger41 [LF41]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,0.75,0.5 | 0,0,0.75,0.5
+[NPC L Finger42 [LF42]]
+0,0,1.52,0.5 | 0,0,1.52,0.5
+0,0,2.52,0.5 | 0,0,2.52,0.5
+
+[CME R Finger00 [RF00]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,1.37,0.5 | 0,0,1.37,0.5
+[CME R Finger01 [RF01]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,1.2,0.5 | 0,0,1.2,0.5
+[NPC R Finger02 [RF02]]
+0,0,2.41,0.5 | 0,0,2.41,0.5
+0,0,3.41,0.5 | 0,0,3.41,0.5
+[CME R Finger10 [RF10]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,1.05,0.5 | 0,0,1.05,0.5
+[CME R Finger11 [RF11]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,0.8,0.5 | 0,0,0.8,0.5
+[NPC R Finger12 [RF12]]
+0,0,1.61,0.5 | 0,0,1.61,0.5
+0,0,2.61,0.5 | 0,0,2.61,0.5
+[CME R Finger20 [RF20]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,1.3,0.5 | 0,0,1.3,0.5
+[CME R Finger21 [RF21]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,0.85,0.5 | 0,0,0.85,0.5
+[NPC R Finger22 [RF22]]
+0,0,1.69,0.5 | 0,0,1.69,0.5
+0,0,2.69,0.5 | 0,0,2.69,0.5
+[CME R Finger30 [RF30]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,1.13,0.5 | 0,0,1.13,0.5
+[CME R Finger31 [RF31]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,0.85,0.5 | 0,0,0.85,0.5
+[NPC R Finger32 [RF32]]
+0,0,1.71,0.5 | 0,0,1.71,0.5
+0,0,2.71,0.5 | 0,0,2.71,0.5
+[CME R Finger40 [RF40]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,0.75,0.5 | 0,0,0.75,0.5
+[CME R Finger41 [RF41]]
+0,0,0,0.5 | 0,0,0,0.5
+0,0,0.75,0.5 | 0,0,0.75,0.5
+[NPC R Finger42 [RF42]]
+0,0,1.52,0.5 | 0,0,1.52,0.5
+0,0,2.52,0.5 | 0,0,2.52,0.5
+
+[CME Genitals01 [Gen01]]
+0,0,0,4 | 0,0,0,4
+[CME Genitals02 [Gen02]]
+0,0,0,2 | 0,0,0,2
+[CME Genitals03 [Gen03]]
+0,0,0,2 | 0,0,0,2
+[CME Genitals04 [Gen04]]
+0,0,0,2 | 0,0,0,2
+[CME Genitals05 [Gen05]]
+0,0,0,2 | 0,0,0,2
+[NPC Genitals06 [Gen06]]
+0,1.03,0,2.5 | 0,1.03,0,2.5

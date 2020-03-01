@@ -1,0 +1,43 @@
+##############################################################################
+# Performance and other Settings
+##############################################################################
+[Settings]
+TuningMode = 0       #Set this to 1 to enable tuning mode which will load the collision config files every 120 frames(Set it to 2 for every 240 frames etc.) to allow in game config modification
+SkipFrames = 0       #May be increased to 1 or 2(or more) for more performance if your cpu is not up to it. But animation becomes less smooth. And bugs may appear at higher values.
+SkipFramesPelvis = 0 #Not used that much and doesn't need too much calculation to be smooth. You can decrease this for smoother animation.
+GridSize = 25        #This is for spatial hashing algorithm. Don't change this unless you know what you are doing!!!! Lower values cause shakes or collision to fail. Higher values would increase accuracy if there are larger node spheres defined. But performance would decrease a lot.
+AdjacencyValue = 5   #For spatial hashing algorithm to increase accuracy to detect adjacent partitions. Higher values may increase accuracy, but decrease performance a little.
+ExtraRaces=Boar,Bear,CaveBear,Chaurus,Chaurusflyer,Deathhound,Deer,Dog,Dragon Priest,Dragon Race,Draugr,Dwarven Spider,Falmer,Fox,Frostbite Spider,Gargoyle,Ghost Giant,Giant,Goat,Horker,Horse,Mammoth,Netch,Riekling,Sabre Cat,Skeever,Skeleton,Snow Bear,Snow Troll,Snowy Sabre Cat,Spectral Dragon,Troll,Vampire Lord,Werewolf,Wolf
+#You can enter extra races here to be supported, separated by a comma(,). By default all playable or talkable races are supported.
+MalePhysics=0        #You can set this to 1 to enable Male body physics.
+Logging = 0	     #Set this to 1 to enable logging. Path is this: My Documents\My Games\Skyrim VR or Special Edition\SKSE\CBPC-Collision.log This decreases performance, so don't play with this on. Also the file generated will be huge if played long.
+
+##############################################################################
+# Configuration Map for Bouncy Nodes
+#
+# You can add bounce to any node with this map and set the bounce configuration in a CBPConfig*****.txt file
+#
+# Affected nodes in CBPCollisionConfig files must be defined here first too.
+#
+##############################################################################
+[ConfigMap]                   
+NPC L Breast=Breast
+NPC R Breast=Breast
+NPC L Butt=Butt
+NPC R Butt=Butt
+HDT Belly=Belly
+NPC Pelvis [Pelv]
+
+L Breast01=ExtraBreast1
+L Breast02=ExtraBreast2
+L Breast03=ExtraBreast3
+R Breast01=ExtraBreast1
+R Breast02=ExtraBreast2
+R Breast03=ExtraBreast3
+
+NPC L FrontThigh=FrontThigh
+NPC R FrontThigh=FrontThigh
+NPC L RearThigh=RearThigh
+NPC R RearThigh=RearThigh
+NPC L RearCalf [LrClf]=RearCalf
+NPC R RearCalf [RrClf]=RearCalf
