@@ -2711,4 +2711,215 @@
             <Data name="PantyTouched by Dibella" target="Panty" local="true">UNP Vanilla HDT.osd\PantyTouched by Dibella</Data>
         </Slider>
     </SliderSet>
+    <SliderSet name="UNP Outfit">
+        <DataFolder>UNPR</DataFolder>
+        <SourceFile>UNP Outfit.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets</OutputPath>
+        <OutputFile GenWeights="true">femalebody</OutputFile>
+        <Shape target="UNP" DataFolder="UNPR">UNP</Shape>
+        <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
+            <Data name="UNPNeckSeam" target="UNP" local="true">UNP Outfit.osd\UNPNeckSeam</Data>
+        </Slider>
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
+            <Data name="UNPAnkleSeam" target="UNP" local="true">UNP Outfit.osd\UNPAnkleSeam</Data>
+        </Slider>
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
+            <Data name="UNPWristSeam" target="UNP" local="true">UNP Outfit.osd\UNPWristSeam</Data>
+        </Slider>
+        <Slider name="Apple Cheeks" invert="false" small="0" big="0">
+            <Data name="UNPApple Cheeks" target="UNP" local="true">UNP Outfit.osd\UNPApple Cheeks</Data>
+        </Slider>
+        <Slider name="Arm Growth" invert="false" small="0" big="0">
+            <Data name="UNPArm Growth" target="UNP" local="true">UNP Outfit.osd\UNPArm Growth</Data>
+        </Slider>
+        <Slider name="Arms Skinny" invert="false" small="0" big="0">
+            <Data name="UNPArms Skinny" target="UNP" local="true">UNP Outfit.osd\UNPArms Skinny</Data>
+        </Slider>
+        <Slider name="Back Tight" invert="false" small="0" big="0">
+            <Data name="UNPBack Tight" target="UNP" local="true">UNP Outfit.osd\UNPBack Tight</Data>
+        </Slider>
+        <Slider name="Belly Pregnancy" invert="false" small="0" big="0">
+            <Data name="UNPBelly Pregnancy" target="UNP" local="true">UNP Outfit.osd\UNPBelly Pregnancy</Data>
+        </Slider>
+        <Slider name="Belly Pup" invert="false" small="0" big="0">
+            <Data name="UNPBelly Pup" target="UNP" local="true">UNP Outfit.osd\UNPBelly Pup</Data>
+        </Slider>
+        <Slider name="Belly Sink" invert="false" small="0" big="0">
+            <Data name="UNPBelly Sink" target="UNP" local="true">UNP Outfit.osd\UNPBelly Sink</Data>
+        </Slider>
+        <Slider name="Belly Tight" invert="false" small="0" big="0">
+            <Data name="UNPBelly Tight" target="UNP" local="true">UNP Outfit.osd\UNPBelly Tight</Data>
+        </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="UNPFlat Belly" target="UNP" local="true">UNP Outfit.osd\UNPFlat Belly</Data>
+        </Slider>
+        <Slider name="Bicep Enlarged" invert="false" small="0" big="0">
+            <Data name="UNPBicep Enlarged" target="UNP" local="true">UNP Outfit.osd\UNPBicep Enlarged</Data>
+        </Slider>
+        <Slider name="Bicep Thin" invert="false" small="0" big="0">
+            <Data name="UNPBicep Thin" target="UNP" local="true">UNP Outfit.osd\UNPBicep Thin</Data>
+        </Slider>
+        <Slider name="Big Belly" invert="false" small="0" big="0">
+            <Data name="UNPBig Belly" target="UNP" local="true">UNP Outfit.osd\UNPBig Belly</Data>
+        </Slider>
+        <Slider name="Big Booty" invert="false" small="0" big="0">
+            <Data name="UNPBig Booty" target="UNP" local="true">UNP Outfit.osd\UNPBig Booty</Data>
+        </Slider>
+        <Slider name="Big Legs" invert="false" small="0" big="0">
+            <Data name="UNPBig Legs" target="UNP" local="true">UNP Outfit.osd\UNPBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="UNPBigger Breasts" target="UNP" local="true">UNP Outfit.osd\UNPBigger Breasts</Data>
+        </Slider>
+        <Slider name="Breast Lift" invert="false" small="0" big="0">
+            <Data name="UNPBreast Lift" target="UNP" local="true">UNP Outfit.osd\UNPBreast Lift</Data>
+        </Slider>
+        <Slider name="Breast Apart" invert="false" small="0" big="0">
+            <Data name="UNPBreast Apart" target="UNP" local="true">UNP Outfit.osd\UNPBreast Apart</Data>
+        </Slider>
+        <Slider name="Breasts Gravity" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Gravity" target="UNP" local="true">UNP Outfit.osd\UNPBreasts Gravity</Data>
+        </Slider>
+        <Slider name="Breasts Perky" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Perky" target="UNP" local="true">UNP Outfit.osd\UNPBreasts Perky</Data>
+        </Slider>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="UNPBreasts Pointy" target="UNP" local="true">UNP Outfit.osd\UNPBreasts Pointy</Data>
+        </Slider>
+        <Slider name="Breast Thick" invert="false" small="0" big="0">
+            <Data name="UNPBreast Thick" target="UNP" local="true">UNP Outfit.osd\UNPBreast Thick</Data>
+        </Slider>
+        <Slider name="Breast Together" invert="false" small="0" big="0">
+            <Data name="UNPBreast Together" target="UNP" local="true">UNP Outfit.osd\UNPBreast Together</Data>
+        </Slider>
+        <Slider name="Chest Cavity" invert="false" small="0" big="0">
+            <Data name="UNPChest Cavity" target="UNP" local="true">UNP Outfit.osd\UNPChest Cavity</Data>
+        </Slider>
+        <Slider name="Collar Bone" invert="false" small="0" big="0">
+            <Data name="UNPCollar Bone" target="UNP" local="true">UNP Outfit.osd\UNPCollar Bone</Data>
+        </Slider>
+        <Slider name="Cutie Booty" invert="false" small="0" big="0">
+            <Data name="UNPCutie Booty" target="UNP" local="true">UNP Outfit.osd\UNPCutie Booty</Data>
+        </Slider>
+        <Slider name="Forearms Bulge" invert="false" small="0" big="0">
+            <Data name="UNPForearms Bulge" target="UNP" local="true">UNP Outfit.osd\UNPForearms Bulge</Data>
+        </Slider>
+        <Slider name="Forearms Thin" invert="false" small="0" big="0">
+            <Data name="UNPForearms Thin" target="UNP" local="true">UNP Outfit.osd\UNPForearms Thin</Data>
+        </Slider>
+        <Slider name="Hips Curvy" invert="false" small="0" big="0">
+            <Data name="UNPHips Curvy" target="UNP" local="true">UNP Outfit.osd\UNPHips Curvy</Data>
+        </Slider>
+        <Slider name="Knee Height" invert="false" small="0" big="0">
+            <Data name="UNPKnee Height" target="UNP" local="true">UNP Outfit.osd\UNPKnee Height</Data>
+        </Slider>
+        <Slider name="Legs Thick" invert="false" small="0" big="0">
+            <Data name="UNPLegs Thick" target="UNP" local="true">UNP Outfit.osd\UNPLegs Thick</Data>
+        </Slider>
+        <Slider name="Legs Thin" invert="false" small="0" big="0">
+            <Data name="UNPLegs Thin" target="UNP" local="true">UNP Outfit.osd\UNPLegs Thin</Data>
+        </Slider>
+        <Slider name="Love Handles" invert="false" small="0" big="0">
+            <Data name="UNPLove Handles" target="UNP" local="true">UNP Outfit.osd\UNPLove Handles</Data>
+        </Slider>
+        <Slider name="Lower Bump" invert="false" small="0" big="0">
+            <Data name="UNPLower Bump" target="UNP" local="true">UNP Outfit.osd\UNPLower Bump</Data>
+        </Slider>
+        <Slider name="Neck Rise" invert="false" small="0" big="0">
+            <Data name="UNPNeck Rise" target="UNP" local="true">UNP Outfit.osd\UNPNeck Rise</Data>
+        </Slider>
+        <Slider name="Puffy Lower Lips" invert="false" small="0" big="0">
+            <Data name="UNPPuffy Lower Lips" target="UNP" local="true">UNP Outfit.osd\UNPPuffy Lower Lips</Data>
+        </Slider>
+        <Slider name="Ribs Slim" invert="false" small="0" big="0">
+            <Data name="UNPRibs Slim" target="UNP" local="true">UNP Outfit.osd\UNPRibs Slim</Data>
+        </Slider>
+        <Slider name="Ribs Thick" invert="false" small="0" big="0">
+            <Data name="UNPRibs Thick" target="UNP" local="true">UNP Outfit.osd\UNPRibs Thick</Data>
+        </Slider>
+        <Slider name="Round Booty" invert="false" small="0" big="0">
+            <Data name="UNPRound Booty" target="UNP" local="true">UNP Outfit.osd\UNPRound Booty</Data>
+        </Slider>
+        <Slider name="Shoulder Blades" invert="false" small="0" big="0">
+            <Data name="UNPShoulder Blades" target="UNP" local="true">UNP Outfit.osd\UNPShoulder Blades</Data>
+        </Slider>
+        <Slider name="Shoulder Minimize" invert="false" small="0" big="0">
+            <Data name="UNPShoulder Minimize" target="UNP" local="true">UNP Outfit.osd\UNPShoulder Minimize</Data>
+        </Slider>
+        <Slider name="Shoulders Stretch" invert="false" small="0" big="0">
+            <Data name="UNPShoulders Stretch" target="UNP" local="true">UNP Outfit.osd\UNPShoulders Stretch</Data>
+        </Slider>
+        <Slider name="Skinny Waist" invert="false" small="0" big="0">
+            <Data name="UNPSkinny Waist" target="UNP" local="true">UNP Outfit.osd\UNPSkinny Waist</Data>
+        </Slider>
+        <Slider name="Slim Torso" invert="false" small="0" big="0">
+            <Data name="UNPSlim Torso" target="UNP" local="true">UNP Outfit.osd\UNPSlim Torso</Data>
+        </Slider>
+        <Slider name="Thick Calves" invert="false" small="0" big="0">
+            <Data name="UNPThick Calves" target="UNP" local="true">UNP Outfit.osd\UNPThick Calves</Data>
+        </Slider>
+        <Slider name="Thick Knees" invert="false" small="0" big="0">
+            <Data name="UNPThick Knees" target="UNP" local="true">UNP Outfit.osd\UNPThick Knees</Data>
+        </Slider>
+        <Slider name="Thick Torso" invert="false" small="0" big="0">
+            <Data name="UNPThick Torso" target="UNP" local="true">UNP Outfit.osd\UNPThick Torso</Data>
+        </Slider>
+        <Slider name="Thin Calves" invert="false" small="0" big="0">
+            <Data name="UNPThin Calves" target="UNP" local="true">UNP Outfit.osd\UNPThin Calves</Data>
+        </Slider>
+        <Slider name="Tight Cheeks" invert="false" small="0" big="0">
+            <Data name="UNPTight Cheeks" target="UNP" local="true">UNP Outfit.osd\UNPTight Cheeks</Data>
+        </Slider>
+        <Slider name="Tiny Booty" invert="false" small="0" big="0">
+            <Data name="UNPTiny Booty" target="UNP" local="true">UNP Outfit.osd\UNPTiny Booty</Data>
+        </Slider>
+        <Slider name="Tricep Slim" invert="false" small="0" big="0">
+            <Data name="UNPTricep Slim" target="UNP" local="true">UNP Outfit.osd\UNPTricep Slim</Data>
+        </Slider>
+        <Slider name="Tricep Thick" invert="false" small="0" big="0">
+            <Data name="UNPTricep Thick" target="UNP" local="true">UNP Outfit.osd\UNPTricep Thick</Data>
+        </Slider>
+        <Slider name="Tummy Tuck" invert="false" small="0" big="0">
+            <Data name="UNPTummy Tuck" target="UNP" local="true">UNP Outfit.osd\UNPTummy Tuck</Data>
+        </Slider>
+        <Slider name="Arms Apart" invert="false" small="0" big="0">
+            <Data name="UNPArms Apart" target="UNP" local="true">UNP Outfit.osd\UNPArms Apart</Data>
+        </Slider>
+        <Slider name="Back Up" invert="false" small="0" big="0">
+            <Data name="UNPBack Up" target="UNP" local="true">UNP Outfit.osd\UNPBack Up</Data>
+        </Slider>
+        <Slider name="Back Down" invert="false" small="0" big="0">
+            <Data name="UNPBack Down" target="UNP" local="true">UNP Outfit.osd\UNPBack Down</Data>
+        </Slider>
+        <Slider name="Butt Up" invert="false" small="0" big="0">
+            <Data name="UNPButt Up" target="UNP" local="true">UNP Outfit.osd\UNPButt Up</Data>
+        </Slider>
+        <Slider name="Butt Down" invert="false" small="0" big="0">
+            <Data name="UNPButt Down" target="UNP" local="true">UNP Outfit.osd\UNPButt Down</Data>
+        </Slider>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="UNPUNPR High" target="UNP" local="true">UNP Outfit.osd\UNPUNPR High</Data>
+        </Slider>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="UNPCBBE" target="UNP" local="true">UNP Outfit.osd\UNPCBBE</Data>
+        </Slider>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="UNPUUNP" target="UNP" local="true">UNP Outfit.osd\UNPUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="UNP7base" target="UNP" local="true">UNP Outfit.osd\UNP7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="UNPUNPK" target="UNP" local="true">UNP Outfit.osd\UNPUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="UNPVanilla Low" target="UNP" local="true">UNP Outfit.osd\UNPVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="UNPVanilla High" target="UNP" local="true">UNP Outfit.osd\UNPVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="UNPTouched by Dibella" target="UNP" local="true">UNP Outfit.osd\UNPTouched by Dibella</Data>
+        </Slider>
+    </SliderSet>
 </SliderSetInfo>

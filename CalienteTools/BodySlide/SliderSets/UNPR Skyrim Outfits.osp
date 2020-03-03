@@ -1,0 +1,965 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="Dark Brotherhood">
+        <DataFolder>UNPR Outfits\Skyrim Outfits</DataFolder>
+        <SourceFile>Dark Brotherhood.nif</SourceFile>
+        <OutputPath>meshes\armor\dbarmor</OutputPath>
+        <OutputFile GenWeights="true">dbarmortorso_f</OutputFile>
+        <Shape target="Armor">Armor</Shape>
+        <Shape target="ArmorBelt">ArmorBelt</Shape>
+        <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
+            <Data name="ArmorNeckSeam" target="Armor" local="true">Dark Brotherhood.osd\ArmorNeckSeam</Data>
+        </Slider>
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
+            <Data name="ArmorAnkleSeam" target="Armor" local="true">Dark Brotherhood.osd\ArmorAnkleSeam</Data>
+            <Data name="ArmorBeltAnkleSeam" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltAnkleSeam</Data>
+        </Slider>
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
+            <Data name="ArmorWristSeam" target="Armor" local="true">Dark Brotherhood.osd\ArmorWristSeam</Data>
+            <Data name="ArmorBeltWristSeam" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltWristSeam</Data>
+        </Slider>
+        <Slider name="Apple Cheeks" invert="false" small="0" big="0">
+            <Data name="ArmorApple Cheeks" target="Armor" local="true">Dark Brotherhood.osd\ArmorApple Cheeks</Data>
+            <Data name="ArmorBeltApple Cheeks" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltApple Cheeks</Data>
+        </Slider>
+        <Slider name="Arm Growth" invert="false" small="0" big="0">
+            <Data name="ArmorArm Growth" target="Armor" local="true">Dark Brotherhood.osd\ArmorArm Growth</Data>
+            <Data name="ArmorBeltArm Growth" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltArm Growth</Data>
+        </Slider>
+        <Slider name="Arms Skinny" invert="false" small="0" big="0">
+            <Data name="ArmorArms Skinny" target="Armor" local="true">Dark Brotherhood.osd\ArmorArms Skinny</Data>
+            <Data name="ArmorBeltArms Skinny" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltArms Skinny</Data>
+        </Slider>
+        <Slider name="Back Tight" invert="false" small="0" big="0">
+            <Data name="ArmorBack Tight" target="Armor" local="true">Dark Brotherhood.osd\ArmorBack Tight</Data>
+            <Data name="ArmorBeltBack Tight" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBack Tight</Data>
+        </Slider>
+        <Slider name="Belly Pregnancy" invert="false" small="0" big="0">
+            <Data name="ArmorBelly Pregnancy" target="Armor" local="true">Dark Brotherhood.osd\ArmorBelly Pregnancy</Data>
+            <Data name="ArmorBeltBelly Pregnancy" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBelly Pregnancy</Data>
+        </Slider>
+        <Slider name="Belly Pup" invert="false" small="0" big="0">
+            <Data name="ArmorBelly Pup" target="Armor" local="true">Dark Brotherhood.osd\ArmorBelly Pup</Data>
+            <Data name="ArmorBeltBelly Pup" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBelly Pup</Data>
+        </Slider>
+        <Slider name="Belly Sink" invert="false" small="0" big="0">
+            <Data name="ArmorBelly Sink" target="Armor" local="true">Dark Brotherhood.osd\ArmorBelly Sink</Data>
+            <Data name="ArmorBeltBelly Sink" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBelly Sink</Data>
+        </Slider>
+        <Slider name="Belly Tight" invert="false" small="0" big="0">
+            <Data name="ArmorBelly Tight" target="Armor" local="true">Dark Brotherhood.osd\ArmorBelly Tight</Data>
+            <Data name="ArmorBeltBelly Tight" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBelly Tight</Data>
+        </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="ArmorFlat Belly" target="Armor" local="true">Dark Brotherhood.osd\ArmorFlat Belly</Data>
+        </Slider>
+        <Slider name="Bicep Enlarged" invert="false" small="0" big="0">
+            <Data name="ArmorBicep Enlarged" target="Armor" local="true">Dark Brotherhood.osd\ArmorBicep Enlarged</Data>
+            <Data name="ArmorBeltBicep Enlarged" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBicep Enlarged</Data>
+        </Slider>
+        <Slider name="Bicep Thin" invert="false" small="0" big="0">
+            <Data name="ArmorBicep Thin" target="Armor" local="true">Dark Brotherhood.osd\ArmorBicep Thin</Data>
+            <Data name="ArmorBeltBicep Thin" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBicep Thin</Data>
+        </Slider>
+        <Slider name="Big Belly" invert="false" small="0" big="0">
+            <Data name="ArmorBig Belly" target="Armor" local="true">Dark Brotherhood.osd\ArmorBig Belly</Data>
+            <Data name="ArmorBeltBig Belly" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBig Belly</Data>
+        </Slider>
+        <Slider name="Big Booty" invert="false" small="0" big="0">
+            <Data name="ArmorBig Booty" target="Armor" local="true">Dark Brotherhood.osd\ArmorBig Booty</Data>
+            <Data name="ArmorBeltBig Booty" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBig Booty</Data>
+        </Slider>
+        <Slider name="Big Legs" invert="false" small="0" big="0">
+            <Data name="ArmorBig Legs" target="Armor" local="true">Dark Brotherhood.osd\ArmorBig Legs</Data>
+            <Data name="ArmorBeltBig Legs" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="ArmorBigger Breasts" target="Armor" local="true">Dark Brotherhood.osd\ArmorBigger Breasts</Data>
+            <Data name="ArmorBeltBigger Breasts" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBigger Breasts</Data>
+        </Slider>
+        <Slider name="Breast Lift" invert="false" small="0" big="0">
+            <Data name="ArmorBreast Lift" target="Armor" local="true">Dark Brotherhood.osd\ArmorBreast Lift</Data>
+            <Data name="ArmorBeltBreast Lift" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBreast Lift</Data>
+        </Slider>
+        <Slider name="Breast Apart" invert="false" small="0" big="0">
+            <Data name="ArmorBreast Apart" target="Armor" local="true">Dark Brotherhood.osd\ArmorBreast Apart</Data>
+            <Data name="ArmorBeltBreast Apart" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBreast Apart</Data>
+        </Slider>
+        <Slider name="Breasts Gravity" invert="false" small="0" big="0">
+            <Data name="ArmorBreasts Gravity" target="Armor" local="true">Dark Brotherhood.osd\ArmorBreasts Gravity</Data>
+            <Data name="ArmorBeltBreasts Gravity" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBreasts Gravity</Data>
+        </Slider>
+        <Slider name="Breasts Perky" invert="false" small="0" big="0">
+            <Data name="ArmorBreasts Perky" target="Armor" local="true">Dark Brotherhood.osd\ArmorBreasts Perky</Data>
+            <Data name="ArmorBeltBreasts Perky" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBreasts Perky</Data>
+        </Slider>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="ArmorBreasts Pointy" target="Armor" local="true">Dark Brotherhood.osd\ArmorBreasts Pointy</Data>
+            <Data name="ArmorBeltBreasts Pointy" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBreasts Pointy</Data>
+        </Slider>
+        <Slider name="Breast Thick" invert="false" small="0" big="0">
+            <Data name="ArmorBreast Thick" target="Armor" local="true">Dark Brotherhood.osd\ArmorBreast Thick</Data>
+            <Data name="ArmorBeltBreast Thick" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBreast Thick</Data>
+        </Slider>
+        <Slider name="Breast Together" invert="false" small="0" big="0">
+            <Data name="ArmorBreast Together" target="Armor" local="true">Dark Brotherhood.osd\ArmorBreast Together</Data>
+            <Data name="ArmorBeltBreast Together" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBreast Together</Data>
+        </Slider>
+        <Slider name="Collar Bone" invert="false" small="0" big="0">
+            <Data name="ArmorCollar Bone" target="Armor" local="true">Dark Brotherhood.osd\ArmorCollar Bone</Data>
+            <Data name="ArmorBeltCollar Bone" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltCollar Bone</Data>
+        </Slider>
+        <Slider name="Cutie Booty" invert="false" small="0" big="0">
+            <Data name="ArmorCutie Booty" target="Armor" local="true">Dark Brotherhood.osd\ArmorCutie Booty</Data>
+            <Data name="ArmorBeltCutie Booty" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltCutie Booty</Data>
+        </Slider>
+        <Slider name="Forearms Bulge" invert="false" small="0" big="0">
+            <Data name="ArmorForearms Bulge" target="Armor" local="true">Dark Brotherhood.osd\ArmorForearms Bulge</Data>
+            <Data name="ArmorBeltForearms Bulge" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltForearms Bulge</Data>
+        </Slider>
+        <Slider name="Forearms Thin" invert="false" small="0" big="0">
+            <Data name="ArmorForearms Thin" target="Armor" local="true">Dark Brotherhood.osd\ArmorForearms Thin</Data>
+            <Data name="ArmorBeltForearms Thin" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltForearms Thin</Data>
+        </Slider>
+        <Slider name="Hips Curvy" invert="false" small="0" big="0">
+            <Data name="ArmorHips Curvy" target="Armor" local="true">Dark Brotherhood.osd\ArmorHips Curvy</Data>
+            <Data name="ArmorBeltHips Curvy" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltHips Curvy</Data>
+        </Slider>
+        <Slider name="Knee Height" invert="false" small="0" big="0">
+            <Data name="ArmorKnee Height" target="Armor" local="true">Dark Brotherhood.osd\ArmorKnee Height</Data>
+        </Slider>
+        <Slider name="Legs Thick" invert="false" small="0" big="0">
+            <Data name="ArmorLegs Thick" target="Armor" local="true">Dark Brotherhood.osd\ArmorLegs Thick</Data>
+            <Data name="ArmorBeltLegs Thick" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltLegs Thick</Data>
+        </Slider>
+        <Slider name="Legs Thin" invert="false" small="0" big="0">
+            <Data name="ArmorLegs Thin" target="Armor" local="true">Dark Brotherhood.osd\ArmorLegs Thin</Data>
+            <Data name="ArmorBeltLegs Thin" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltLegs Thin</Data>
+        </Slider>
+        <Slider name="Love Handles" invert="false" small="0" big="0">
+            <Data name="ArmorLove Handles" target="Armor" local="true">Dark Brotherhood.osd\ArmorLove Handles</Data>
+            <Data name="ArmorBeltLove Handles" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltLove Handles</Data>
+        </Slider>
+        <Slider name="Lower Bump" invert="false" small="0" big="0">
+            <Data name="ArmorLower Bump" target="Armor" local="true">Dark Brotherhood.osd\ArmorLower Bump</Data>
+            <Data name="ArmorBeltLower Bump" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltLower Bump</Data>
+        </Slider>
+        <Slider name="Neck Rise" invert="false" small="0" big="0">
+            <Data name="ArmorNeck Rise" target="Armor" local="true">Dark Brotherhood.osd\ArmorNeck Rise</Data>
+            <Data name="ArmorBeltNeck Rise" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltNeck Rise</Data>
+        </Slider>
+        <Slider name="Puffy Lower Lips" invert="false" small="0" big="0">
+            <Data name="ArmorPuffy Lower Lips" target="Armor" local="true">Dark Brotherhood.osd\ArmorPuffy Lower Lips</Data>
+            <Data name="ArmorBeltPuffy Lower Lips" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltPuffy Lower Lips</Data>
+        </Slider>
+        <Slider name="Ribs Slim" invert="false" small="0" big="0">
+            <Data name="ArmorRibs Slim" target="Armor" local="true">Dark Brotherhood.osd\ArmorRibs Slim</Data>
+            <Data name="ArmorBeltRibs Slim" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltRibs Slim</Data>
+        </Slider>
+        <Slider name="Ribs Thick" invert="false" small="0" big="0">
+            <Data name="ArmorRibs Thick" target="Armor" local="true">Dark Brotherhood.osd\ArmorRibs Thick</Data>
+            <Data name="ArmorBeltRibs Thick" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltRibs Thick</Data>
+        </Slider>
+        <Slider name="Round Booty" invert="false" small="0" big="0">
+            <Data name="ArmorRound Booty" target="Armor" local="true">Dark Brotherhood.osd\ArmorRound Booty</Data>
+            <Data name="ArmorBeltRound Booty" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltRound Booty</Data>
+        </Slider>
+        <Slider name="Shoulder Blades" invert="false" small="0" big="0">
+            <Data name="ArmorShoulder Blades" target="Armor" local="true">Dark Brotherhood.osd\ArmorShoulder Blades</Data>
+            <Data name="ArmorBeltShoulder Blades" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltShoulder Blades</Data>
+        </Slider>
+        <Slider name="Shoulder Minimize" invert="false" small="0" big="0">
+            <Data name="ArmorShoulder Minimize" target="Armor" local="true">Dark Brotherhood.osd\ArmorShoulder Minimize</Data>
+            <Data name="ArmorBeltShoulder Minimize" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltShoulder Minimize</Data>
+        </Slider>
+        <Slider name="Shoulders Stretch" invert="false" small="0" big="0">
+            <Data name="ArmorShoulders Stretch" target="Armor" local="true">Dark Brotherhood.osd\ArmorShoulders Stretch</Data>
+            <Data name="ArmorBeltShoulders Stretch" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltShoulders Stretch</Data>
+        </Slider>
+        <Slider name="Skinny Waist" invert="false" small="0" big="0">
+            <Data name="ArmorSkinny Waist" target="Armor" local="true">Dark Brotherhood.osd\ArmorSkinny Waist</Data>
+            <Data name="ArmorBeltSkinny Waist" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltSkinny Waist</Data>
+        </Slider>
+        <Slider name="Slim Torso" invert="false" small="0" big="0">
+            <Data name="ArmorSlim Torso" target="Armor" local="true">Dark Brotherhood.osd\ArmorSlim Torso</Data>
+            <Data name="ArmorBeltSlim Torso" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltSlim Torso</Data>
+        </Slider>
+        <Slider name="Thick Calves" invert="false" small="0" big="0">
+            <Data name="ArmorThick Calves" target="Armor" local="true">Dark Brotherhood.osd\ArmorThick Calves</Data>
+            <Data name="ArmorBeltThick Calves" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltThick Calves</Data>
+        </Slider>
+        <Slider name="Thick Knees" invert="false" small="0" big="0">
+            <Data name="ArmorThick Knees" target="Armor" local="true">Dark Brotherhood.osd\ArmorThick Knees</Data>
+            <Data name="ArmorBeltThick Knees" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltThick Knees</Data>
+        </Slider>
+        <Slider name="Thick Torso" invert="false" small="0" big="0">
+            <Data name="ArmorThick Torso" target="Armor" local="true">Dark Brotherhood.osd\ArmorThick Torso</Data>
+            <Data name="ArmorBeltThick Torso" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltThick Torso</Data>
+        </Slider>
+        <Slider name="Thin Calves" invert="false" small="0" big="0">
+            <Data name="ArmorThin Calves" target="Armor" local="true">Dark Brotherhood.osd\ArmorThin Calves</Data>
+            <Data name="ArmorBeltThin Calves" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltThin Calves</Data>
+        </Slider>
+        <Slider name="Tight Cheeks" invert="false" small="0" big="0">
+            <Data name="ArmorTight Cheeks" target="Armor" local="true">Dark Brotherhood.osd\ArmorTight Cheeks</Data>
+            <Data name="ArmorBeltTight Cheeks" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltTight Cheeks</Data>
+        </Slider>
+        <Slider name="Tiny Booty" invert="false" small="0" big="0">
+            <Data name="ArmorTiny Booty" target="Armor" local="true">Dark Brotherhood.osd\ArmorTiny Booty</Data>
+            <Data name="ArmorBeltTiny Booty" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltTiny Booty</Data>
+        </Slider>
+        <Slider name="Tricep Slim" invert="false" small="0" big="0">
+            <Data name="ArmorTricep Slim" target="Armor" local="true">Dark Brotherhood.osd\ArmorTricep Slim</Data>
+            <Data name="ArmorBeltTricep Slim" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltTricep Slim</Data>
+        </Slider>
+        <Slider name="Tricep Thick" invert="false" small="0" big="0">
+            <Data name="ArmorTricep Thick" target="Armor" local="true">Dark Brotherhood.osd\ArmorTricep Thick</Data>
+            <Data name="ArmorBeltTricep Thick" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltTricep Thick</Data>
+        </Slider>
+        <Slider name="Tummy Tuck" invert="false" small="0" big="0">
+            <Data name="ArmorTummy Tuck" target="Armor" local="true">Dark Brotherhood.osd\ArmorTummy Tuck</Data>
+            <Data name="ArmorBeltTummy Tuck" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltTummy Tuck</Data>
+        </Slider>
+        <Slider name="Arms Apart" invert="false" small="0" big="0">
+            <Data name="ArmorArms Apart" target="Armor" local="true">Dark Brotherhood.osd\ArmorArms Apart</Data>
+            <Data name="ArmorBeltArms Apart" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltArms Apart</Data>
+        </Slider>
+        <Slider name="Back Up" invert="false" small="0" big="0">
+            <Data name="ArmorBack Up" target="Armor" local="true">Dark Brotherhood.osd\ArmorBack Up</Data>
+            <Data name="ArmorBeltBack Up" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBack Up</Data>
+        </Slider>
+        <Slider name="Back Down" invert="false" small="0" big="0">
+            <Data name="ArmorBack Down" target="Armor" local="true">Dark Brotherhood.osd\ArmorBack Down</Data>
+            <Data name="ArmorBeltBack Down" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltBack Down</Data>
+        </Slider>
+        <Slider name="Butt Up" invert="false" small="0" big="0">
+            <Data name="ArmorButt Up" target="Armor" local="true">Dark Brotherhood.osd\ArmorButt Up</Data>
+            <Data name="ArmorBeltButt Up" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltButt Up</Data>
+        </Slider>
+        <Slider name="Butt Down" invert="false" small="0" big="0">
+            <Data name="ArmorButt Down" target="Armor" local="true">Dark Brotherhood.osd\ArmorButt Down</Data>
+            <Data name="ArmorBeltButt Down" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltButt Down</Data>
+        </Slider>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="ArmorUNPR High" target="Armor" local="true">Dark Brotherhood.osd\ArmorUNPR High</Data>
+            <Data name="ArmorBeltUNPR High" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltUNPR High</Data>
+        </Slider>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="ArmorCBBE" target="Armor" local="true">Dark Brotherhood.osd\ArmorCBBE</Data>
+            <Data name="ArmorBeltCBBE" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltCBBE</Data>
+        </Slider>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="ArmorUUNP" target="Armor" local="true">Dark Brotherhood.osd\ArmorUUNP</Data>
+            <Data name="ArmorBeltUUNP" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="Armor7base" target="Armor" local="true">Dark Brotherhood.osd\Armor7base</Data>
+            <Data name="ArmorBelt7base" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBelt7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="ArmorUNPK" target="Armor" local="true">Dark Brotherhood.osd\ArmorUNPK</Data>
+            <Data name="ArmorBeltUNPK" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="ArmorVanilla Low" target="Armor" local="true">Dark Brotherhood.osd\ArmorVanilla Low</Data>
+            <Data name="ArmorBeltVanilla Low" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="ArmorVanilla High" target="Armor" local="true">Dark Brotherhood.osd\ArmorVanilla High</Data>
+            <Data name="ArmorBeltVanilla High" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="ArmorTouched by Dibella" target="Armor" local="true">Dark Brotherhood.osd\ArmorTouched by Dibella</Data>
+            <Data name="ArmorBeltTouched by Dibella" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltTouched by Dibella</Data>
+        </Slider>
+        <Slider name="Remove Belt" invert="false" small="0" big="0" zap="true">
+            <Data name="ArmorBeltRemove Belt" target="ArmorBelt" local="true">Dark Brotherhood.osd\ArmorBeltRemove Belt</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Dark Brotherhood HDT">
+        <DataFolder>UNPR Outfits\Skyrim Outfits</DataFolder>
+        <SourceFile>Dark Brotherhood HDT.nif</SourceFile>
+        <OutputPath>meshes\armor\dbarmor</OutputPath>
+        <OutputFile GenWeights="true">dbarmortorso_f</OutputFile>
+        <Shape target="Armor">Armor</Shape>
+        <Shape target="ArmorBelt">ArmorBelt</Shape>
+        <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
+            <Data name="ArmorNeckSeam" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorNeckSeam</Data>
+        </Slider>
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
+            <Data name="ArmorAnkleSeam" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorAnkleSeam</Data>
+            <Data name="ArmorBeltAnkleSeam" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltAnkleSeam</Data>
+        </Slider>
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
+            <Data name="ArmorWristSeam" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorWristSeam</Data>
+            <Data name="ArmorBeltWristSeam" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltWristSeam</Data>
+        </Slider>
+        <Slider name="Apple Cheeks" invert="false" small="0" big="0">
+            <Data name="ArmorApple Cheeks" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorApple Cheeks</Data>
+            <Data name="ArmorBeltApple Cheeks" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltApple Cheeks</Data>
+        </Slider>
+        <Slider name="Arm Growth" invert="false" small="0" big="0">
+            <Data name="ArmorArm Growth" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorArm Growth</Data>
+            <Data name="ArmorBeltArm Growth" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltArm Growth</Data>
+        </Slider>
+        <Slider name="Arms Skinny" invert="false" small="0" big="0">
+            <Data name="ArmorArms Skinny" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorArms Skinny</Data>
+            <Data name="ArmorBeltArms Skinny" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltArms Skinny</Data>
+        </Slider>
+        <Slider name="Back Tight" invert="false" small="0" big="0">
+            <Data name="ArmorBack Tight" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBack Tight</Data>
+            <Data name="ArmorBeltBack Tight" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBack Tight</Data>
+        </Slider>
+        <Slider name="Belly Pregnancy" invert="false" small="0" big="0">
+            <Data name="ArmorBelly Pregnancy" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBelly Pregnancy</Data>
+            <Data name="ArmorBeltBelly Pregnancy" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBelly Pregnancy</Data>
+        </Slider>
+        <Slider name="Belly Pup" invert="false" small="0" big="0">
+            <Data name="ArmorBelly Pup" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBelly Pup</Data>
+            <Data name="ArmorBeltBelly Pup" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBelly Pup</Data>
+        </Slider>
+        <Slider name="Belly Sink" invert="false" small="0" big="0">
+            <Data name="ArmorBelly Sink" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBelly Sink</Data>
+            <Data name="ArmorBeltBelly Sink" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBelly Sink</Data>
+        </Slider>
+        <Slider name="Belly Tight" invert="false" small="0" big="0">
+            <Data name="ArmorBelly Tight" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBelly Tight</Data>
+            <Data name="ArmorBeltBelly Tight" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBelly Tight</Data>
+        </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="ArmorFlat Belly" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorFlat Belly</Data>
+        </Slider>
+        <Slider name="Bicep Enlarged" invert="false" small="0" big="0">
+            <Data name="ArmorBicep Enlarged" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBicep Enlarged</Data>
+            <Data name="ArmorBeltBicep Enlarged" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBicep Enlarged</Data>
+        </Slider>
+        <Slider name="Bicep Thin" invert="false" small="0" big="0">
+            <Data name="ArmorBicep Thin" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBicep Thin</Data>
+            <Data name="ArmorBeltBicep Thin" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBicep Thin</Data>
+        </Slider>
+        <Slider name="Big Belly" invert="false" small="0" big="0">
+            <Data name="ArmorBig Belly" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBig Belly</Data>
+            <Data name="ArmorBeltBig Belly" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBig Belly</Data>
+        </Slider>
+        <Slider name="Big Booty" invert="false" small="0" big="0">
+            <Data name="ArmorBig Booty" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBig Booty</Data>
+            <Data name="ArmorBeltBig Booty" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBig Booty</Data>
+        </Slider>
+        <Slider name="Big Legs" invert="false" small="0" big="0">
+            <Data name="ArmorBig Legs" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBig Legs</Data>
+            <Data name="ArmorBeltBig Legs" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="ArmorBigger Breasts" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBigger Breasts</Data>
+            <Data name="ArmorBeltBigger Breasts" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBigger Breasts</Data>
+        </Slider>
+        <Slider name="Breast Lift" invert="false" small="0" big="0">
+            <Data name="ArmorBreast Lift" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBreast Lift</Data>
+            <Data name="ArmorBeltBreast Lift" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBreast Lift</Data>
+        </Slider>
+        <Slider name="Breast Apart" invert="false" small="0" big="0">
+            <Data name="ArmorBreast Apart" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBreast Apart</Data>
+            <Data name="ArmorBeltBreast Apart" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBreast Apart</Data>
+        </Slider>
+        <Slider name="Breasts Gravity" invert="false" small="0" big="0">
+            <Data name="ArmorBreasts Gravity" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBreasts Gravity</Data>
+            <Data name="ArmorBeltBreasts Gravity" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBreasts Gravity</Data>
+        </Slider>
+        <Slider name="Breasts Perky" invert="false" small="0" big="0">
+            <Data name="ArmorBreasts Perky" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBreasts Perky</Data>
+            <Data name="ArmorBeltBreasts Perky" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBreasts Perky</Data>
+        </Slider>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="ArmorBreasts Pointy" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBreasts Pointy</Data>
+            <Data name="ArmorBeltBreasts Pointy" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBreasts Pointy</Data>
+        </Slider>
+        <Slider name="Breast Thick" invert="false" small="0" big="0">
+            <Data name="ArmorBreast Thick" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBreast Thick</Data>
+            <Data name="ArmorBeltBreast Thick" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBreast Thick</Data>
+        </Slider>
+        <Slider name="Breast Together" invert="false" small="0" big="0">
+            <Data name="ArmorBreast Together" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBreast Together</Data>
+            <Data name="ArmorBeltBreast Together" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBreast Together</Data>
+        </Slider>
+        <Slider name="Collar Bone" invert="false" small="0" big="0">
+            <Data name="ArmorCollar Bone" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorCollar Bone</Data>
+            <Data name="ArmorBeltCollar Bone" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltCollar Bone</Data>
+        </Slider>
+        <Slider name="Cutie Booty" invert="false" small="0" big="0">
+            <Data name="ArmorCutie Booty" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorCutie Booty</Data>
+            <Data name="ArmorBeltCutie Booty" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltCutie Booty</Data>
+        </Slider>
+        <Slider name="Forearms Bulge" invert="false" small="0" big="0">
+            <Data name="ArmorForearms Bulge" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorForearms Bulge</Data>
+            <Data name="ArmorBeltForearms Bulge" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltForearms Bulge</Data>
+        </Slider>
+        <Slider name="Forearms Thin" invert="false" small="0" big="0">
+            <Data name="ArmorForearms Thin" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorForearms Thin</Data>
+            <Data name="ArmorBeltForearms Thin" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltForearms Thin</Data>
+        </Slider>
+        <Slider name="Hips Curvy" invert="false" small="0" big="0">
+            <Data name="ArmorHips Curvy" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorHips Curvy</Data>
+            <Data name="ArmorBeltHips Curvy" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltHips Curvy</Data>
+        </Slider>
+        <Slider name="Knee Height" invert="false" small="0" big="0">
+            <Data name="ArmorKnee Height" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorKnee Height</Data>
+        </Slider>
+        <Slider name="Legs Thick" invert="false" small="0" big="0">
+            <Data name="ArmorLegs Thick" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorLegs Thick</Data>
+            <Data name="ArmorBeltLegs Thick" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltLegs Thick</Data>
+        </Slider>
+        <Slider name="Legs Thin" invert="false" small="0" big="0">
+            <Data name="ArmorLegs Thin" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorLegs Thin</Data>
+            <Data name="ArmorBeltLegs Thin" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltLegs Thin</Data>
+        </Slider>
+        <Slider name="Love Handles" invert="false" small="0" big="0">
+            <Data name="ArmorLove Handles" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorLove Handles</Data>
+            <Data name="ArmorBeltLove Handles" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltLove Handles</Data>
+        </Slider>
+        <Slider name="Lower Bump" invert="false" small="0" big="0">
+            <Data name="ArmorLower Bump" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorLower Bump</Data>
+            <Data name="ArmorBeltLower Bump" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltLower Bump</Data>
+        </Slider>
+        <Slider name="Neck Rise" invert="false" small="0" big="0">
+            <Data name="ArmorNeck Rise" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorNeck Rise</Data>
+            <Data name="ArmorBeltNeck Rise" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltNeck Rise</Data>
+        </Slider>
+        <Slider name="Puffy Lower Lips" invert="false" small="0" big="0">
+            <Data name="ArmorPuffy Lower Lips" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorPuffy Lower Lips</Data>
+            <Data name="ArmorBeltPuffy Lower Lips" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltPuffy Lower Lips</Data>
+        </Slider>
+        <Slider name="Ribs Slim" invert="false" small="0" big="0">
+            <Data name="ArmorRibs Slim" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorRibs Slim</Data>
+            <Data name="ArmorBeltRibs Slim" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltRibs Slim</Data>
+        </Slider>
+        <Slider name="Ribs Thick" invert="false" small="0" big="0">
+            <Data name="ArmorRibs Thick" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorRibs Thick</Data>
+            <Data name="ArmorBeltRibs Thick" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltRibs Thick</Data>
+        </Slider>
+        <Slider name="Round Booty" invert="false" small="0" big="0">
+            <Data name="ArmorRound Booty" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorRound Booty</Data>
+            <Data name="ArmorBeltRound Booty" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltRound Booty</Data>
+        </Slider>
+        <Slider name="Shoulder Blades" invert="false" small="0" big="0">
+            <Data name="ArmorShoulder Blades" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorShoulder Blades</Data>
+            <Data name="ArmorBeltShoulder Blades" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltShoulder Blades</Data>
+        </Slider>
+        <Slider name="Shoulder Minimize" invert="false" small="0" big="0">
+            <Data name="ArmorShoulder Minimize" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorShoulder Minimize</Data>
+            <Data name="ArmorBeltShoulder Minimize" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltShoulder Minimize</Data>
+        </Slider>
+        <Slider name="Shoulders Stretch" invert="false" small="0" big="0">
+            <Data name="ArmorShoulders Stretch" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorShoulders Stretch</Data>
+            <Data name="ArmorBeltShoulders Stretch" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltShoulders Stretch</Data>
+        </Slider>
+        <Slider name="Skinny Waist" invert="false" small="0" big="0">
+            <Data name="ArmorSkinny Waist" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorSkinny Waist</Data>
+            <Data name="ArmorBeltSkinny Waist" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltSkinny Waist</Data>
+        </Slider>
+        <Slider name="Slim Torso" invert="false" small="0" big="0">
+            <Data name="ArmorSlim Torso" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorSlim Torso</Data>
+            <Data name="ArmorBeltSlim Torso" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltSlim Torso</Data>
+        </Slider>
+        <Slider name="Thick Calves" invert="false" small="0" big="0">
+            <Data name="ArmorThick Calves" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorThick Calves</Data>
+            <Data name="ArmorBeltThick Calves" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltThick Calves</Data>
+        </Slider>
+        <Slider name="Thick Knees" invert="false" small="0" big="0">
+            <Data name="ArmorThick Knees" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorThick Knees</Data>
+            <Data name="ArmorBeltThick Knees" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltThick Knees</Data>
+        </Slider>
+        <Slider name="Thick Torso" invert="false" small="0" big="0">
+            <Data name="ArmorThick Torso" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorThick Torso</Data>
+            <Data name="ArmorBeltThick Torso" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltThick Torso</Data>
+        </Slider>
+        <Slider name="Thin Calves" invert="false" small="0" big="0">
+            <Data name="ArmorThin Calves" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorThin Calves</Data>
+            <Data name="ArmorBeltThin Calves" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltThin Calves</Data>
+        </Slider>
+        <Slider name="Tight Cheeks" invert="false" small="0" big="0">
+            <Data name="ArmorTight Cheeks" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorTight Cheeks</Data>
+            <Data name="ArmorBeltTight Cheeks" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltTight Cheeks</Data>
+        </Slider>
+        <Slider name="Tiny Booty" invert="false" small="0" big="0">
+            <Data name="ArmorTiny Booty" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorTiny Booty</Data>
+            <Data name="ArmorBeltTiny Booty" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltTiny Booty</Data>
+        </Slider>
+        <Slider name="Tricep Slim" invert="false" small="0" big="0">
+            <Data name="ArmorTricep Slim" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorTricep Slim</Data>
+            <Data name="ArmorBeltTricep Slim" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltTricep Slim</Data>
+        </Slider>
+        <Slider name="Tricep Thick" invert="false" small="0" big="0">
+            <Data name="ArmorTricep Thick" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorTricep Thick</Data>
+            <Data name="ArmorBeltTricep Thick" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltTricep Thick</Data>
+        </Slider>
+        <Slider name="Tummy Tuck" invert="false" small="0" big="0">
+            <Data name="ArmorTummy Tuck" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorTummy Tuck</Data>
+            <Data name="ArmorBeltTummy Tuck" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltTummy Tuck</Data>
+        </Slider>
+        <Slider name="Arms Apart" invert="false" small="0" big="0">
+            <Data name="ArmorArms Apart" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorArms Apart</Data>
+            <Data name="ArmorBeltArms Apart" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltArms Apart</Data>
+        </Slider>
+        <Slider name="Back Up" invert="false" small="0" big="0">
+            <Data name="ArmorBack Up" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBack Up</Data>
+            <Data name="ArmorBeltBack Up" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBack Up</Data>
+        </Slider>
+        <Slider name="Back Down" invert="false" small="0" big="0">
+            <Data name="ArmorBack Down" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorBack Down</Data>
+            <Data name="ArmorBeltBack Down" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltBack Down</Data>
+        </Slider>
+        <Slider name="Butt Up" invert="false" small="0" big="0">
+            <Data name="ArmorButt Up" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorButt Up</Data>
+            <Data name="ArmorBeltButt Up" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltButt Up</Data>
+        </Slider>
+        <Slider name="Butt Down" invert="false" small="0" big="0">
+            <Data name="ArmorButt Down" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorButt Down</Data>
+            <Data name="ArmorBeltButt Down" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltButt Down</Data>
+        </Slider>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="ArmorUNPR High" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorUNPR High</Data>
+            <Data name="ArmorBeltUNPR High" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltUNPR High</Data>
+        </Slider>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="ArmorCBBE" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorCBBE</Data>
+            <Data name="ArmorBeltCBBE" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltCBBE</Data>
+        </Slider>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="ArmorUUNP" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorUUNP</Data>
+            <Data name="ArmorBeltUUNP" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="Armor7base" target="Armor" local="true">Dark Brotherhood HDT.osd\Armor7base</Data>
+            <Data name="ArmorBelt7base" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBelt7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="ArmorUNPK" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorUNPK</Data>
+            <Data name="ArmorBeltUNPK" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="ArmorVanilla Low" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorVanilla Low</Data>
+            <Data name="ArmorBeltVanilla Low" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="ArmorVanilla High" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorVanilla High</Data>
+            <Data name="ArmorBeltVanilla High" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="ArmorTouched by Dibella" target="Armor" local="true">Dark Brotherhood HDT.osd\ArmorTouched by Dibella</Data>
+            <Data name="ArmorBeltTouched by Dibella" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltTouched by Dibella</Data>
+        </Slider>
+        <Slider name="Remove Belt" invert="false" small="0" big="0" zap="true">
+            <Data name="ArmorBeltRemove Belt" target="ArmorBelt" local="true">Dark Brotherhood HDT.osd\ArmorBeltRemove Belt</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Jester">
+        <DataFolder>UNPR Outfits\Skyrim Outfits</DataFolder>
+        <SourceFile>Jester.nif</SourceFile>
+        <OutputPath>meshes\clothes\jester</OutputPath>
+        <OutputFile GenWeights="true">jesterf</OutputFile>
+        <Shape target="BODY">BODY</Shape>
+        <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
+            <Data name="BODYNeckSeam" target="BODY" local="true">Jester.osd\BODYNeckSeam</Data>
+        </Slider>
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
+            <Data name="BODYAnkleSeam" target="BODY" local="true">Jester.osd\BODYAnkleSeam</Data>
+        </Slider>
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
+            <Data name="BODYWristSeam" target="BODY" local="true">Jester.osd\BODYWristSeam</Data>
+        </Slider>
+        <Slider name="Apple Cheeks" invert="false" small="0" big="0">
+            <Data name="BODYApple Cheeks" target="BODY" local="true">Jester.osd\BODYApple Cheeks</Data>
+        </Slider>
+        <Slider name="Arm Growth" invert="false" small="0" big="0">
+            <Data name="BODYArm Growth" target="BODY" local="true">Jester.osd\BODYArm Growth</Data>
+        </Slider>
+        <Slider name="Arms Skinny" invert="false" small="0" big="0">
+            <Data name="BODYArms Skinny" target="BODY" local="true">Jester.osd\BODYArms Skinny</Data>
+        </Slider>
+        <Slider name="Back Tight" invert="false" small="0" big="0">
+            <Data name="BODYBack Tight" target="BODY" local="true">Jester.osd\BODYBack Tight</Data>
+        </Slider>
+        <Slider name="Belly Pregnancy" invert="false" small="0" big="0">
+            <Data name="BODYBelly Pregnancy" target="BODY" local="true">Jester.osd\BODYBelly Pregnancy</Data>
+        </Slider>
+        <Slider name="Belly Pup" invert="false" small="0" big="0">
+            <Data name="BODYBelly Pup" target="BODY" local="true">Jester.osd\BODYBelly Pup</Data>
+        </Slider>
+        <Slider name="Belly Sink" invert="false" small="0" big="0">
+            <Data name="BODYBelly Sink" target="BODY" local="true">Jester.osd\BODYBelly Sink</Data>
+        </Slider>
+        <Slider name="Belly Tight" invert="false" small="0" big="0">
+            <Data name="BODYBelly Tight" target="BODY" local="true">Jester.osd\BODYBelly Tight</Data>
+        </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="BODYFlat Belly" target="BODY" local="true">Jester.osd\BODYFlat Belly</Data>
+        </Slider>
+        <Slider name="Bicep Enlarged" invert="false" small="0" big="0">
+            <Data name="BODYBicep Enlarged" target="BODY" local="true">Jester.osd\BODYBicep Enlarged</Data>
+        </Slider>
+        <Slider name="Bicep Thin" invert="false" small="0" big="0">
+            <Data name="BODYBicep Thin" target="BODY" local="true">Jester.osd\BODYBicep Thin</Data>
+        </Slider>
+        <Slider name="Big Belly" invert="false" small="0" big="0">
+            <Data name="BODYBig Belly" target="BODY" local="true">Jester.osd\BODYBig Belly</Data>
+        </Slider>
+        <Slider name="Big Booty" invert="false" small="0" big="0">
+            <Data name="BODYBig Booty" target="BODY" local="true">Jester.osd\BODYBig Booty</Data>
+        </Slider>
+        <Slider name="Big Legs" invert="false" small="0" big="0">
+            <Data name="BODYBig Legs" target="BODY" local="true">Jester.osd\BODYBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="BODYBigger Breasts" target="BODY" local="true">Jester.osd\BODYBigger Breasts</Data>
+        </Slider>
+        <Slider name="Breast Lift" invert="false" small="0" big="0">
+            <Data name="BODYBreast Lift" target="BODY" local="true">Jester.osd\BODYBreast Lift</Data>
+        </Slider>
+        <Slider name="Breast Apart" invert="false" small="0" big="0">
+            <Data name="BODYBreast Apart" target="BODY" local="true">Jester.osd\BODYBreast Apart</Data>
+        </Slider>
+        <Slider name="Breasts Gravity" invert="false" small="0" big="0">
+            <Data name="BODYBreasts Gravity" target="BODY" local="true">Jester.osd\BODYBreasts Gravity</Data>
+        </Slider>
+        <Slider name="Breasts Perky" invert="false" small="0" big="0">
+            <Data name="BODYBreasts Perky" target="BODY" local="true">Jester.osd\BODYBreasts Perky</Data>
+        </Slider>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="BODYBreasts Pointy" target="BODY" local="true">Jester.osd\BODYBreasts Pointy</Data>
+        </Slider>
+        <Slider name="Breast Thick" invert="false" small="0" big="0">
+            <Data name="BODYBreast Thick" target="BODY" local="true">Jester.osd\BODYBreast Thick</Data>
+        </Slider>
+        <Slider name="Breast Together" invert="false" small="0" big="0">
+            <Data name="BODYBreast Together" target="BODY" local="true">Jester.osd\BODYBreast Together</Data>
+        </Slider>
+        <Slider name="Chest Cavity" invert="false" small="0" big="0">
+            <Data name="BODYChest Cavity" target="BODY" local="true">Jester.osd\BODYChest Cavity</Data>
+        </Slider>
+        <Slider name="Collar Bone" invert="false" small="0" big="0">
+            <Data name="BODYCollar Bone" target="BODY" local="true">Jester.osd\BODYCollar Bone</Data>
+        </Slider>
+        <Slider name="Cutie Booty" invert="false" small="0" big="0">
+            <Data name="BODYCutie Booty" target="BODY" local="true">Jester.osd\BODYCutie Booty</Data>
+        </Slider>
+        <Slider name="Forearms Bulge" invert="false" small="0" big="0">
+            <Data name="BODYForearms Bulge" target="BODY" local="true">Jester.osd\BODYForearms Bulge</Data>
+        </Slider>
+        <Slider name="Forearms Thin" invert="false" small="0" big="0">
+            <Data name="BODYForearms Thin" target="BODY" local="true">Jester.osd\BODYForearms Thin</Data>
+        </Slider>
+        <Slider name="Hips Curvy" invert="false" small="0" big="0">
+            <Data name="BODYHips Curvy" target="BODY" local="true">Jester.osd\BODYHips Curvy</Data>
+        </Slider>
+        <Slider name="Knee Height" invert="false" small="0" big="0">
+            <Data name="BODYKnee Height" target="BODY" local="true">Jester.osd\BODYKnee Height</Data>
+        </Slider>
+        <Slider name="Legs Thick" invert="false" small="0" big="0">
+            <Data name="BODYLegs Thick" target="BODY" local="true">Jester.osd\BODYLegs Thick</Data>
+        </Slider>
+        <Slider name="Legs Thin" invert="false" small="0" big="0">
+            <Data name="BODYLegs Thin" target="BODY" local="true">Jester.osd\BODYLegs Thin</Data>
+        </Slider>
+        <Slider name="Love Handles" invert="false" small="0" big="0">
+            <Data name="BODYLove Handles" target="BODY" local="true">Jester.osd\BODYLove Handles</Data>
+        </Slider>
+        <Slider name="Neck Rise" invert="false" small="0" big="0">
+            <Data name="BODYNeck Rise" target="BODY" local="true">Jester.osd\BODYNeck Rise</Data>
+        </Slider>
+        <Slider name="Ribs Slim" invert="false" small="0" big="0">
+            <Data name="BODYRibs Slim" target="BODY" local="true">Jester.osd\BODYRibs Slim</Data>
+        </Slider>
+        <Slider name="Ribs Thick" invert="false" small="0" big="0">
+            <Data name="BODYRibs Thick" target="BODY" local="true">Jester.osd\BODYRibs Thick</Data>
+        </Slider>
+        <Slider name="Round Booty" invert="false" small="0" big="0">
+            <Data name="BODYRound Booty" target="BODY" local="true">Jester.osd\BODYRound Booty</Data>
+        </Slider>
+        <Slider name="Shoulder Blades" invert="false" small="0" big="0">
+            <Data name="BODYShoulder Blades" target="BODY" local="true">Jester.osd\BODYShoulder Blades</Data>
+        </Slider>
+        <Slider name="Shoulder Minimize" invert="false" small="0" big="0">
+            <Data name="BODYShoulder Minimize" target="BODY" local="true">Jester.osd\BODYShoulder Minimize</Data>
+        </Slider>
+        <Slider name="Shoulders Stretch" invert="false" small="0" big="0">
+            <Data name="BODYShoulders Stretch" target="BODY" local="true">Jester.osd\BODYShoulders Stretch</Data>
+        </Slider>
+        <Slider name="Skinny Waist" invert="false" small="0" big="0">
+            <Data name="BODYSkinny Waist" target="BODY" local="true">Jester.osd\BODYSkinny Waist</Data>
+        </Slider>
+        <Slider name="Slim Torso" invert="false" small="0" big="0">
+            <Data name="BODYSlim Torso" target="BODY" local="true">Jester.osd\BODYSlim Torso</Data>
+        </Slider>
+        <Slider name="Thick Calves" invert="false" small="0" big="0">
+            <Data name="BODYThick Calves" target="BODY" local="true">Jester.osd\BODYThick Calves</Data>
+        </Slider>
+        <Slider name="Thick Knees" invert="false" small="0" big="0">
+            <Data name="BODYThick Knees" target="BODY" local="true">Jester.osd\BODYThick Knees</Data>
+        </Slider>
+        <Slider name="Thick Torso" invert="false" small="0" big="0">
+            <Data name="BODYThick Torso" target="BODY" local="true">Jester.osd\BODYThick Torso</Data>
+        </Slider>
+        <Slider name="Thin Calves" invert="false" small="0" big="0">
+            <Data name="BODYThin Calves" target="BODY" local="true">Jester.osd\BODYThin Calves</Data>
+        </Slider>
+        <Slider name="Tight Cheeks" invert="false" small="0" big="0">
+            <Data name="BODYTight Cheeks" target="BODY" local="true">Jester.osd\BODYTight Cheeks</Data>
+        </Slider>
+        <Slider name="Tiny Booty" invert="false" small="0" big="0">
+            <Data name="BODYTiny Booty" target="BODY" local="true">Jester.osd\BODYTiny Booty</Data>
+        </Slider>
+        <Slider name="Tricep Slim" invert="false" small="0" big="0">
+            <Data name="BODYTricep Slim" target="BODY" local="true">Jester.osd\BODYTricep Slim</Data>
+        </Slider>
+        <Slider name="Tricep Thick" invert="false" small="0" big="0">
+            <Data name="BODYTricep Thick" target="BODY" local="true">Jester.osd\BODYTricep Thick</Data>
+        </Slider>
+        <Slider name="Tummy Tuck" invert="false" small="0" big="0">
+            <Data name="BODYTummy Tuck" target="BODY" local="true">Jester.osd\BODYTummy Tuck</Data>
+        </Slider>
+        <Slider name="Arms Apart" invert="false" small="0" big="0">
+            <Data name="BODYArms Apart" target="BODY" local="true">Jester.osd\BODYArms Apart</Data>
+        </Slider>
+        <Slider name="Back Up" invert="false" small="0" big="0">
+            <Data name="BODYBack Up" target="BODY" local="true">Jester.osd\BODYBack Up</Data>
+        </Slider>
+        <Slider name="Back Down" invert="false" small="0" big="0">
+            <Data name="BODYBack Down" target="BODY" local="true">Jester.osd\BODYBack Down</Data>
+        </Slider>
+        <Slider name="Butt Up" invert="false" small="0" big="0">
+            <Data name="BODYButt Up" target="BODY" local="true">Jester.osd\BODYButt Up</Data>
+        </Slider>
+        <Slider name="Butt Down" invert="false" small="0" big="0">
+            <Data name="BODYButt Down" target="BODY" local="true">Jester.osd\BODYButt Down</Data>
+        </Slider>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="BODYUNPR High" target="BODY" local="true">Jester.osd\BODYUNPR High</Data>
+        </Slider>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="BODYCBBE" target="BODY" local="true">Jester.osd\BODYCBBE</Data>
+        </Slider>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="BODYUUNP" target="BODY" local="true">Jester.osd\BODYUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="BODY7base" target="BODY" local="true">Jester.osd\BODY7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="BODYUNPK" target="BODY" local="true">Jester.osd\BODYUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="BODYVanilla Low" target="BODY" local="true">Jester.osd\BODYVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="BODYVanilla High" target="BODY" local="true">Jester.osd\BODYVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="BODYTouched by Dibella" target="BODY" local="true">Jester.osd\BODYTouched by Dibella</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Jester HDT">
+        <DataFolder>UNPR Outfits\Skyrim Outfits</DataFolder>
+        <SourceFile>Jester HDT.nif</SourceFile>
+        <OutputPath>meshes\clothes\jester</OutputPath>
+        <OutputFile GenWeights="true">jesterf</OutputFile>
+        <Shape target="BODY">BODY</Shape>
+        <Slider name="NeckSeam" invert="false" small="0" big="100" hidden="true">
+            <Data name="BODYNeckSeam" target="BODY" local="true">Jester HDT.osd\BODYNeckSeam</Data>
+        </Slider>
+        <Slider name="AnkleSeam" invert="false" small="0" big="0" hidden="true">
+            <Data name="BODYAnkleSeam" target="BODY" local="true">Jester HDT.osd\BODYAnkleSeam</Data>
+        </Slider>
+        <Slider name="WristSeam" invert="false" small="0" big="0" hidden="true">
+            <Data name="BODYWristSeam" target="BODY" local="true">Jester HDT.osd\BODYWristSeam</Data>
+        </Slider>
+        <Slider name="Apple Cheeks" invert="false" small="0" big="0">
+            <Data name="BODYApple Cheeks" target="BODY" local="true">Jester HDT.osd\BODYApple Cheeks</Data>
+        </Slider>
+        <Slider name="Arm Growth" invert="false" small="0" big="0">
+            <Data name="BODYArm Growth" target="BODY" local="true">Jester HDT.osd\BODYArm Growth</Data>
+        </Slider>
+        <Slider name="Arms Skinny" invert="false" small="0" big="0">
+            <Data name="BODYArms Skinny" target="BODY" local="true">Jester HDT.osd\BODYArms Skinny</Data>
+        </Slider>
+        <Slider name="Back Tight" invert="false" small="0" big="0">
+            <Data name="BODYBack Tight" target="BODY" local="true">Jester HDT.osd\BODYBack Tight</Data>
+        </Slider>
+        <Slider name="Belly Pregnancy" invert="false" small="0" big="0">
+            <Data name="BODYBelly Pregnancy" target="BODY" local="true">Jester HDT.osd\BODYBelly Pregnancy</Data>
+        </Slider>
+        <Slider name="Belly Pup" invert="false" small="0" big="0">
+            <Data name="BODYBelly Pup" target="BODY" local="true">Jester HDT.osd\BODYBelly Pup</Data>
+        </Slider>
+        <Slider name="Belly Sink" invert="false" small="0" big="0">
+            <Data name="BODYBelly Sink" target="BODY" local="true">Jester HDT.osd\BODYBelly Sink</Data>
+        </Slider>
+        <Slider name="Belly Tight" invert="false" small="0" big="0">
+            <Data name="BODYBelly Tight" target="BODY" local="true">Jester HDT.osd\BODYBelly Tight</Data>
+        </Slider>
+        <Slider name="Flat Belly" invert="false" small="0" big="0">
+            <Data name="BODYFlat Belly" target="BODY" local="true">Jester HDT.osd\BODYFlat Belly</Data>
+        </Slider>
+        <Slider name="Bicep Enlarged" invert="false" small="0" big="0">
+            <Data name="BODYBicep Enlarged" target="BODY" local="true">Jester HDT.osd\BODYBicep Enlarged</Data>
+        </Slider>
+        <Slider name="Bicep Thin" invert="false" small="0" big="0">
+            <Data name="BODYBicep Thin" target="BODY" local="true">Jester HDT.osd\BODYBicep Thin</Data>
+        </Slider>
+        <Slider name="Big Belly" invert="false" small="0" big="0">
+            <Data name="BODYBig Belly" target="BODY" local="true">Jester HDT.osd\BODYBig Belly</Data>
+        </Slider>
+        <Slider name="Big Booty" invert="false" small="0" big="0">
+            <Data name="BODYBig Booty" target="BODY" local="true">Jester HDT.osd\BODYBig Booty</Data>
+        </Slider>
+        <Slider name="Big Legs" invert="false" small="0" big="0">
+            <Data name="BODYBig Legs" target="BODY" local="true">Jester HDT.osd\BODYBig Legs</Data>
+        </Slider>
+        <Slider name="Bigger Breasts" invert="false" small="0" big="0">
+            <Data name="BODYBigger Breasts" target="BODY" local="true">Jester HDT.osd\BODYBigger Breasts</Data>
+        </Slider>
+        <Slider name="Breast Lift" invert="false" small="0" big="0">
+            <Data name="BODYBreast Lift" target="BODY" local="true">Jester HDT.osd\BODYBreast Lift</Data>
+        </Slider>
+        <Slider name="Breast Apart" invert="false" small="0" big="0">
+            <Data name="BODYBreast Apart" target="BODY" local="true">Jester HDT.osd\BODYBreast Apart</Data>
+        </Slider>
+        <Slider name="Breasts Gravity" invert="false" small="0" big="0">
+            <Data name="BODYBreasts Gravity" target="BODY" local="true">Jester HDT.osd\BODYBreasts Gravity</Data>
+        </Slider>
+        <Slider name="Breasts Perky" invert="false" small="0" big="0">
+            <Data name="BODYBreasts Perky" target="BODY" local="true">Jester HDT.osd\BODYBreasts Perky</Data>
+        </Slider>
+        <Slider name="Breasts Pointy" invert="false" small="0" big="0">
+            <Data name="BODYBreasts Pointy" target="BODY" local="true">Jester HDT.osd\BODYBreasts Pointy</Data>
+        </Slider>
+        <Slider name="Breast Thick" invert="false" small="0" big="0">
+            <Data name="BODYBreast Thick" target="BODY" local="true">Jester HDT.osd\BODYBreast Thick</Data>
+        </Slider>
+        <Slider name="Breast Together" invert="false" small="0" big="0">
+            <Data name="BODYBreast Together" target="BODY" local="true">Jester HDT.osd\BODYBreast Together</Data>
+        </Slider>
+        <Slider name="Chest Cavity" invert="false" small="0" big="0">
+            <Data name="BODYChest Cavity" target="BODY" local="true">Jester HDT.osd\BODYChest Cavity</Data>
+        </Slider>
+        <Slider name="Collar Bone" invert="false" small="0" big="0">
+            <Data name="BODYCollar Bone" target="BODY" local="true">Jester HDT.osd\BODYCollar Bone</Data>
+        </Slider>
+        <Slider name="Cutie Booty" invert="false" small="0" big="0">
+            <Data name="BODYCutie Booty" target="BODY" local="true">Jester HDT.osd\BODYCutie Booty</Data>
+        </Slider>
+        <Slider name="Forearms Bulge" invert="false" small="0" big="0">
+            <Data name="BODYForearms Bulge" target="BODY" local="true">Jester HDT.osd\BODYForearms Bulge</Data>
+        </Slider>
+        <Slider name="Forearms Thin" invert="false" small="0" big="0">
+            <Data name="BODYForearms Thin" target="BODY" local="true">Jester HDT.osd\BODYForearms Thin</Data>
+        </Slider>
+        <Slider name="Hips Curvy" invert="false" small="0" big="0">
+            <Data name="BODYHips Curvy" target="BODY" local="true">Jester HDT.osd\BODYHips Curvy</Data>
+        </Slider>
+        <Slider name="Knee Height" invert="false" small="0" big="0">
+            <Data name="BODYKnee Height" target="BODY" local="true">Jester HDT.osd\BODYKnee Height</Data>
+        </Slider>
+        <Slider name="Legs Thick" invert="false" small="0" big="0">
+            <Data name="BODYLegs Thick" target="BODY" local="true">Jester HDT.osd\BODYLegs Thick</Data>
+        </Slider>
+        <Slider name="Legs Thin" invert="false" small="0" big="0">
+            <Data name="BODYLegs Thin" target="BODY" local="true">Jester HDT.osd\BODYLegs Thin</Data>
+        </Slider>
+        <Slider name="Love Handles" invert="false" small="0" big="0">
+            <Data name="BODYLove Handles" target="BODY" local="true">Jester HDT.osd\BODYLove Handles</Data>
+        </Slider>
+        <Slider name="Neck Rise" invert="false" small="0" big="0">
+            <Data name="BODYNeck Rise" target="BODY" local="true">Jester HDT.osd\BODYNeck Rise</Data>
+        </Slider>
+        <Slider name="Ribs Slim" invert="false" small="0" big="0">
+            <Data name="BODYRibs Slim" target="BODY" local="true">Jester HDT.osd\BODYRibs Slim</Data>
+        </Slider>
+        <Slider name="Ribs Thick" invert="false" small="0" big="0">
+            <Data name="BODYRibs Thick" target="BODY" local="true">Jester HDT.osd\BODYRibs Thick</Data>
+        </Slider>
+        <Slider name="Round Booty" invert="false" small="0" big="0">
+            <Data name="BODYRound Booty" target="BODY" local="true">Jester HDT.osd\BODYRound Booty</Data>
+        </Slider>
+        <Slider name="Shoulder Blades" invert="false" small="0" big="0">
+            <Data name="BODYShoulder Blades" target="BODY" local="true">Jester HDT.osd\BODYShoulder Blades</Data>
+        </Slider>
+        <Slider name="Shoulder Minimize" invert="false" small="0" big="0">
+            <Data name="BODYShoulder Minimize" target="BODY" local="true">Jester HDT.osd\BODYShoulder Minimize</Data>
+        </Slider>
+        <Slider name="Shoulders Stretch" invert="false" small="0" big="0">
+            <Data name="BODYShoulders Stretch" target="BODY" local="true">Jester HDT.osd\BODYShoulders Stretch</Data>
+        </Slider>
+        <Slider name="Skinny Waist" invert="false" small="0" big="0">
+            <Data name="BODYSkinny Waist" target="BODY" local="true">Jester HDT.osd\BODYSkinny Waist</Data>
+        </Slider>
+        <Slider name="Slim Torso" invert="false" small="0" big="0">
+            <Data name="BODYSlim Torso" target="BODY" local="true">Jester HDT.osd\BODYSlim Torso</Data>
+        </Slider>
+        <Slider name="Thick Calves" invert="false" small="0" big="0">
+            <Data name="BODYThick Calves" target="BODY" local="true">Jester HDT.osd\BODYThick Calves</Data>
+        </Slider>
+        <Slider name="Thick Knees" invert="false" small="0" big="0">
+            <Data name="BODYThick Knees" target="BODY" local="true">Jester HDT.osd\BODYThick Knees</Data>
+        </Slider>
+        <Slider name="Thick Torso" invert="false" small="0" big="0">
+            <Data name="BODYThick Torso" target="BODY" local="true">Jester HDT.osd\BODYThick Torso</Data>
+        </Slider>
+        <Slider name="Thin Calves" invert="false" small="0" big="0">
+            <Data name="BODYThin Calves" target="BODY" local="true">Jester HDT.osd\BODYThin Calves</Data>
+        </Slider>
+        <Slider name="Tight Cheeks" invert="false" small="0" big="0">
+            <Data name="BODYTight Cheeks" target="BODY" local="true">Jester HDT.osd\BODYTight Cheeks</Data>
+        </Slider>
+        <Slider name="Tiny Booty" invert="false" small="0" big="0">
+            <Data name="BODYTiny Booty" target="BODY" local="true">Jester HDT.osd\BODYTiny Booty</Data>
+        </Slider>
+        <Slider name="Tricep Slim" invert="false" small="0" big="0">
+            <Data name="BODYTricep Slim" target="BODY" local="true">Jester HDT.osd\BODYTricep Slim</Data>
+        </Slider>
+        <Slider name="Tricep Thick" invert="false" small="0" big="0">
+            <Data name="BODYTricep Thick" target="BODY" local="true">Jester HDT.osd\BODYTricep Thick</Data>
+        </Slider>
+        <Slider name="Tummy Tuck" invert="false" small="0" big="0">
+            <Data name="BODYTummy Tuck" target="BODY" local="true">Jester HDT.osd\BODYTummy Tuck</Data>
+        </Slider>
+        <Slider name="Arms Apart" invert="false" small="0" big="0">
+            <Data name="BODYArms Apart" target="BODY" local="true">Jester HDT.osd\BODYArms Apart</Data>
+        </Slider>
+        <Slider name="Back Up" invert="false" small="0" big="0">
+            <Data name="BODYBack Up" target="BODY" local="true">Jester HDT.osd\BODYBack Up</Data>
+        </Slider>
+        <Slider name="Back Down" invert="false" small="0" big="0">
+            <Data name="BODYBack Down" target="BODY" local="true">Jester HDT.osd\BODYBack Down</Data>
+        </Slider>
+        <Slider name="Butt Up" invert="false" small="0" big="0">
+            <Data name="BODYButt Up" target="BODY" local="true">Jester HDT.osd\BODYButt Up</Data>
+        </Slider>
+        <Slider name="Butt Down" invert="false" small="0" big="0">
+            <Data name="BODYButt Down" target="BODY" local="true">Jester HDT.osd\BODYButt Down</Data>
+        </Slider>
+        <Slider name="UNPR High" invert="false" small="0" big="0">
+            <Data name="BODYUNPR High" target="BODY" local="true">Jester HDT.osd\BODYUNPR High</Data>
+        </Slider>
+        <Slider name="CBBE" invert="false" small="0" big="0">
+            <Data name="BODYCBBE" target="BODY" local="true">Jester HDT.osd\BODYCBBE</Data>
+        </Slider>
+        <Slider name="UUNP" invert="false" small="0" big="0">
+            <Data name="BODYUUNP" target="BODY" local="true">Jester HDT.osd\BODYUUNP</Data>
+        </Slider>
+        <Slider name="7base" invert="false" small="0" big="0">
+            <Data name="BODY7base" target="BODY" local="true">Jester HDT.osd\BODY7base</Data>
+        </Slider>
+        <Slider name="UNPK" invert="false" small="0" big="0">
+            <Data name="BODYUNPK" target="BODY" local="true">Jester HDT.osd\BODYUNPK</Data>
+        </Slider>
+        <Slider name="Vanilla Low" invert="false" small="0" big="0">
+            <Data name="BODYVanilla Low" target="BODY" local="true">Jester HDT.osd\BODYVanilla Low</Data>
+        </Slider>
+        <Slider name="Vanilla High" invert="false" small="0" big="0">
+            <Data name="BODYVanilla High" target="BODY" local="true">Jester HDT.osd\BODYVanilla High</Data>
+        </Slider>
+        <Slider name="Touched by Dibella" invert="false" small="0" big="0">
+            <Data name="BODYTouched by Dibella" target="BODY" local="true">Jester HDT.osd\BODYTouched by Dibella</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
