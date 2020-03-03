@@ -2,6 +2,7 @@
 <RefTemplates>
 	<Template sourcefile="SliderSets\UNPR.osp" set="UNP Nude" shape="UNP">UNPR</Template>
 	<Template sourcefile="SliderSets\UNPR.osp" set="UNP Nude HDT" shape="UNP">UNPR Physics</Template>
+	<Template sourcefile="SliderSets\UNPR.osp" set="UNP Outfit" shape="UNP">UNPR Outfit</Template>
 	<Template sourcefile="SliderSets\UNPR.osp" set="UNP Max" shape="UNP">UNPR Max Physics</Template>
 	<Template sourcefile="SliderSets\UNPR.osp" set="UNP Feet" shape="Feet">UNPR Feet</Template>
 	<Template sourcefile="SliderSets\UNPR.osp" set="UNP Hands" shape="Hands">UNPR Hands</Template>
